@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T22:59:03.990Z",
+ "generatedAt": "2026-11-03T23:00:06.911Z",
  "sources": [
   {
    "id": "axios",
@@ -9,8 +9,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 316
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 369
   },
   {
    "id": "politico",
@@ -20,8 +20,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 252
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 283
   },
   {
    "id": "reason",
@@ -31,8 +31,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 576
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 553
   },
   {
    "id": "hill",
@@ -42,8 +42,8 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 307
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 361
   },
   {
    "id": "openai",
@@ -53,8 +53,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 553
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 571
   },
   {
    "id": "hechinger",
@@ -64,8 +64,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 584
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 500
   },
   {
    "id": "highereddive",
@@ -75,8 +75,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 411
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 400
   },
   {
    "id": "insidehighered",
@@ -86,8 +86,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 420
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 408
   },
   {
    "id": "motherjones",
@@ -97,8 +97,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 211
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 244
   },
   {
    "id": "nyt",
@@ -108,8 +108,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 222
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 247
   },
   {
    "id": "guardian",
@@ -119,8 +119,8 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 227
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 136
   },
   {
    "id": "bismtrib",
@@ -130,8 +130,8 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 429",
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 494
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 440
   },
   {
    "id": "kfyr",
@@ -141,8 +141,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 483
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 377
   },
   {
    "id": "kxnet",
@@ -152,8 +152,8 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 834
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 804
   },
   {
    "id": "ndmonitor",
@@ -163,8 +163,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 446
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 400
   },
   {
    "id": "vnl",
@@ -174,8 +174,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 473
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 519
   },
   {
    "id": "fox",
@@ -185,8 +185,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 339
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 297
   },
   {
    "id": "natreview",
@@ -196,8 +196,8 @@
    "ok": true,
    "count": 19,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 214
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 255
   },
   {
    "id": "examiner",
@@ -207,8 +207,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 491
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 4816
   },
   {
    "id": "mittr",
@@ -218,8 +218,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 473
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 530
   },
   {
    "id": "vergeai",
@@ -229,8 +229,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 501
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 521
   },
   {
    "id": "wiredai",
@@ -240,8 +240,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 481
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 492
   },
   {
    "id": "bbc",
@@ -251,8 +251,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 237
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 166
   },
   {
    "id": "npr",
@@ -262,8 +262,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 207
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 383
   },
   {
    "id": "pbs",
@@ -273,8 +273,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 119
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 108
   },
   {
    "id": "nd-list",
@@ -283,8 +283,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 127
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 122
   },
   {
    "id": "nd-info",
@@ -293,8 +293,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 82
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 87
   },
   {
    "id": "nd-type-SW",
@@ -303,8 +303,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 50
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 49
   },
   {
    "id": "nd-type-LEG",
@@ -313,8 +313,18 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 60
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 62
+  },
+  {
+   "id": "nd-type-JUD",
+   "name": "ND results: Judicial contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 65
   },
   {
    "id": "nd-type-MUN",
@@ -323,17 +333,7 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 58
-  },
-  {
-   "id": "nd-type-CON",
-   "name": "ND results: Conservation contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
    "ms": 62
   },
   {
@@ -343,18 +343,18 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 72
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 63
   },
   {
-   "id": "nd-type-JUD",
-   "name": "ND results: Judicial contests",
+   "id": "nd-type-CON",
+   "name": "ND results: Conservation contests",
    "group": "Official results",
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 78
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 75
   },
   {
    "id": "nd-type-CW",
@@ -363,8 +363,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T22:59:03.990Z",
-   "ms": 98
+   "fetchedAt": "2026-11-03T23:00:06.911Z",
+   "ms": 105
   }
  ]
 }
