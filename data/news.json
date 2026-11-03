@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:33:01.811Z",
+ "generatedAt": "2026-11-03T20:34:06.353Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/opinion/beltway-confidential/4789823/what-to-watch-for-when-election-night/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "What to watch for and when on election night",
+   "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4789823/what-to-watch-for-when-election-night/",
+   "published": "2026-11-03T20:33:10.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/how-to-watch-midterm-election-results.html",
    "source": "New York Times Politics",
@@ -74,20 +86,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4789869/appeals-court-restores-doj-win-in-california-election-lawsuit/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Appeals court restores DOJ’s win in California election lawsuit",
-   "url": "https://www.washingtonexaminer.com/news/justice/4789869/appeals-court-restores-doj-win-in-california-election-lawsuit/",
-   "published": "2026-11-03T20:09:55.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/media/6193762-trump-lincoln-memorial-speech/",
@@ -309,7 +307,7 @@
    "source": "Washington Examiner",
    "sourceId": "examiner",
    "group": "Right-leaning",
-   "title": "Appeals court wipes out Trump DOJ’s brief victory in California",
+   "title": "Appeals court restores DOJ’s win in California election lawsuit",
    "url": "https://www.washingtonexaminer.com/news/justice/4789608/appeals-court-wipes-out-trump-doj-brief-victory-california/",
    "published": "2026-11-03T19:45:59.000Z",
    "topics": [
