@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-03T23:06:36.978Z",
+ "generatedAt": "2026-11-03T23:08:46.777Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6194361-carville-predicts-strong-black-turnout-midterms/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Carville predicts 'astronomical' Black turnout will drive midterm results",
+   "url": "https://thehill.com/homenews/campaign/6194361-carville-predicts-strong-black-turnout-midterms/",
+   "published": "2026-11-03T23:06:38.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/policy/international/6194330-greene-criticizes-trump-israel-aid/",
    "source": "The Hill",
@@ -62,6 +76,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Voter turnout surges in election that will determine direction of Congress – as it happened",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T22:54:58.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -108,7 +136,7 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: key House and Senate races to determine control of Congress for remainder of Trump’s term",
+   "title": "US midterm elections 2026 live updates: key House and Senate races to determine control of Congress for remainder of Trump’s term",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
    "published": "2026-11-03T22:49:27.000Z",
    "topics": [
@@ -164,18 +192,6 @@
    "topics": [
     "Misinformation & AI"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterms 2026 live: polls to begin closing in election that will define final years of Trump’s presidency",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:31:37.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -484,21 +500,6 @@
    "url": "https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info/",
    "published": "2026-11-03T21:39:26.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6194071-gop-organizes-alaska-recount-fund/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Sullivan campaign, NRSC form 'recount fund' for Alaska Senate race",
-   "url": "https://thehill.com/homenews/campaign/6194071-gop-organizes-alaska-recount-fund/",
-   "published": "2026-11-03T21:39:13.000Z",
-   "topics": [
-    "Senate",
-    "Recounts & courts"
-   ],
    "election": true,
    "section": "politics"
   },
