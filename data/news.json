@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:58:00.116Z",
+ "generatedAt": "2026-11-03T20:59:06.869Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6193721-trump-jr-charlie-kirk-vote/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Trump Jr. invokes Charlie Kirk assassination in last-minute plea to voters",
+   "url": "https://thehill.com/homenews/campaign/6193721-trump-jr-charlie-kirk-vote/",
+   "published": "2026-11-03T20:58:39.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027729/republican-rep-don-bacon-on-what-a-potential-blue-wave-could-mean-for-the-gop",
    "source": "NPR Politics",
@@ -11,6 +23,18 @@
    "published": "2026-11-03T20:52:01.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T20:51:16.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -33,18 +57,6 @@
    "title": "Election Day challenges facing voters in battleground states",
    "url": "https://www.washingtonexaminer.com/news/campaigns/4789848/election-day-challenge-voter-battleground-state/",
    "published": "2026-11-03T20:48:47.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:47:44.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -291,6 +303,18 @@
     "North Dakota"
    ],
    "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/asra-nomani-muslim-reformers-reject-fire-rise-warning-el-sayed-loses-jihad-first",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "ASRA NOMANI: Muslim reformers reject ‘fire will rise’ warning if El-Sayed loses as 'Jihad First'",
+   "url": "https://www.foxnews.com/politics/asra-nomani-muslim-reformers-reject-fire-rise-warning-el-sayed-loses-jihad-first",
+   "published": "2026-11-03T19:54:50.000Z",
+   "topics": [],
+   "election": false,
    "section": "politics"
   },
   {
@@ -871,18 +895,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/campaign/6189470-young-voters-gen-z-midterm-elections-election-day/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Young voters could help shape the midterms. But will they turn out?",
-   "url": "https://thehill.com/homenews/campaign/6189470-young-voters-gen-z-midterm-elections-election-day/",
-   "published": "2026-11-03T18:22:21.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vergeai|https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
    "source": "The Verge: AI",
    "sourceId": "vergeai",
@@ -963,18 +975,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -987,6 +987,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -3684,18 +3696,6 @@
    ],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/pentagons-top-spies-tasked-no-fail-mission-hegseth-puts-foreign-midterm-meddling-crosshairs",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Pentagon's top spies tasked with 'no-fail' mission as Hegseth puts foreign midterm meddling in crosshairs",
-   "url": "https://www.foxnews.com/politics/pentagons-top-spies-tasked-no-fail-mission-hegseth-puts-foreign-midterm-meddling-crosshairs",
-   "published": "2026-11-02T18:54:55.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/02/governor-predicts-good-results-for-republicans-in-north-dakota-but-maybe-not-everywhere-else/",
