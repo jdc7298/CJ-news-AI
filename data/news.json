@@ -1,6 +1,22 @@
 {
- "generatedAt": "2026-11-03T22:54:51.167Z",
+ "generatedAt": "2026-11-03T22:55:54.314Z",
  "items": [
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Results: States decide on voter ID and redistricting ballot measures",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
+   "published": "2026-11-03T22:53:23.000Z",
+   "topics": [
+    "Ballot measures",
+    "Voting & access",
+    "Redistricting"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "pbs|https://www.pbs.org/newshour/politics/trump-and-the-high-cost-of-living-loom-over-california-governors-race-between-becerra-and-hilton",
    "source": "PBS NewsHour Politics",
@@ -25,6 +41,20 @@
    "published": "2026-11-03T22:49:37.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: key House and Senate races to determine control of Congress for remainder of Trump’s term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T22:49:27.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -230,18 +260,6 @@
     "Voting & access",
     "North Dakota"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/doj-democrats-alaska-dan-sullivan-investigation-letters",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "DoJ tells Democrats in letters they could be targets of Alaska ballot investigation",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/doj-democrats-alaska-dan-sullivan-investigation-letters",
-   "published": "2026-11-03T22:12:53.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -1767,6 +1785,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Christian voters in Washington state divided by common religion: ‘I don’t think the US is God’s kingdom on Earth’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
+   "published": "2026-11-03T15:57:09.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/family-pets-die-underwood-house-fire/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -2584,18 +2614,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Are prediction markets accurate on elections? The US midterms are a big test",
-   "url": "https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
-   "published": "2026-11-03T11:00:56.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/03/worker-training-voter-education-called-keys-to-smooth-election/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -2933,18 +2951,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "For swing state voters, the cost of living and immigration remain key concerns",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
-   "published": "2026-11-03T09:44:37.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
