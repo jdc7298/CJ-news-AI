@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:39:17.898Z",
+ "generatedAt": "2026-11-03T23:40:20.912Z",
  "items": [
   {
    "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
@@ -26,6 +26,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: economy a top issue for voters as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:31:54.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/the-on-politics-guide-to-election-night.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -47,6 +61,21 @@
    "published": "2026-11-03T23:31:36.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "published": "2026-11-03T23:30:14.000Z",
+   "topics": [
+    "Senate",
+    "Governors"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -83,18 +112,6 @@
    "title": "AP Voter Poll: The economy and the state of democracy are voters' top issues",
    "url": "https://www.pbs.org/newshour/politics/ap-voter-poll-the-economy-and-the-state-of-democracy-are-voters-top-issues",
    "published": "2026-11-03T23:26:06.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:22:00.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -463,21 +480,6 @@
    "published": "2026-11-03T22:19:48.000Z",
    "topics": [
     "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
-   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "published": "2026-11-03T22:18:17.000Z",
-   "topics": [
-    "Senate",
-    "Governors"
    ],
    "election": true,
    "section": "politics"
@@ -3035,18 +3037,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -3193,6 +3183,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
