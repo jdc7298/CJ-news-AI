@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T22:44:16.529Z",
+ "generatedAt": "2026-11-03T22:45:19.976Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/opinion/beltway-confidential/4790115/us-senate-control-2026-elections/",
@@ -1262,18 +1262,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1286,6 +1274,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -4050,18 +4050,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4098,6 +4086,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
