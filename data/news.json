@@ -1,6 +1,45 @@
 {
- "generatedAt": "2026-11-03T21:38:16.313Z",
+ "generatedAt": "2026-11-03T21:39:27.429Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6194071-gop-organizes-alaska-recount-fund/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Sullivan campaign, NRSC form 'recount fund' for Alaska Senate race",
+   "url": "https://thehill.com/homenews/campaign/6194071-gop-organizes-alaska-recount-fund/",
+   "published": "2026-11-03T21:39:13.000Z",
+   "topics": [
+    "Senate",
+    "Recounts & courts"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/administration/6194082-doj-deploys-election-monitors/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Justice Department: Election Day monitors deployed to every state for first time",
+   "url": "https://thehill.com/homenews/administration/6194082-doj-deploys-election-monitors/",
+   "published": "2026-11-03T21:37:47.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/dhs-noncitizen-voting-midterms.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Trump Effort to Prove Rampant Noncitizen Voting Leads to Few Charges So Far",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/dhs-noncitizen-voting-midterms.html",
+   "published": "2026-11-03T21:37:01.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "natreview|https://www.nationalreview.com/2026/11/britain-owes-no-one-an-apology/",
    "source": "National Review",
@@ -66,7 +105,7 @@
    "source": "Washington Examiner",
    "sourceId": "examiner",
    "group": "Right-leaning",
-   "title": "DOJ charges Oklahoma man for allegedly mailing white powder to public officials before elections",
+   "title": "DOJ charges Oklahoma man accused of mailing white powder to public officials before elections",
    "url": "https://www.washingtonexaminer.com/news/justice/4789562/doj-charges-oklahoma-man-mail-white-powder/",
    "published": "2026-11-03T21:25:49.000Z",
    "topics": [],
@@ -114,12 +153,10 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Turnout surges across country as voters decide control of Congress",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
    "published": "2026-11-03T21:16:15.000Z",
-   "topics": [
-    "Voting & access"
-   ],
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -320,12 +357,10 @@
    "source": "Fox News Politics",
    "sourceId": "fox",
    "group": "Right-leaning",
-   "title": "Kansas postal worker indicted for stealing mail including hundreds of Republican election flyers",
+   "title": "Kansas postal worker indicted for stealing mail, including hundreds of Republican election flyers",
    "url": "https://www.foxnews.com/politics/kansas-postal-worker-indicted-stealing-mail-including-hundreds-republican-election-flyers",
    "published": "2026-11-03T20:26:15.000Z",
-   "topics": [
-    "Voting & access"
-   ],
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -839,18 +874,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/regulation/court-battles/6193274-oklahoma-man-charged-white-powder-letters-election-offices-fbi/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Oklahoma man charged over mailing letters with powder to lawmakers",
-   "url": "https://thehill.com/regulation/court-battles/6193274-oklahoma-man-charged-white-powder-letters-election-offices-fbi/",
-   "published": "2026-11-03T19:03:26.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/insuers-nonpayment-arbitration.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -887,18 +910,6 @@
    "topics": [
     "North Dakota"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/policy/energy-environment/6192805-democrats-investigate-trump-dc-projects/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Democrats will get new power to probe Trump’s DC projects if they win back the House",
-   "url": "https://thehill.com/policy/energy-environment/6192805-democrats-investigate-trump-dc-projects/",
-   "published": "2026-11-03T19:00:36.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -1049,6 +1060,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1075,18 +1098,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -1461,18 +1472,6 @@
    "title": "Americans Would Rather Win the Midterms Than a Sports Title. Here's Why That Might Be.",
    "url": "https://reason.com/2026/11/03/americans-would-rather-win-the-midterms-than-a-sports-title-heres-why-that-might-be/",
    "published": "2026-11-03T16:30:05.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/dhs-noncitizen-voting-midterms.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Trump Effort to Prove Rampant Noncitizen Voting Leads to Few Charges So Far",
-   "url": "https://www.nytimes.com/2026/11/03/us/politics/dhs-noncitizen-voting-midterms.html",
-   "published": "2026-11-03T16:21:27.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
