@@ -1,6 +1,42 @@
 {
- "generatedAt": "2026-11-03T21:15:18.472Z",
+ "generatedAt": "2026-11-03T21:16:31.481Z",
  "items": [
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027745/election-day-2026-the-view-from-texas",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Election Day 2026: The view from Texas",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6027745/election-day-2026-the-view-from-texas",
+   "published": "2026-11-03T21:14:15.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027705/election-day-2026-the-view-from-ohio",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Election Day 2026: The view from Ohio",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6027705/election-day-2026-the-view-from-ohio",
+   "published": "2026-11-03T21:14:11.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027702/election-day-2026-the-view-from-michigan",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Election Day 2026: The view from Michigan",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6027702/election-day-2026-the-view-from-michigan",
+   "published": "2026-11-03T21:14:10.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
    "source": "New York Times Politics",
@@ -2734,6 +2770,18 @@
    "section": "politics"
   },
   {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "It's Election Day. Control of Congress is on the line, and what else you need to know",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -2755,30 +2803,6 @@
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "It's Election Day. Control of Congress is on the line, and what else you need to know",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
    "section": "politics"
   },
   {
@@ -2804,32 +2828,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "For swing state voters, the cost of living and immigration remain key concerns",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
-   "published": "2026-11-03T09:44:37.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026512/judge-considers-motion-to-dismiss-lindsay-clancys-case",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "Judge considers motion to dismiss Lindsay Clancy's case",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026512/judge-considers-motion-to-dismiss-lindsay-clancys-case",
-   "published": "2026-11-03T09:42:21.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
