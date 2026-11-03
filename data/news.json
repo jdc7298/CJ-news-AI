@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T19:59:05.425Z",
+ "generatedAt": "2026-11-03T20:00:28.004Z",
  "items": [
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
@@ -11,6 +11,20 @@
    "published": "2026-11-03T19:52:55.000Z",
    "topics": [
     "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/2026/11/03/trumps-dismissed-epstein-letter-lawsuit-is-the-latest-example-of-his-failure-to-state-cognizable-claims/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Trump's Dismissed Epstein Letter Lawsuit Is the Latest Example of His Failure To State Cognizable Claims",
+   "url": "https://reason.com/2026/11/03/trumps-dismissed-epstein-letter-lawsuit-is-the-latest-example-of-his-failure-to-state-cognizable-claims/",
+   "published": "2026-11-03T19:50:53.000Z",
+   "topics": [
+    "Recounts & courts"
    ],
    "election": true,
    "section": "politics"
@@ -703,20 +717,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
-   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "Misinformation & AI"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -755,6 +755,20 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
+   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6192895-acton-ramaswamy-ohio-attack-ad/",
@@ -3447,18 +3461,6 @@
     "North Dakota"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "reason|https://reason.com/2026/11/02/anakin-skywalker-is-a-great-character-not-a-great-role-model/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Anakin Skywalker Is a Great Character, Not a Great Role Model",
-   "url": "https://reason.com/2026/11/02/anakin-skywalker-is-a-great-character-not-a-great-role-model/",
-   "published": "2026-11-02T21:36:36.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
