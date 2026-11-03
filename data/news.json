@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-03T22:28:21.739Z",
+ "generatedAt": "2026-11-03T22:29:25.343Z",
  "items": [
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/nasa-astronaut-casts-midterms-vote-from-space-video",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Nasa astronaut casts midterms vote from space – video",
-   "url": "https://www.theguardian.com/us-news/video/2026/nov/03/nasa-astronaut-casts-midterms-vote-from-space-video",
-   "published": "2026-11-03T22:23:46.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
   {
    "id": "hill|https://thehill.com/newsletters/business-economy/6194251-how-does-inflation-compare-to-past-midterm-cycles/",
    "source": "The Hill",
@@ -30,9 +18,9 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: turnout surges in vote that will define final years of Trump presidency",
+   "title": "US midterm elections 2026: turnout surges in vote that will define final years of Trump presidency – live",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:21:04.000Z",
+   "published": "2026-11-03T22:19:56.000Z",
    "topics": [
     "Voting & access"
    ],
@@ -93,32 +81,6 @@
    "topics": [
     "Voting & access",
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026611/its-been-the-most-expensive-election-yet-though-political-ads-arent-that-effective",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "It's been the most expensive election yet, though political ads aren't that effective",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026611/its-been-the-most-expensive-election-yet-though-political-ads-arent-that-effective",
-   "published": "2026-11-03T22:14:35.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026566/supreme-court-leans-towards-lgbtq-exclusion-in-colorado-catholic-pre-schools",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "Supreme Court leans towards LGBTQ exclusion in Colorado Catholic pre-schools",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026566/supreme-court-leans-towards-lgbtq-exclusion-in-colorado-catholic-pre-schools",
-   "published": "2026-11-03T22:14:29.000Z",
-   "topics": [
-    "Recounts & courts"
    ],
    "election": true,
    "section": "politics"
@@ -2576,6 +2538,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/jennifer-welch-ive-had-it-podcast",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Did Democrats finally find their fight? Jennifer Welch on rage – Stateside with Kai and Carter",
+   "url": "https://www.theguardian.com/us-news/video/2026/nov/03/jennifer-welch-ive-had-it-podcast",
+   "published": "2026-11-03T11:00:57.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "guardian|https://www.theguardian.com/stage/2026/nov/03/well-see-play-midterm-elections",
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
@@ -2937,6 +2911,30 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "For swing state voters, the cost of living and immigration remain key concerns",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
+   "published": "2026-11-03T09:44:37.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026471/2026-election-night-results-when-to-watch",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "What to watch on election night and why exit polls don't tell the whole story",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6026471/2026-election-night-results-when-to-watch",
+   "published": "2026-11-03T09:42:26.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
@@ -4042,18 +4040,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4090,6 +4076,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
