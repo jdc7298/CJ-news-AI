@@ -18,7 +18,7 @@
   h1{margin:0;font-family:var(--serif);font-size:2rem;letter-spacing:.01em;font-weight:600;color:var(--gold)}
   h1 small{display:block;font:600 .7rem/1 system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
   h2,.card h3,.col h3{font-family:var(--serif)}
-  header{border-top:3px solid var(--gold)}
+  header{border-top:0}
   .tag{margin:4px 0 0;color:var(--muted);font-size:.95rem}
   .bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px;font-size:.85rem;color:var(--muted)}
   .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:baseline}
@@ -55,6 +55,14 @@
   button.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
   details{margin:10px 0} summary{cursor:pointer;padding:6px 0;font-size:1.02rem}
   select{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+  .topbar{border-bottom:1px solid var(--line);background:#050e0b;font:.78rem/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--muted)}
+  .topbar div{max-width:1100px;margin:0 auto;padding:11px 16px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px}
+  .topbar .mid{color:var(--gold)}
+  nav{overflow-x:auto;white-space:nowrap;flex-wrap:nowrap}
+  .calc{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));align-items:end}
+  .calc input[type=number]{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+  .result{border:1px solid var(--gold);border-radius:10px;padding:12px 16px;margin-top:12px}
+  .result .big{font:600 1.5rem/1.2 var(--serif);color:var(--gold)}
   .clock{max-width:1100px;margin:14px auto 0;padding:0 16px}
   .clockbox{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;border:1px solid var(--gold);border-radius:10px;padding:12px 16px;background:linear-gradient(90deg,#0d1f18,#0a1a14)}
   .clockbox .big{font:600 1.7rem/1.1 var(--serif);color:var(--gold)}
@@ -65,6 +73,7 @@
 </style>
 </head>
 <body>
+<div class="topbar"><div><span id="tbTime">Central time</span><span class="mid" id="tbUpd">Loading…</span><span>Election Day: November 3, 2026</span></div></div>
 <header>
   <h1><small>Live election desk</small><span id="siteName">Aurevane Media</span></h1>
   <p class="tag" id="siteTag"></p>
@@ -78,15 +87,23 @@
 
 <nav role="tablist" aria-label="Sections">
   <button role="tab" data-tab="north-dakota">North Dakota</button>
-  <button role="tab" data-tab="national">National</button>
+  <button role="tab" data-tab="national">National &amp; Senate/House</button>
+  <button role="tab" data-tab="highered">Higher Ed</button>
+  <button role="tab" data-tab="ai">AI &amp; Data</button>
   <button role="tab" data-tab="compare">Compare coverage</button>
+  <button role="tab" data-tab="updates">Updates</button>
+  <button role="tab" data-tab="voting">Voting</button>
   <button role="tab" data-tab="sources">Sources &amp; method</button>
 </nav>
 
 <main>
   <section id="tab-north-dakota" hidden></section>
   <section id="tab-national" hidden></section>
+  <section id="tab-highered" hidden></section>
+  <section id="tab-ai" hidden></section>
   <section id="tab-compare" hidden></section>
+  <section id="tab-updates" hidden></section>
+  <section id="tab-voting" hidden></section>
   <section id="tab-sources" hidden></section>
 </main>
 
@@ -97,7 +114,7 @@
 
 <script>
 const REFRESH_SECONDS = 60;
-const TABS = ['north-dakota','national','compare','sources'];
+const TABS = ['north-dakota','national','highered','ai','compare','updates','voting','sources'];
 const S = { site:null, races:null, news:null, status:null, nd:null, national:null,
             topic:'All', electionOnly:true, q:'', ndq:'', loadedAt:null, county:'', open:{} };
 let _saved=null; try{ _saved = localStorage.getItem('md-county'); }catch(_){}
@@ -161,7 +178,14 @@ function renderClock(){
     <div class="small muted">${esc(lbl)}<br>ND polls close at 7 PM local time. In your time zone: ${localT(first)} for Central-time counties, ${localT(last)} for Mountain-time counties.
     <a href="https://www.270towin.com/poll-closing-times" target="_blank" rel="noopener">All states</a></div>`;
 }
-setInterval(renderClock, 1000);
+function renderTopbar(){
+  const now = new Date();
+  $('#tbTime').textContent = 'Central time · ' + now.toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',second:'2-digit'}) + ' CT';
+  const newest = [S.news?.generatedAt, S.status?.generatedAt, S.nd?.generatedAt].filter(Boolean).sort().pop();
+  const n = (S.status?.sources||[]).filter(x=>x.ok).length;
+  $('#tbUpd').textContent = newest ? `Updated ${clock(newest)} · ${n} sources live · ND results feed` : 'Waiting for first data run';
+}
+setInterval(()=>{ renderClock(); renderTopbar(); }, 1000);
 
 function updatesLog(){
   const items = [];
@@ -175,6 +199,7 @@ function updatesLog(){
 
 /* ---------------- header ---------------- */
 function renderHeader(){
+  renderTopbar();
   if(S.site){
     $('#siteName').textContent = S.site.name || 'Aurevane Media';
     document.title = S.site.name || 'Aurevane Media';
@@ -287,7 +312,6 @@ function renderND(){
   }
   const ndNews = (S.news?.items||[]).filter(i=>i.topics?.includes('North Dakota') && i.election).slice(0,14);
   h += `<h2>North Dakota headlines</h2><div class="card">` + (ndNews.length ? ndNews.map(newsItem).join('') : `<span class="muted">No North Dakota election headlines yet.</span>`) + `</div>`;
-  h += updatesLog();
   $('#tab-north-dakota').innerHTML = h;
 
   const f = $('#ndq'); if(f){ f.oninput = e => { S.ndq = e.target.value; const pos = e.target.selectionStart; renderND(); const n=$('#ndq'); n.focus(); n.setSelectionRange(pos,pos); }; }
@@ -307,11 +331,29 @@ function renderNational(){
   let h = `<div class="notice">${n ? `National totals from ${esc(n.source)}, updated ${ago(n.generatedAt)}.` :
     `National seat totals need a licensed results feed (AP or Decision Desk HQ). Until one is connected this page will not guess: use the sources below. Schema and setup are in the README.`}</div>`;
   h += `<div class="tiles">${tile('U.S. House', n?.house)}${tile('U.S. Senate', n?.senate)}</div>`;
+  h += `<h2>Senate: what is at stake</h2><div class="card small">
+    <p>Before the election: <b>53 Republicans, 45 Democrats and 2 independents</b> who caucus with the Democrats. <b>35 seats</b> are up (33 regular elections plus 2 specials): <b>22 held by Republicans and 13 by Democrats</b>. Democrats need a net gain of 4 for a 51-seat majority; at 50-50 the Vice President (a Republican) breaks ties.</p>
+    <p class="muted">Sources: <a href="https://ballotpedia.org/United_States_Senate_elections,_2026" target="_blank" rel="noopener">Ballotpedia</a>, <a href="https://www.270towin.com/2026-senate-election/" target="_blank" rel="noopener">270toWin</a>. Calls for each race appear only once a licensed results feed is connected.</p></div>`;
+  h += `<h2>House: what is at stake</h2><div class="card small"><p><b>All 435 seats</b> are on the ballot; <b>218</b> are needed for a majority. Current party counts change with vacancies and special elections, so see the Clerk of the House for the official roster: <a href="https://clerk.house.gov/Members" target="_blank" rel="noopener">clerk.house.gov</a>.</p></div>`;
+  h += `<h2>Senate control calculator</h2><div class="card small">
+    <p class="muted">Plain arithmetic, not a forecast. Enter how many seats change hands and see who would hold the chamber. Independents who caucus with Democrats are counted with them.</p>
+    <div class="calc">
+      <label>Republican-held seats won by Democrats or caucusing independents (0 to 22)<input type="number" id="cDem" min="0" max="22" value="0"></label>
+      <label>Democratic-held seats won by Republicans (0 to 13)<input type="number" id="cRep" min="0" max="13" value="0"></label>
+    </div>
+    <div class="result" id="calcOut"></div></div>`;
   h += `<h2>Where to watch live national results</h2><div class="card">` +
     (S.site?.officialLinks||[]).map(l=>`<div><a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></div>`).join('') + `</div>`;
   const nat = (S.news?.items||[]).filter(i=>i.election && !i.topics.includes('North Dakota') && i.group!=='Local ND').slice(0,16);
   h += `<h2>Latest national election headlines</h2><div class="card">` + (nat.length? nat.map(newsItem).join('') : `<span class="muted">No headlines yet.</span>`) + `</div>`;
   $('#tab-national').innerHTML = h;
+  const calc = () => {
+    const a = Math.min(22, Math.max(0, +$('#cDem').value||0)), b = Math.min(13, Math.max(0, +$('#cRep').value||0));
+    const dem = 47 + a - b, rep = 53 - a + b;
+    const who = rep >= 51 ? 'Republicans hold a majority' : dem >= 51 ? 'Democrats hold a majority' : (rep===50 ? 'Republicans control via the Vice President\'s tie-breaking vote' : 'Democratic caucus has 50 seats or fewer; see note');
+    $('#calcOut').innerHTML = `<div class="big">${esc(who)}</div><div class="muted small">Republicans ${rep} · Democratic caucus ${dem}</div>`;
+  };
+  ['cDem','cRep'].forEach(id=>$('#'+id).oninput = calc); calc();
 }
 
 /* ---------------- Compare ---------------- */
@@ -321,7 +363,7 @@ function newsItem(i){
 }
 const GROUP_ORDER = ['Wire & public media','Left-leaning','Center / mixed','Right-leaning','Local ND'];
 function renderCompare(){
-  const items = S.news?.items || [];
+  const items = (S.news?.items || []).filter(i => (i.section || 'politics') === 'politics');
   const topics = ['All', ...[...new Set(items.flatMap(i=>i.topics||[]))].sort()];
   const q = S.q.toLowerCase();
   const filtered = items.filter(i =>
@@ -344,6 +386,49 @@ function renderCompare(){
   $('#eo').onchange=e=>{S.electionOnly=e.target.checked;renderCompare();};
 }
 
+/* ---------------- Higher Ed / AI & Data ---------------- */
+const NEWS_TABS = {
+  highered: {title:'Higher Education & Financial Aid', intro:'Headlines on financial aid, student loans, college policy and funding, plus North Dakota campuses. Headlines link to the publishers; no article text is copied.',
+    links:[['Federal Student Aid','https://studentaid.gov/'],['U.S. Department of Education','https://www.ed.gov/'],['North Dakota University System','https://ndus.edu/']]},
+  ai: {title:'AI & Data', intro:'Headlines on artificial intelligence, data and privacy, policy and the businesses behind them. Company announcements are labeled separately from press coverage.',
+    links:[]}
+};
+const nq = {highered:'', ai:''}, ntopic = {highered:'All', ai:'All'};
+function renderNewsTab(sec){
+  const cfg = NEWS_TABS[sec], items = (S.news?.items||[]).filter(i=>i.section===sec);
+  const topics = ['All', ...[...new Set(items.flatMap(i=>i.topics||[]))].sort()];
+  const q = nq[sec].toLowerCase();
+  const f = items.filter(i => (ntopic[sec]==='All' || i.topics?.includes(ntopic[sec])) && (!q || i.title.toLowerCase().includes(q)));
+  let h = `<h2>${esc(cfg.title)}</h2><div class="notice">${esc(cfg.intro)}${cfg.links.length? '<br>Official: '+cfg.links.map(([l,u])=>`<a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join(' · '):''}</div>`;
+  if(!items.length){ h += `<div class="card muted">No headlines yet. They appear after the next data run; if this stays empty, check the Sources tab for failing feeds.</div>`; $('#tab-'+sec).innerHTML = h; return; }
+  h += `<div class="row">${topics.map(t=>`<button class="chip" data-nt="${esc(t)}" aria-pressed="${ntopic[sec]===t}">${esc(t)}</button>`).join('')}</div>`;
+  h += `<div class="row"><input type="search" id="nq-${sec}" placeholder="Search headlines" value="${esc(nq[sec])}"><span class="muted small">${f.length} headlines</span></div>`;
+  const groups = [...new Set(items.map(i=>i.group))];
+  h += `<div class="cols">` + groups.map(g=>{ const all=f.filter(i=>i.group===g);
+    return `<div class="col card"><h3>${esc(g)} <span class="muted small">(${all.length})</span></h3>${all.slice(0,12).map(newsItem).join('') || '<span class="muted small">Nothing matching right now.</span>'}</div>`; }).join('') + `</div>`;
+  $('#tab-'+sec).innerHTML = h;
+  document.querySelectorAll('#tab-'+sec+' [data-nt]').forEach(b=>b.onclick=()=>{ ntopic[sec]=b.dataset.nt; renderNewsTab(sec); });
+  const qi = $('#nq-'+sec); qi.oninput = e=>{ nq[sec]=e.target.value; const p=e.target.selectionStart; renderNewsTab(sec); const n=$('#nq-'+sec); n.focus(); n.setSelectionRange(p,p); };
+}
+
+/* ---------------- Updates ---------------- */
+function renderUpdates(){
+  const st = S.status?.sources || [];
+  const by = {}; st.forEach(x=>{ const k=x.section||'politics'; (by[k] ||= {ok:0,n:0}); by[k].n++; if(x.ok) by[k].ok++; });
+  const lab = {politics:'Politics & elections', highered:'Higher Ed', ai:'AI & Data'};
+  let h = updatesLog();
+  h += `<h2>Source health</h2><div class="card small">` + (Object.keys(by).length ? Object.entries(by).map(([k,v])=>`<div>${esc(lab[k]||k)}: ${v.ok} of ${v.n} sources working</div>`).join('') : 'No data run yet.') + `<div class="muted">Details for each source are on the Sources &amp; method tab.</div></div>`;
+  $('#tab-updates').innerHTML = h;
+}
+
+/* ---------------- Voting ---------------- */
+function renderVoting(){
+  const L = [['North Dakota voter information (vote.nd.gov)','https://vote.nd.gov/'],['North Dakota official election results','https://resultsnd.sos.nd.gov/'],['How to vote in any state (USA.gov)','https://www.usa.gov/how-to-vote']];
+  $('#tab-voting').innerHTML = `<h2>Voting information</h2><div class="notice">Rules and polling places are set by each state. Use the official sources below for your own situation; this site does not store or ask for any personal information.</div>
+    <div class="card">${L.map(([l,u])=>`<div><a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(l)}</a></div>`).join('')}</div>
+    <div class="card small">North Dakota polls close at 7 PM local time. Anyone in line at closing time is allowed to vote under general U.S. practice; confirm your local rules with your county election office.</div>`;
+}
+
 /* ---------------- Sources ---------------- */
 function renderSources(){
   const st = S.status?.sources || [];
@@ -363,7 +448,7 @@ function renderSources(){
 
 /* ---------------- routing / loop ---------------- */
 function render(){
-  renderHeader(); renderClock(); renderND(); renderNational(); renderCompare(); renderSources();
+  renderHeader(); renderClock(); renderND(); renderNational(); renderNewsTab('highered'); renderNewsTab('ai'); renderCompare(); renderUpdates(); renderVoting(); renderSources();
 }
 function showTab(name){
   if(!TABS.includes(name)) name = 'north-dakota';

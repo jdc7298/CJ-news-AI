@@ -1,27 +1,187 @@
 {
-  "_note": "Add or remove feeds freely. 'group' controls which column a source appears in. The grouping is a rough editorial starting point, not a rating; change it if you disagree. Any feed that fails shows up red on the Sources tab, so a wrong URL is easy to spot.",
+  "_note": "Add or remove feeds freely. 'group' controls which column a source appears in. The grouping is a rough editorial starting point, not a rating; change it if you disagree. Any feed that fails shows up red on the Sources tab, so a wrong URL is easy to spot. 'section' is politics (default), highered or ai. Feeds added for Higher Ed and AI/Data were not all verified before launch; a red row on the Sources tab means that URL needs fixing.",
   "sources": [
-    { "id": "npr", "name": "NPR Politics", "group": "Wire & public media", "url": "https://feeds.npr.org/1014/rss.xml" },
-    { "id": "pbs", "name": "PBS NewsHour Politics", "group": "Wire & public media", "url": "https://www.pbs.org/newshour/feeds/rss/politics" },
-    { "id": "bbc", "name": "BBC US & Canada", "group": "Wire & public media", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" },
-
-    { "id": "guardian", "name": "The Guardian US Politics", "group": "Left-leaning", "url": "https://www.theguardian.com/us-news/us-politics/rss" },
-    { "id": "nyt", "name": "New York Times Politics", "group": "Left-leaning", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml" },
-    { "id": "motherjones", "name": "Mother Jones", "group": "Left-leaning", "url": "https://www.motherjones.com/feed/" },
-
-    { "id": "fox", "name": "Fox News Politics", "group": "Right-leaning", "url": "https://moxie.foxnews.com/google-publisher/politics.xml" },
-    { "id": "natreview", "name": "National Review", "group": "Right-leaning", "url": "https://www.nationalreview.com/feed/" },
-    { "id": "examiner", "name": "Washington Examiner", "group": "Right-leaning", "url": "https://www.washingtonexaminer.com/feed" },
-
-    { "id": "hill", "name": "The Hill", "group": "Center / mixed", "url": "https://thehill.com/homenews/feed/" },
-    { "id": "politico", "name": "Politico", "group": "Center / mixed", "url": "https://rss.politico.com/politics-news.xml" },
-    { "id": "axios", "name": "Axios", "group": "Center / mixed", "url": "https://api.axios.com/feed/" },
-    { "id": "reason", "name": "Reason (libertarian)", "group": "Center / mixed", "url": "https://reason.com/feed/" },
-
-    { "id": "ndmonitor", "name": "North Dakota Monitor", "group": "Local ND", "url": "https://northdakotamonitor.com/feed/" },
-    { "id": "kfyr", "name": "KFYR-TV (Bismarck)", "group": "Local ND", "url": "https://www.kfyrtv.com/arc/outboundfeeds/rss/?outputType=xml" },
-    { "id": "vnl", "name": "Valley News Live (Fargo)", "group": "Local ND", "url": "https://www.valleynewslive.com/arc/outboundfeeds/rss/?outputType=xml" },
-    { "id": "kxnet", "name": "KX News (Bismarck)", "group": "Local ND", "url": "https://www.kxnet.com/feed/" },
-    { "id": "bismtrib", "name": "Bismarck Tribune", "group": "Local ND", "url": "https://bismarcktribune.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc" }
+    {
+      "id": "npr",
+      "name": "NPR Politics",
+      "group": "Wire & public media",
+      "url": "https://feeds.npr.org/1014/rss.xml",
+      "section": "politics"
+    },
+    {
+      "id": "pbs",
+      "name": "PBS NewsHour Politics",
+      "group": "Wire & public media",
+      "url": "https://www.pbs.org/newshour/feeds/rss/politics",
+      "section": "politics"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC US & Canada",
+      "group": "Wire & public media",
+      "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+      "section": "politics"
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian US Politics",
+      "group": "Left-leaning",
+      "url": "https://www.theguardian.com/us-news/us-politics/rss",
+      "section": "politics"
+    },
+    {
+      "id": "nyt",
+      "name": "New York Times Politics",
+      "group": "Left-leaning",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+      "section": "politics"
+    },
+    {
+      "id": "motherjones",
+      "name": "Mother Jones",
+      "group": "Left-leaning",
+      "url": "https://www.motherjones.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "fox",
+      "name": "Fox News Politics",
+      "group": "Right-leaning",
+      "url": "https://moxie.foxnews.com/google-publisher/politics.xml",
+      "section": "politics"
+    },
+    {
+      "id": "natreview",
+      "name": "National Review",
+      "group": "Right-leaning",
+      "url": "https://www.nationalreview.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "examiner",
+      "name": "Washington Examiner",
+      "group": "Right-leaning",
+      "url": "https://www.washingtonexaminer.com/feed",
+      "section": "politics"
+    },
+    {
+      "id": "hill",
+      "name": "The Hill",
+      "group": "Center / mixed",
+      "url": "https://thehill.com/homenews/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "politico",
+      "name": "Politico",
+      "group": "Center / mixed",
+      "url": "https://rss.politico.com/politics-news.xml",
+      "section": "politics"
+    },
+    {
+      "id": "axios",
+      "name": "Axios",
+      "group": "Center / mixed",
+      "url": "https://api.axios.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "reason",
+      "name": "Reason (libertarian)",
+      "group": "Center / mixed",
+      "url": "https://reason.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "ndmonitor",
+      "name": "North Dakota Monitor",
+      "group": "Local ND",
+      "url": "https://northdakotamonitor.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "kfyr",
+      "name": "KFYR-TV (Bismarck)",
+      "group": "Local ND",
+      "url": "https://www.kfyrtv.com/arc/outboundfeeds/rss/?outputType=xml",
+      "section": "politics"
+    },
+    {
+      "id": "vnl",
+      "name": "Valley News Live (Fargo)",
+      "group": "Local ND",
+      "url": "https://www.valleynewslive.com/arc/outboundfeeds/rss/?outputType=xml",
+      "section": "politics"
+    },
+    {
+      "id": "kxnet",
+      "name": "KX News (Bismarck)",
+      "group": "Local ND",
+      "url": "https://www.kxnet.com/feed/",
+      "section": "politics"
+    },
+    {
+      "id": "bismtrib",
+      "name": "Bismarck Tribune",
+      "group": "Local ND",
+      "url": "https://bismarcktribune.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc",
+      "section": "politics"
+    },
+    {
+      "id": "highereddive",
+      "name": "Higher Ed Dive",
+      "group": "Higher ed trade press",
+      "section": "highered",
+      "url": "https://www.highereddive.com/feeds/news/"
+    },
+    {
+      "id": "insidehighered",
+      "name": "Inside Higher Ed",
+      "group": "Higher ed trade press",
+      "section": "highered",
+      "url": "https://www.insidehighered.com/rss.xml"
+    },
+    {
+      "id": "hechinger",
+      "name": "The Hechinger Report",
+      "group": "Education nonprofit news",
+      "section": "highered",
+      "url": "https://hechingerreport.org/feed/"
+    },
+    {
+      "id": "mittr",
+      "name": "MIT Technology Review: AI",
+      "group": "Tech press",
+      "section": "ai",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+    },
+    {
+      "id": "vergeai",
+      "name": "The Verge: AI",
+      "group": "Tech press",
+      "section": "ai",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "id": "wiredai",
+      "name": "WIRED: AI",
+      "group": "Tech press",
+      "section": "ai",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss"
+    },
+    {
+      "id": "venturebeat",
+      "name": "VentureBeat: AI",
+      "group": "Tech press",
+      "section": "ai",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "group": "Company announcements",
+      "section": "ai",
+      "url": "https://openai.com/news/rss.xml"
+    }
   ]
 }

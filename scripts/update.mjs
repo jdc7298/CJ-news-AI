@@ -90,10 +90,33 @@ const TOPICS = {
 };
 const ELECTION = /election|midterm|\bvot(e|er|ers|ing)\b|ballot|\bpolls?\b|campaign|candidate|recount|primary|\bsenate\b|\bhouse\b|governor|congress/i;
 
+const SECTION_TOPICS = {
+  highered: {
+    'Financial aid': /financial aid|fafsa|\bpell\b|student loan|loan forgiveness|repayment|federal student aid|direct loan|scholarship|\bpslf\b|\bsave plan\b|\bibr\b|work[- ]study/i,
+    'Policy & funding': /department of education|education department|congress|budget|funding|accreditation|title iv|regulation|\brule\b|executive order|\bgrant(s)?\b/i,
+    'Admissions & enrollment': /admission|enrollment|applicants?|international students?|test-optional|retention|completion/i,
+    'Campus & workforce': /faculty|tenure|layoffs?|closure|merger|\bunion\b|workforce|apprentice|community college/i,
+    'North Dakota': /north dakota|\bndus\b|ndsu|\bund\b|minot state|dickinson state|williston state|bismarck state|lake region state|mayville|valley city|dakota college/i,
+  },
+  ai: {
+    'AI policy & law': /regulat|\blaw\b|lawsuit|copyright|\bban\b|congress|senate|\bEU\b|executive order|legislation|\bcourt\b/i,
+    'Models & products': /\bmodel(s)?\b|chatgpt|\bgpt|claude|gemini|llama|copilot|launch|release|agent(s)?\b/i,
+    'Data & privacy': /privacy|data breach|surveillance|\bdata\b|dataset|cyber|hack/i,
+    'Work & education': /\bjobs?\b|workers?|\bschools?\b|students?|teachers?|universit|classroom/i,
+    'Chips & infrastructure': /\bchips?\b|nvidia|\bgpu|data cent(er|re)s?|\bpower\b|energy|semiconductor/i,
+  },
+};
+const SECTION_MAX_AGE_HOURS = { politics: MAX_AGE_HOURS, highered: 24 * 14, ai: 24 * 14 };
+
 function tagItem(item, source) {
+  const sec = source.section || 'politics';
+  if (sec !== 'politics') {
+    const topics = Object.entries(SECTION_TOPICS[sec] || {}).filter(([, re]) => re.test(item.title)).map(([k]) => k);
+    return { ...item, topics, election: false, section: sec };
+  }
   const topics = Object.entries(TOPICS).filter(([, re]) => re.test(item.title)).map(([k]) => k);
   if (source.group === 'Local ND' && !topics.includes('North Dakota')) topics.push('North Dakota');
-  return { ...item, topics, election: ELECTION.test(item.title) || topics.length > 0 };
+  return { ...item, topics, election: ELECTION.test(item.title) || topics.length > 0, section: 'politics' };
 }
 
 // ---------- news ----------
@@ -108,7 +131,7 @@ async function updateNews(now) {
         const xml = await getText(s.url);
         const parsed = parseFeed(xml);
         if (!parsed.length) throw new Error('feed parsed but contained no items');
-        const cutoff = now - MAX_AGE_HOURS * 3600 * 1000;
+        const cutoff = now - (SECTION_MAX_AGE_HOURS[s.section || 'politics'] || MAX_AGE_HOURS) * 3600 * 1000;
         const fresh = parsed
           .filter(i => !i.published || new Date(i.published).getTime() >= cutoff)
           .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
@@ -116,9 +139,9 @@ async function updateNews(now) {
         for (const it of fresh) {
           all.push({ id: s.id + '|' + it.url, source: s.name, sourceId: s.id, group: s.group, ...tagItem(it, s) });
         }
-        status.push({ id: s.id, name: s.name, group: s.group, ok: true, count: fresh.length, error: null, fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });
+        status.push({ id: s.id, name: s.name, group: s.group, section: s.section || 'politics', ok: true, count: fresh.length, error: null, fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });
       } catch (e) {
-        status.push({ id: s.id, name: s.name, group: s.group, ok: false, count: 0, error: String(e.message || e).slice(0, 160), fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });
+        status.push({ id: s.id, name: s.name, group: s.group, section: s.section || 'politics', ok: false, count: 0, error: String(e.message || e).slice(0, 160), fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });
       }
     })
   );
@@ -127,7 +150,7 @@ async function updateNews(now) {
   const items = all
     .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
     .filter(i => (seen.has(i.url) ? false : seen.add(i.url)))
-    .slice(0, 800);
+    .slice(0, 1400);
   status.sort((a, b) => a.group.localeCompare(b.group) || a.name.localeCompare(b.name));
   return { news: { generatedAt: new Date(now).toISOString(), items }, status: { generatedAt: new Date(now).toISOString(), sources: status } };
 }
