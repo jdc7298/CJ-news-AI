@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T22:48:30.952Z",
+ "generatedAt": "2026-11-03T22:49:34.009Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/opinion/beltway-confidential/4790115/us-senate-control-2026-elections/",
@@ -52,6 +52,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterms 2026 live: polls to begin closing in election that will define final years of Trump’s presidency",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T22:31:37.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4790028/hegseth-more-liked-than-other-possible-blackburn-senate-replacements-poll-bill-lee-successor/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -78,6 +90,30 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US voters share why they cast their ballots – from frustration with Trump to affordability concerns",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
+   "published": "2026-11-03T22:30:16.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm voters poised to deliver verdict on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
+   "published": "2026-11-03T22:30:16.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026494/election-cake-bake-off-hartford-connecticut",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -86,20 +122,6 @@
    "url": "https://www.npr.org/2026/11/03/nx-s1-6026494/election-cake-bake-off-hartford-connecticut",
    "published": "2026-11-03T22:28:33.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: turnout surges in vote that will define final years of Trump presidency",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:27:40.000Z",
-   "topics": [
-    "Voting & access"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -324,18 +346,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "DoJ says Trump’s proposed 250ft arch would be completed after end of his term",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
-   "published": "2026-11-03T21:49:45.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/administration/6194080-georgia-man-charged-threatening-judges/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -345,20 +355,6 @@
    "published": "2026-11-03T21:49:41.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Americans head to polls in midterm elections seen as referendum on Trump",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
-   "published": "2026-11-03T21:48:55.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
