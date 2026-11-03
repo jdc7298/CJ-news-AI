@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T23:31:57.339Z",
+ "generatedAt": "2026-11-03T23:33:00.036Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Trump issues Election Day proclamations on space, communism",
+   "url": "https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
+   "published": "2026-11-03T23:32:22.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "motherjones|https://www.motherjones.com/politics/2026/11/supreme-court-religious-descrimination-mary-catholic-parish-roy/",
    "source": "Mother Jones",
@@ -26,6 +38,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:22:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -36,18 +60,6 @@
    "topics": [
     "House"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:19:16.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -573,18 +585,6 @@
    "title": "Trump Says U.S. to End $4 Billion in Aid to Israel at End of Year",
    "url": "https://www.nytimes.com/2026/11/03/us/politics/trump-israel-aid-netanyahu.html",
    "published": "2026-11-03T21:52:37.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/administration/6194080-georgia-man-charged-threatening-judges/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Pardoned Jan. 6 defendant charged with threatening to assassinate DC federal judges",
-   "url": "https://thehill.com/homenews/administration/6194080-georgia-man-charged-threatening-judges/",
-   "published": "2026-11-03T21:49:41.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -2918,18 +2918,6 @@
    "section": "politics"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -2948,6 +2936,18 @@
    "group": "Wire & public media",
    "title": "From 'model minority' to target, anti-Indian hate on the rise",
    "url": "https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "A new cold war: hackers target fridges across the globe",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": false,
