@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:53:55.367Z",
+ "generatedAt": "2026-11-03T21:57:08.089Z",
  "items": [
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/trump-israel-aid-netanyahu.html",
@@ -14,6 +14,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "DoJ says Trump’s proposed 250ft arch would be completed after end of his term",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
+   "published": "2026-11-03T21:49:45.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/administration/6194080-georgia-man-charged-threatening-judges/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -23,6 +35,34 @@
    "published": "2026-11-03T21:49:41.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Americans head to polls in midterm elections seen as referendum on Trump",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
+   "published": "2026-11-03T21:48:55.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T21:47:46.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -74,20 +114,6 @@
    "topics": [
     "Senate",
     "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T21:38:05.000Z",
-   "topics": [
-    "Voting & access"
    ],
    "election": true,
    "section": "politics"
@@ -1114,18 +1140,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1138,6 +1152,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -1605,18 +1631,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Christian voters in Washington state divided by common religion: ‘I don’t think the US is God’s kingdom on Earth’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
-   "published": "2026-11-03T15:57:09.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/family-pets-die-underwood-house-fire/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1764,20 +1778,6 @@
    "published": "2026-11-03T15:19:58.000Z",
    "topics": [
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Americans head to polls in midterm elections seen as referendum on Trump",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
-   "published": "2026-11-03T15:17:04.000Z",
-   "topics": [
-    "Ballot measures"
    ],
    "election": true,
    "section": "politics"
@@ -2491,6 +2491,18 @@
    "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
    "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-03T11:10:37.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/small-business-economy-wisconsin-house-race",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "‘In the trenches’: Wisconsin’s struggling small businesses could turn a Trump ally’s district blue",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/small-business-economy-wisconsin-house-race",
+   "published": "2026-11-03T11:00:57.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -3796,18 +3808,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/02/iowa-midterms-steel-mill",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Trump promised a steel mill in this rural Iowa region. But is it all a midterm election ploy?",
-   "url": "https://www.theguardian.com/us-news/2026/nov/02/iowa-midterms-steel-mill",
-   "published": "2026-11-02T17:00:23.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "mittr|https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
