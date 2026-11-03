@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-03T23:21:24.849Z",
+ "generatedAt": "2026-11-03T23:22:27.500Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Trump-backed Kentucky Republican wins House seat",
+   "url": "https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
+   "published": "2026-11-03T23:20:09.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4790197/michigan-voters-party-loyalty-rogers-el-sayed/",
    "source": "Washington Examiner",
@@ -47,6 +61,18 @@
    "title": "What’s on the ballot: Abortion, transgender care",
    "url": "https://thehill.com/newsletters/healthcare/6194310-whats-on-the-ballot-abortion-transgender-care/",
    "published": "2026-11-03T23:10:50.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close with control of Congress for remainder of Trump’s term at stake",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:10:21.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -121,18 +147,6 @@
    "title": "Live updates: Polls begin to close in Indiana, Kentucky as battle for Congress heats up",
    "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
    "published": "2026-11-03T23:01:33.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close with control of Congress for remainder of Trump’s term at stake",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:01:09.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -549,18 +563,6 @@
     "North Dakota"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/policy/technology/6194069-binance-hack-north-korea-tradertraitor/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Binance says malicious code, fake job interview led to $6.3B hack",
-   "url": "https://thehill.com/policy/technology/6194069-binance-hack-north-korea-tradertraitor/",
-   "published": "2026-11-03T21:44:38.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
