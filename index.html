@@ -149,7 +149,8 @@ function renderHeader(){
 }
 
 /* ---------------- North Dakota ---------------- */
-const CATS = ['Congress','Statewide','Ballot measures','Legislature','Local'];
+const CATS = ['Congress','Statewide','Ballot measures','Legislature','Judicial','Local'];
+const CAT_TITLE = {Statewide:'Statewide offices', Legislature:'Legislature (State Senate and State House)', Judicial:'District court judges', Local:'County, city, school and local measures'};
 function catOf(c){
   if(c.category) return c.category;
   if(/u\.?s\.?\s*(house|representative)|congress/i.test(c.name)) return 'Congress';
@@ -160,27 +161,32 @@ function catOf(c){
 function view(c, county){
   // returns the numbers to display: statewide totals, or one county's numbers
   if(!county) return {cands:c.candidates||[], total:c.totalVotes||0, pr:c.precinctsReporting, pt:c.precinctsTotal, pp:c.precinctsPartial};
-  const cd = c.counties?.[county]; if(!cd) return null;
+  const cd = c.counties?.[county];
+  if(!cd){
+    if(c.inCounties?.includes(county)) return {...view(c,''), districtWide:true};
+    return null;
+  }
   const cands = (c.candidates||[]).map(x=>({...x, votes: cd.v?.[x.id]||0}));
   const total = cands.reduce((a,x)=>a+x.votes,0);
   cands.forEach(x=>x.pct = total ? Math.round(x.votes/total*1000)/10 : 0);
   cands.sort((a,b)=>b.votes-a.votes);
   return {cands, total, pr:cd.pr, pt:cd.pt, pp:cd.pp};
 }
+const isMine = (c, county) => !!(c.counties?.[county] || c.inCounties?.includes(county));
 function contestCard(c, county){
   const v = view(c, county); if(!v) return '';
   const lead = v.cands[0]?.votes || 0;
   const rep = v.pt ? `${fmt(v.pr)} of ${fmt(v.pt)} precinct${v.pt===1?'':'s'} reporting${v.pp?` (+${fmt(v.pp)} partial)`:''}` : '';
   const rows = v.cands.map((x,i)=>`
     <div class="cand ${i===0 && lead>0 ? 'lead':''}">
-      <span class="nm">${esc(x.name)}${x.party? ` <span class="muted small">(${esc(x.party)})</span>`:''}${x.called? ' <span class="pill">Called</span>':''}</span>
+      <span class="nm">${esc(x.name)}${x.party? ` <span class="muted small">(${esc(x.party)})</span>`:''}${x.called? ' <span class="pill">Called</span>':''}${x.winner? ' <span class="pill">Marked winner by ND SOS</span>':''}</span>
       <span>${fmt(x.votes)} · ${x.pct ?? 0}%</span>
       <div class="meter"><div class="fill" style="width:${Math.min(100,x.pct||0)}%"></div></div>
     </div>`).join('');
-  return `<div class="card"><h3>${esc(c.name)}</h3><div class="muted small">${esc(rep)}${rep?' · ':''}${fmt(v.total)} votes counted${county?` in ${esc(county)} County`:''}</div>${rows}</div>`;
+  return `<div class="card"><h3>${esc(c.name)}</h3><div class="muted small">${esc(rep)}${rep?' · ':''}${fmt(v.total)} votes counted${county && !v.districtWide?` in ${esc(county)} County`:''}${v.districtWide?` · district-wide totals (county split not published)`:''}${c.voteFor>1?` · vote for ${c.voteFor}`:''}</div>${rows}</div>`;
 }
 function matches(c, q){
-  return !q || (c.name+' '+(c.candidates||[]).map(x=>x.name).join(' ')+' '+Object.keys(c.counties||{}).join(' ')).toLowerCase().includes(q);
+  return !q || (c.name+' '+(c.candidates||[]).map(x=>x.name).join(' ')+' '+Object.keys(c.counties||{}).join(' ')+' '+(c.inCounties||[]).join(' ')).toLowerCase().includes(q);
 }
 function section(title, list, county, key, openByDefault, note){
   if(!list.length) return '';
@@ -196,25 +202,29 @@ function renderND(){
   let h = `<h2>Live results</h2>`;
   if(contests.length){
     const counties = [...new Set(contests.flatMap(c=>Object.keys(c.counties||{})))].sort();
-    h += `<div class="notice">Source: ${esc(S.nd.source)}. Updated ${ago(S.nd.generatedAt)}. Unofficial until certified. "Leading" is not a call: race calls come from AP, Decision Desk HQ and the official canvass. Official site: ${links}</div>`;
+    const t = S.nd.turnout;
+    const tline = t && t.totalPrecincts ? `<br><b>${fmt(t.precinctsReporting)} of ${fmt(t.totalPrecincts)} precincts reporting</b> (${Math.round((t.precinctsReporting||0)/t.totalPrecincts*1000)/10}%) · ${fmt(t.totalBallotsCast)} ballots counted · ${fmt(t.registeredVoters)} registered voters` : '';
+    const off = S.nd.officialLastUpdated ? ` ND Secretary of State data last updated ${clock(S.nd.officialLastUpdated)}${S.nd.isOfficial?' (marked OFFICIAL)':' (unofficial)'}.` : '';
+    h += `<div class="notice">Source: ${esc(S.nd.source)}. Checked ${ago(S.nd.generatedAt)}.${off}${tline}<br>Unofficial until certified. "Leading" is not a call: race calls come from AP, Decision Desk HQ and the official canvass. Official site: ${links}</div>`;
     h += `<div class="row">
       <label class="small">My county: <select id="county"><option value="">Statewide totals</option>${counties.map(n=>`<option ${n===S.county?'selected':''}>${esc(n)}</option>`).join('')}</select></label>
       <input type="search" id="ndq" placeholder="Search any contest, candidate or county" value="${esc(S.ndq)}"></div>`;
     const county = S.county || '';
     const shown = contests.filter(c=>matches(c,q));
     if(county){
-      const mine = shown.filter(c=>c.counties?.[county]);
+      const mine = shown.filter(c=>isMine(c, county));
       h += `<h2>In ${esc(county)} County</h2><p class="muted small" style="margin-top:-4px">County numbers only. Statewide races show this county's share of the vote, not the state result.</p>`;
       for(const g of CATS){
         const list = mine.filter(c=>catOf(c)===g);
-        h += section(g==='Local' ? 'County, city, school and local measures' : g, list, county, 'my-'+g, g!=='Legislature' && g!=='Local' || list.length<=12);
+        h += section(CAT_TITLE[g] || g, list, county, 'my-'+g, (g!=='Legislature' && g!=='Local' && g!=='Judicial') || list.length<=12);
       }
       h += `<h2>Statewide totals</h2>`;
     }
     const total = (g)=>shown.filter(c=>catOf(c)===g);
-    for(const g of ['Congress','Statewide','Ballot measures']) h += section(g==='Statewide'?'Statewide offices':g, total(g), '', 'st-'+g, true);
-    h += section('Legislature (State Senate and State House)', total('Legislature'), '', 'st-Legislature', !!q || false,
+    for(const g of ['Congress','Statewide','Ballot measures']) h += section(CAT_TITLE[g]||g, total(g), '', 'st-'+g, true);
+    h += section(CAT_TITLE.Legislature, total('Legislature'), '', 'st-Legislature', !!q,
       'Most districts elect one senator and two House members, so in a House race the top two finishers win.');
+    h += section(CAT_TITLE.Judicial, total('Judicial'), '', 'st-Judicial', !!q);
     const loc = total('Local');
     h += q ? section('Local contests matching your search', loc.slice(0,60), '', 'st-Local', true, loc.length>60 ? `Showing 60 of ${loc.length}. Narrow your search.` : '')
            : `<p class="muted small">${loc.length} local contests (county offices, cities, schools, local measures) are available: choose your county above or search by name.</p>`;

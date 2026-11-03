@@ -259,6 +259,149 @@ export function normalizeNDSOS(text) {
   return finishContests(out);
 }
 
+
+// ---- North Dakota results API (the same public JSON feed the official results site uses) ----
+const ND_TYPE_CATEGORY = { LEG: 'Legislature', JUD: 'Judicial', CW: 'Local', CON: 'Local', MUN: 'Local', SCH: 'Local' };
+const ND_TYPE_LABEL = { SW: 'State', LEG: 'Legislative', JUD: 'Judicial', CW: 'County', CON: 'Conservation', MUN: 'City', SCH: 'School' };
+const ND_PARTY_SHORT = { REP: 'R', DEM: 'D-NPL', IND: 'Ind.', LIB: 'Lib.', CON: 'Con.', GRE: 'Green', OTH: 'Other', ADP: 'American Delta', NON: '' };
+
+async function pool(items, n, fn) {
+  const out = [];
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => {
+    while (i < items.length) { const k = i++; out[k] = await fn(items[k]).catch(e => ({ __err: e })); }
+  }));
+  return out;
+}
+
+async function fetchNDApi(block, now, status) {
+  const base = (block.api || 'https://api.resultsnd.sos.nd.gov').replace(/\/$/, '');
+  const cId = block.cId || 'north-dakota';
+  const eid = String(block.electionID || '');
+  const rec = (id, name, ok, count, error, ms) => status.push({ id, name, group: 'Official results', ok, count, error, fetchedAt: new Date(now).toISOString(), ms });
+  const J = async (pathQ, id, name, quiet) => {
+    const t0 = Date.now();
+    try {
+      const j = JSON.parse(await getText(`${base}/${pathQ}`));
+      if (!quiet) rec(id, name, true, 1, null, Date.now() - t0);
+      return j;
+    } catch (e) {
+      if (!quiet) rec(id, name, false, 0, String(e.message || e).slice(0, 160), Date.now() - t0);
+      throw e;
+    }
+  };
+  const safe = async (...a) => { try { return await J(...a); } catch { return null; } };
+
+  const list = await safe(`Contest/GetContestSearchList?cid=${cId}&electionID=${eid}`, 'nd-list', 'ND contest list');
+  if (!list?.response?.contests) return null;
+  const info = await safe(`Election/GetElectionInfo?cId=${cId}&electionID=${eid}`, 'nd-info', 'ND election info');
+  const meta = list.response.contests;
+  const countyName = {};
+  const districtCounties = {};
+  for (const [k, v] of Object.entries(info?.response?.locations || {})) {
+    if (/^38\d{3}$/.test(k)) countyName[k] = v.locationName;
+  }
+  for (const [k, v] of Object.entries(info?.response?.locations || {})) {
+    if (!/^38\d{3}$/.test(k)) districtCounties[k] = Object.keys(v.locations || {}).map(x => countyName[x]).filter(Boolean);
+  }
+
+  // 1) results by contest type (statewide, legislative, judicial, county, ...)
+  const types = block.types || ['SW', 'LEG', 'JUD', 'CW', 'CON', 'MUN', 'SCH'];
+  const results = new Map();
+  let top = null;
+  await Promise.all(types.map(async t => {
+    const r = await safe(`Contest/GetContestResults?cId=${cId}&electionID=${eid}&contestType=${t}`, 'nd-type-' + t, `ND results: ${ND_TYPE_LABEL[t] || t} contests`);
+    const cs = r?.response?.contests;
+    if (cs && typeof cs === 'object') {
+      for (const [id, c] of Object.entries(cs)) results.set(String(id), { c, type: t });
+      if (t === 'SW' || !top) top = r;
+    }
+  }));
+
+  // 2) anything still missing: ask county by county (what the official site does when you pick a county)
+  const missing = Object.keys(meta).filter(id => !results.has(id));
+  const sweep = new Map();
+  if (missing.length && block.countySweep !== false) {
+    const t0 = Date.now();
+    const fipsList = Object.keys(countyName);
+    const got = await pool(fipsList, 4, async fips => {
+      const r = await J(`Contest/GetContestResults?cId=${cId}&electionID=${eid}&locationId=${fips}`, 'x', 'x', true);
+      for (const [id, c] of Object.entries(r?.response?.contests || {})) {
+        if (!results.has(String(id)) && meta[id]) {
+          if (!sweep.has(String(id))) sweep.set(String(id), {});
+          sweep.get(String(id))[fips] = c;
+        }
+      }
+      return true;
+    });
+    const bad = got.filter(x => x?.__err).length;
+    rec('nd-sweep', `ND results: county-by-county fill-in (${missing.length} contests)`, bad < fipsList.length / 2, fipsList.length - bad, bad ? `${bad} of ${fipsList.length} counties failed` : null, Date.now() - t0);
+  }
+
+  // 3) normalize
+  const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
+  const toVotes = x => num(x?.totalVotes) || 0;
+  const contests = [];
+  for (const [id, m] of Object.entries(meta)) {
+    const name = clean(m.contestName);
+    const type = m.contestTypeCode;
+    const choiceMeta = m.choices || {};
+    const cands = new Map();
+    const counties = {};
+    let pt = 0, pr = 0, pp = 0;
+    const addChoice = (ch) => {
+      const cm = choiceMeta[ch.choiceID] || {};
+      const cn = clean(cm.name) || ch.choiceID;
+      const pid = (ch.partyID || cm.partyID || '').trim();
+      const cand = cands.get(ch.choiceID) || { id: String(ch.choiceID), name: /^write-?in$/i.test(cn) ? 'Write-in' : cn, party: pid in ND_PARTY_SHORT ? ND_PARTY_SHORT[pid] : pid, votes: 0, order: cm.order ?? 99 };
+      cand.votes += toVotes(ch);
+      if (ch.isWinner === true || ch.isWinner === 'True') cand.winner = true;
+      cands.set(String(ch.choiceID), cand);
+    };
+    const addCounty = (fips, loc) => {
+      const cn = countyName[fips]; if (!cn || !loc) return;
+      const v = {};
+      for (const ch of loc.choices || []) v[ch.choiceID] = toVotes(ch);
+      counties[cn] = { pt: num(loc.totalPrecincts) || 0, pr: num(loc.precinctsReporting) || 0, pp: num(loc.precinctsPartiallyReporting) || 0, v };
+    };
+    const direct = results.get(id);
+    if (direct) {
+      const c = direct.c;
+      pt = num(c.totalPrecincts) || 0; pr = num(c.precinctsReporting) || 0; pp = num(c.precinctsPartiallyReporting) || 0;
+      for (const ch of c.choices || []) addChoice(ch);
+      for (const [lid, loc] of Object.entries(c.locations || {})) addCounty(lid, loc);
+    } else if (sweep.has(id)) {
+      for (const [fips, c] of Object.entries(sweep.get(id))) {
+        for (const ch of c.choices || []) addChoice(ch);
+        addCounty(fips, c);
+        pt += num(c.totalPrecincts) || 0; pr += num(c.precinctsReporting) || 0; pp += num(c.precinctsPartiallyReporting) || 0;
+      }
+    } else {
+      // no results fetched for this contest yet: list its candidates at zero so it still shows up
+      for (const ch of Object.values(choiceMeta)) addChoice({ choiceID: ch.id, partyID: ch.partyID, totalVotes: 0 });
+    }
+    const category = type === 'SW' ? ndCategory(name) : (ND_TYPE_CATEGORY[type] || 'Local');
+    const contest = { id, name, category, type, typeLabel: ND_TYPE_LABEL[type] || type, voteFor: num(m.voteFor) || 1, precinctsTotal: pt, precinctsReporting: pr, precinctsPartial: pp,
+      candidates: [...cands.values()].sort((a, b) => a.order - b.order), counties, hasResults: Boolean(direct || sweep.has(id)) };
+    const dm = name.match(/District (\d{2})\b/);
+    if (!Object.keys(counties).length && type === 'LEG' && dm && districtCounties[dm[1]]?.length) contest.inCounties = districtCounties[dm[1]];
+    contests.push(contest);
+  }
+  const order = { Congress: 0, Statewide: 1, 'Ballot measures': 2, Legislature: 3, Judicial: 4, Local: 5 };
+  contests.sort((a, b) => order[a.category] - order[b.category] || a.name.localeCompare(b.name, 'en', { numeric: true }));
+  finishContests(contests);
+  for (const c of contests) for (const x of c.candidates) delete x.order;
+  const t = top?.turnout || {};
+  return {
+    contests,
+    extra: {
+      officialLastUpdated: top?.lastUpdated || null,
+      isOfficial: top?.isOfficial === true || top?.isOfficial === 'True',
+      turnout: top ? { registeredVoters: num(t.registeredVoters), precinctsReporting: num(t.precinctsReporting), precinctsPartiallyReporting: num(t.precinctsPartiallyReporting), totalPrecincts: num(t.totalPrecincts), totalBallotsCast: num(t.totalBallotsCast) } : null,
+    },
+  };
+}
+
 function finishContests(contests) {
   for (const c of contests) {
     const total = c.candidates.reduce((a, x) => a + (x.votes || 0), 0);
@@ -277,6 +420,11 @@ async function updateResults(now) {
   const status = [];
   for (const [key, block] of Object.entries(cfg)) {
     if (key.startsWith('_') || !block || block.enabled === false) continue;
+    if (block.api || block.electionID) {
+      const got = await fetchNDApi(block, now, status);
+      if (got && got.contests.length) out[key] = { generatedAt: new Date(now).toISOString(), source: block.label || key, ...got.extra, contests: got.contests };
+      continue;
+    }
     const contests = [];
     const seenIds = new Set();
     for (const src of block.sources || []) {
@@ -319,7 +467,7 @@ function strip(o) {
   }
   return o;
 }
-async function writeIfChanged(file, obj, now) {
+async function writeIfChanged(file, obj, now, compact = false) {
   let old = null;
   try { old = JSON.parse(await readFile(file, 'utf8')); } catch {}
   if (old) {
@@ -327,7 +475,7 @@ async function writeIfChanged(file, obj, now) {
     const age = old.generatedAt ? now - new Date(old.generatedAt).getTime() : Infinity;
     if (same && age < HEARTBEAT_MS) return false;
   }
-  await writeFile(file, JSON.stringify(obj, null, 1) + '\n');
+  await writeFile(file, (compact ? JSON.stringify(obj) : JSON.stringify(obj, null, 1)) + '\n');
   return true;
 }
 
@@ -342,7 +490,7 @@ async function main() {
   if (await writeIfChanged(path.join(DATA_DIR, 'status.json'), status, now)) changed.push('status');
   if (results) {
     for (const [key, val] of Object.entries(results)) {
-      if (await writeIfChanged(path.join(DATA_DIR, `${key}_results.json`), val, now)) changed.push(key + '_results');
+      if (await writeIfChanged(path.join(DATA_DIR, `${key}_results.json`), val, now, true)) changed.push(key + '_results');
     }
   }
   const bad = status.sources.filter(s => !s.ok);

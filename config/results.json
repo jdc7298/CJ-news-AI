@@ -1,11 +1,10 @@
 {
-  "_howto": "Paste the direct download link of the ND Secretary of State CSV export into 'url'. In Chrome: open https://resultsnd.sos.nd.gov/#election=348 , Exports, download the 'General Election' CSV, then open chrome://downloads and copy the link shown under the file name. Use the big all-contests file as the first source. The smaller 'State' file is optional backup for statewide races. Leave a url empty to skip it.",
+  "_howto": "North Dakota results come straight from the same public data feed the official results site uses (api.resultsnd.sos.nd.gov), so no download link is needed. electionID 348 is the 2026 General Election. If the data stops appearing, check the Sources tab. 'types' limits which contest types are fetched (SW statewide, LEG legislative, JUD judicial, CW county, CON conservation, MUN city, SCH school). The CSV-export reader is still supported by adding a 'sources' list instead of 'api'.",
   "nd": {
     "enabled": true,
-    "label": "North Dakota Secretary of State (official, unofficial until canvassed)",
-    "sources": [
-      { "label": "ND SOS General Election export (all contests)", "url": "", "format": "nd-sos" },
-      { "label": "ND SOS General Election export (statewide only)", "url": "", "format": "nd-sos" }
-    ]
+    "label": "North Dakota Secretary of State (official results feed, unofficial until canvassed)",
+    "api": "https://api.resultsnd.sos.nd.gov",
+    "cId": "north-dakota",
+    "electionID": "348"
   }
 }
