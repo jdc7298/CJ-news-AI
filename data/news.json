@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:16:52.002Z",
+ "generatedAt": "2026-11-03T20:18:11.451Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4779884/polls-closing-times-your-state-election-day/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "When do polls close in your state?",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4779884/polls-closing-times-your-state-election-day/",
+   "published": "2026-11-03T20:17:17.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "vergeai|https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
    "source": "The Verge: AI",
@@ -12,18 +24,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:10:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/media/6193762-trump-lincoln-memorial-speech/",
@@ -76,6 +76,18 @@
    "topics": [
     "Recounts & courts"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T20:02:39.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -635,18 +647,6 @@
    "section": "politics"
   },
   {
-   "id": "examiner|https://www.washingtonexaminer.com/in_focus/4789292/democrats-want-to-destroy-constitutional-order/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Democrats want to destroy the constitutional order",
-   "url": "https://www.washingtonexaminer.com/in_focus/4789292/democrats-want-to-destroy-constitutional-order/",
-   "published": "2026-11-03T19:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/ohio-gubernatorial-candidates-speak-to-reporters-after-casting-votes-video",
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
@@ -841,6 +841,20 @@
    "section": "politics"
   },
   {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
+   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -865,20 +879,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
