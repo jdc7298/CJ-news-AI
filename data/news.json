@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:26:23.433Z",
+ "generatedAt": "2026-11-03T20:27:49.751Z",
  "items": [
   {
    "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
@@ -853,6 +853,20 @@
    "section": "politics"
   },
   {
+   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
+   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -891,20 +905,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
-   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "Misinformation & AI"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6192895-acton-ramaswamy-ohio-attack-ad/",
