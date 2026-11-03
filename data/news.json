@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:48:01.989Z",
+ "generatedAt": "2026-11-03T20:49:22.596Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/4789848/election-day-challenge-voter-battleground-state/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Election Day challenges facing voters in battleground states",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/4789848/election-day-challenge-voter-battleground-state/",
+   "published": "2026-11-03T20:48:47.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/state-watch/6193851-paxton-texas-felony-voting-probe-harris-county/",
    "source": "The Hill",
@@ -330,7 +342,7 @@
    "group": "Left-leaning",
    "title": "Trump Pushes Venezuela for Agreement Allowing U.S. Troops to Stay",
    "url": "https://www.nytimes.com/2026/11/03/us/politics/trump-venezuela-troop-agreement.html",
-   "published": "2026-11-03T19:46:59.000Z",
+   "published": "2026-11-03T19:47:00.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -373,6 +385,20 @@
    "url": "https://www.axios.com/2026/11/03/ny-voting-ballot-polls-ballot-issue",
    "published": "2026-11-03T19:45:10.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/supreme-court-offers-support-catholic-preschools-challenging-state-funding-requirements",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Supreme Court offers support for Catholic preschools challenging state funding requirements",
+   "url": "https://www.foxnews.com/politics/supreme-court-offers-support-catholic-preschools-challenging-state-funding-requirements",
+   "published": "2026-11-03T19:43:14.000Z",
+   "topics": [
+    "Recounts & courts"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -597,20 +623,6 @@
    "url": "https://thehill.com/homenews/campaign/6193309-ken-burns-democracy-crisis/",
    "published": "2026-11-03T19:09:30.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/supreme-court/4788879/supreme-court-hand-colorado-major-loss-religious-preschool-case/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Supreme Court appears poised to hand Colorado major loss in religious preschool case",
-   "url": "https://www.washingtonexaminer.com/news/supreme-court/4788879/supreme-court-hand-colorado-major-loss-religious-preschool-case/",
-   "published": "2026-11-03T19:08:56.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -2820,6 +2832,18 @@
    "section": "politics"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -2966,18 +2990,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
@@ -3696,18 +3708,6 @@
    "title": "Why did a Democrat endorse a rival Republican in Michigan? - The Latest",
    "url": "https://www.theguardian.com/news/video/2026/nov/02/why-did-a-democrat-endorse-a-rival-republican-in-michigan-the-latest",
    "published": "2026-11-02T18:51:35.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/el-sayeds-silence-over-moms-fbi-questioning-raises-transparency-concerns",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "El-Sayed's silence over mom's FBI questioning raises transparency concerns",
-   "url": "https://www.foxnews.com/politics/el-sayeds-silence-over-moms-fbi-questioning-raises-transparency-concerns",
-   "published": "2026-11-02T18:33:03.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
