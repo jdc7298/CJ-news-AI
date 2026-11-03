@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:02:59.062Z",
+ "generatedAt": "2026-11-03T20:04:09.589Z",
  "sources": [
   {
    "id": "axios",
@@ -9,8 +9,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 254
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 453
   },
   {
    "id": "politico",
@@ -20,8 +20,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 202
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 417
   },
   {
    "id": "reason",
@@ -31,8 +31,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 474
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 729
   },
   {
    "id": "hill",
@@ -42,8 +42,8 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 213
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 384
   },
   {
    "id": "openai",
@@ -53,8 +53,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 458
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 714
   },
   {
    "id": "hechinger",
@@ -64,8 +64,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 487
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 610
   },
   {
    "id": "highereddive",
@@ -75,8 +75,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 393
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 605
   },
   {
    "id": "insidehighered",
@@ -86,8 +86,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 371
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 603
   },
   {
    "id": "motherjones",
@@ -97,8 +97,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 421
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 208
   },
   {
    "id": "nyt",
@@ -108,8 +108,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 162
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 242
   },
   {
    "id": "guardian",
@@ -119,8 +119,8 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 146
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 221
   },
   {
    "id": "bismtrib",
@@ -130,8 +130,8 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 429",
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 354
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 597
   },
   {
    "id": "kfyr",
@@ -141,8 +141,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 502
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 597
   },
   {
    "id": "kxnet",
@@ -152,8 +152,8 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 740
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 606
   },
   {
    "id": "ndmonitor",
@@ -163,8 +163,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 389
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 691
   },
   {
    "id": "vnl",
@@ -174,8 +174,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 338
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 620
   },
   {
    "id": "fox",
@@ -185,8 +185,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 224
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 286
   },
   {
    "id": "natreview",
@@ -196,8 +196,8 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 181
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 287
   },
   {
    "id": "examiner",
@@ -207,8 +207,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 6456
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 660
   },
   {
    "id": "mittr",
@@ -218,8 +218,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 350
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 606
   },
   {
    "id": "vergeai",
@@ -229,8 +229,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 402
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 661
   },
   {
    "id": "wiredai",
@@ -240,8 +240,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 391
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 645
   },
   {
    "id": "bbc",
@@ -251,8 +251,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 234
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 243
   },
   {
    "id": "npr",
@@ -262,8 +262,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 221
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 494
   },
   {
    "id": "pbs",
@@ -273,8 +273,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 134
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 113
   },
   {
    "id": "nd-list",
@@ -283,8 +283,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 145
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 249
   },
   {
    "id": "nd-info",
@@ -293,68 +293,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 83
-  },
-  {
-   "id": "nd-type-MUN",
-   "name": "ND results: City contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 61
-  },
-  {
-   "id": "nd-type-CON",
-   "name": "ND results: Conservation contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 64
-  },
-  {
-   "id": "nd-type-SCH",
-   "name": "ND results: School contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 72
-  },
-  {
-   "id": "nd-type-SW",
-   "name": "ND results: State contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 83
-  },
-  {
-   "id": "nd-type-CW",
-   "name": "ND results: County contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 95
-  },
-  {
-   "id": "nd-type-JUD",
-   "name": "ND results: Judicial contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 99
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 88
   },
   {
    "id": "nd-type-LEG",
@@ -363,8 +303,68 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T20:02:59.062Z",
-   "ms": 164
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 77
+  },
+  {
+   "id": "nd-type-SCH",
+   "name": "ND results: School contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 74
+  },
+  {
+   "id": "nd-type-CON",
+   "name": "ND results: Conservation contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 80
+  },
+  {
+   "id": "nd-type-MUN",
+   "name": "ND results: City contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 81
+  },
+  {
+   "id": "nd-type-JUD",
+   "name": "ND results: Judicial contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 87
+  },
+  {
+   "id": "nd-type-SW",
+   "name": "ND results: State contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 93
+  },
+  {
+   "id": "nd-type-CW",
+   "name": "ND results: County contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T20:04:09.589Z",
+   "ms": 95
   }
  ]
 }
