@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T18:03:35.945Z",
+ "generatedAt": "2026-11-03T19:04:41.543Z",
  "sources": [
   {
    "id": "axios",
@@ -8,8 +8,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 537
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 368
   },
   {
    "id": "politico",
@@ -18,8 +18,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 398
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 317
   },
   {
    "id": "reason",
@@ -28,8 +28,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 762
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 498
   },
   {
    "id": "hill",
@@ -38,8 +38,8 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 360
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 300
   },
   {
    "id": "motherjones",
@@ -48,8 +48,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 334
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 379
   },
   {
    "id": "nyt",
@@ -58,8 +58,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 290
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 168
   },
   {
    "id": "guardian",
@@ -68,18 +68,18 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 241
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 142
   },
   {
    "id": "bismtrib",
    "name": "Bismarck Tribune",
    "group": "Local ND",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "HTTP 429",
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 1023
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 1102
   },
   {
    "id": "kfyr",
@@ -88,8 +88,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 735
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 842
   },
   {
    "id": "kxnet",
@@ -98,8 +98,8 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 937
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 1238
   },
   {
    "id": "ndmonitor",
@@ -108,8 +108,8 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 1125
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 1073
   },
   {
    "id": "vnl",
@@ -118,8 +118,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 970
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 891
   },
   {
    "id": "fox",
@@ -128,8 +128,8 @@
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 322
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 210
   },
   {
    "id": "natreview",
@@ -138,8 +138,8 @@
    "ok": true,
    "count": 19,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 456
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 289
   },
   {
    "id": "examiner",
@@ -148,8 +148,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 971
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 818
   },
   {
    "id": "bbc",
@@ -158,8 +158,8 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 316
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 369
   },
   {
    "id": "npr",
@@ -168,8 +168,8 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 392
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 187
   },
   {
    "id": "pbs",
@@ -178,8 +178,98 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T18:03:35.945Z",
-   "ms": 235
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 182
+  },
+  {
+   "id": "nd-list",
+   "name": "ND contest list",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 1489
+  },
+  {
+   "id": "nd-info",
+   "name": "ND election info",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 375
+  },
+  {
+   "id": "nd-type-SW",
+   "name": "ND results: State contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 338
+  },
+  {
+   "id": "nd-type-JUD",
+   "name": "ND results: Judicial contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 877
+  },
+  {
+   "id": "nd-type-SCH",
+   "name": "ND results: School contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 876
+  },
+  {
+   "id": "nd-type-MUN",
+   "name": "ND results: City contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 895
+  },
+  {
+   "id": "nd-type-CON",
+   "name": "ND results: Conservation contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 929
+  },
+  {
+   "id": "nd-type-LEG",
+   "name": "ND results: Legislative contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 934
+  },
+  {
+   "id": "nd-type-CW",
+   "name": "ND results: County contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:04:41.543Z",
+   "ms": 1109
   }
  ]
 }
