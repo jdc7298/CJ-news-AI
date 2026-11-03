@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:31:37.961Z",
+ "generatedAt": "2026-11-03T20:33:01.811Z",
  "items": [
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/how-to-watch-midterm-election-results.html",
@@ -74,6 +74,20 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4789869/appeals-court-restores-doj-win-in-california-election-lawsuit/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Appeals court restores DOJ’s win in California election lawsuit",
+   "url": "https://www.washingtonexaminer.com/news/justice/4789869/appeals-court-restores-doj-win-in-california-election-lawsuit/",
+   "published": "2026-11-03T20:09:55.000Z",
+   "topics": [
+    "Recounts & courts"
+   ],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/media/6193762-trump-lincoln-memorial-speech/",
@@ -592,18 +606,6 @@
     "North Dakota"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/4789567/christine-henderson-join-democrats-robert-white-resignation/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Independent DC councilwoman joins Democrats after Robert White resigns and leaves open seat",
-   "url": "https://www.washingtonexaminer.com/news/4789567/christine-henderson-join-democrats-robert-white-resignation/",
-   "published": "2026-11-03T19:08:01.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1681,7 +1683,7 @@
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
    "group": "Wire & public media",
-   "title": "LISTEN LIVE: Supreme Court hears case on Catholic preschools and LGBTQ families",
+   "title": "LISTEN: Supreme Court hears case on Catholic preschools and LGBTQ families",
    "url": "https://www.pbs.org/newshour/politics/listen-live-supreme-court-hears-case-on-catholic-preschools-and-lgbtq-families",
    "published": "2026-11-03T15:00:14.000Z",
    "topics": [
