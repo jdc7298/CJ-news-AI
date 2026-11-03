@@ -1,1 +1,185 @@
-{ "generatedAt": null, "sources": [] }
+{
+ "generatedAt": "2026-11-03T18:03:35.945Z",
+ "sources": [
+  {
+   "id": "axios",
+   "name": "Axios",
+   "group": "Center / mixed",
+   "ok": true,
+   "count": 25,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 537
+  },
+  {
+   "id": "politico",
+   "name": "Politico",
+   "group": "Center / mixed",
+   "ok": true,
+   "count": 11,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 398
+  },
+  {
+   "id": "reason",
+   "name": "Reason (libertarian)",
+   "group": "Center / mixed",
+   "ok": true,
+   "count": 25,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 762
+  },
+  {
+   "id": "hill",
+   "name": "The Hill",
+   "group": "Center / mixed",
+   "ok": true,
+   "count": 15,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 360
+  },
+  {
+   "id": "motherjones",
+   "name": "Mother Jones",
+   "group": "Left-leaning",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 334
+  },
+  {
+   "id": "nyt",
+   "name": "New York Times Politics",
+   "group": "Left-leaning",
+   "ok": true,
+   "count": 25,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 290
+  },
+  {
+   "id": "guardian",
+   "name": "The Guardian US Politics",
+   "group": "Left-leaning",
+   "ok": true,
+   "count": 17,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 241
+  },
+  {
+   "id": "bismtrib",
+   "name": "Bismarck Tribune",
+   "group": "Local ND",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 429",
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 1023
+  },
+  {
+   "id": "kfyr",
+   "name": "KFYR-TV (Bismarck)",
+   "group": "Local ND",
+   "ok": true,
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 735
+  },
+  {
+   "id": "kxnet",
+   "name": "KX News (Bismarck)",
+   "group": "Local ND",
+   "ok": true,
+   "count": 9,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 937
+  },
+  {
+   "id": "ndmonitor",
+   "name": "North Dakota Monitor",
+   "group": "Local ND",
+   "ok": true,
+   "count": 11,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 1125
+  },
+  {
+   "id": "vnl",
+   "name": "Valley News Live (Fargo)",
+   "group": "Local ND",
+   "ok": true,
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 970
+  },
+  {
+   "id": "fox",
+   "name": "Fox News Politics",
+   "group": "Right-leaning",
+   "ok": true,
+   "count": 25,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 322
+  },
+  {
+   "id": "natreview",
+   "name": "National Review",
+   "group": "Right-leaning",
+   "ok": true,
+   "count": 19,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 456
+  },
+  {
+   "id": "examiner",
+   "name": "Washington Examiner",
+   "group": "Right-leaning",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 971
+  },
+  {
+   "id": "bbc",
+   "name": "BBC US & Canada",
+   "group": "Wire & public media",
+   "ok": true,
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 316
+  },
+  {
+   "id": "npr",
+   "name": "NPR Politics",
+   "group": "Wire & public media",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 392
+  },
+  {
+   "id": "pbs",
+   "name": "PBS NewsHour Politics",
+   "group": "Wire & public media",
+   "ok": true,
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-11-03T18:03:35.945Z",
+   "ms": 235
+  }
+ ]
+}
