@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:37:13.090Z",
+ "generatedAt": "2026-11-03T23:38:15.587Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
@@ -76,18 +76,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:22:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -98,6 +86,18 @@
    "topics": [
     "House"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:19:16.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
