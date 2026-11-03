@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:21:38.144Z",
+ "generatedAt": "2026-11-03T21:22:53.448Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/in_focus/4789956/iran-betting-on-midterm-elections-could-lose-big/",
@@ -83,6 +83,18 @@
    "published": "2026-11-03T21:07:16.000Z",
    "topics": [],
    "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Minneapolis community leave ‘I Voted’ stickers at Alex Pretti’s memorial site",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
+   "published": "2026-11-03T21:05:52.000Z",
+   "topics": [],
+   "election": false,
    "section": "politics"
   },
   {
@@ -362,7 +374,7 @@
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
    "group": "Local ND",
-   "title": "‘We wanted to leave a legacy.’ Wishek couple’s donation makes new fire station a reality",
+   "title": "‘We wanted to leave a legacy’: Wishek couple’s donation makes new fire station a reality",
    "url": "https://www.kfyrtv.com/2026/11/03/we-wanted-leave-legacy-wishek-couples-donation-makes-new-fire-station-reality/",
    "published": "2026-11-03T20:02:19.000Z",
    "topics": [
@@ -1768,18 +1780,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/gallery/2026/nov/03/voting-begins-in-us-midterm-elections-in-pictures",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Voting begins in US midterm elections – in pictures",
-   "url": "https://www.theguardian.com/us-news/gallery/2026/nov/03/voting-begins-in-us-midterm-elections-in-pictures",
-   "published": "2026-11-03T15:07:10.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
    "source": "The Verge: AI",
    "sourceId": "vergeai",
@@ -2491,6 +2491,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/stage/2026/nov/03/well-see-play-midterm-elections",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "‘We’re all on constantly shifting sands’: the play capturing life during the US midterm elections",
+   "url": "https://www.theguardian.com/stage/2026/nov/03/well-see-play-midterm-elections",
+   "published": "2026-11-03T11:00:56.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "guardian|https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
@@ -2990,18 +3002,6 @@
    "section": "highered"
   },
   {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3024,6 +3024,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
@@ -3803,18 +3815,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/tv-and-radio/2026/nov/02/john-oliver-maga-james-talarico-midterms",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "John Oliver on Maga’s James Talarico smears: ‘middle school level homophobia’",
-   "url": "https://www.theguardian.com/tv-and-radio/2026/nov/02/john-oliver-maga-james-talarico-midterms",
-   "published": "2026-11-02T16:25:14.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "openai|https://openai.com/index/scaling-git-at-openai",
