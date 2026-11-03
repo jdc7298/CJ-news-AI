@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:01:33.021Z",
+ "generatedAt": "2026-11-03T20:02:59.062Z",
  "items": [
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
@@ -8,6 +8,21 @@
    "group": "Local ND",
    "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
    "url": "https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "published": "2026-11-03T19:55:46.000Z",
+   "topics": [
+    "Voting & access",
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
+   "url": "https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
    "published": "2026-11-03T19:55:46.000Z",
    "topics": [
     "Voting & access",
@@ -746,16 +761,18 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
+   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
    "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
@@ -772,6 +789,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -781,20 +810,6 @@
    "published": "2026-11-03T18:00:00.000Z",
    "topics": [
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
-   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "Misinformation & AI"
    ],
    "election": true,
    "section": "politics"
@@ -2945,20 +2960,6 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/powerball-jackpot-rises-estimated-835-million/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Powerball jackpot rises to estimated $835 million",
-   "url": "https://www.kfyrtv.com/2026/11/03/powerball-jackpot-rises-estimated-835-million/",
-   "published": "2026-11-03T07:29:49.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "fox|https://www.foxnews.com/politics/ex-chicago-fbi-chief-sues-doj-claims-he-ousted-over-failed-anti-ice-prosecutions",
    "source": "Fox News Politics",
    "sourceId": "fox",
@@ -4003,18 +4004,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4051,6 +4040,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
@@ -4519,6 +4520,18 @@
    "section": "ai"
   },
   {
+   "id": "highereddive|https://www.highereddive.com/news/cornell-dei-hiring-lawsuit-lack-of-standing/873069/",
+   "source": "Higher Ed Dive",
+   "sourceId": "highereddive",
+   "group": "Higher ed trade press",
+   "title": "Cornell prevails on DEI hiring lawsuit after judge finds plaintiff ‘had no intention of reentering academia’",
+   "url": "https://www.highereddive.com/news/cornell-dei-hiring-lawsuit-lack-of-standing/873069/",
+   "published": "2026-10-29T09:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
    "id": "openai|https://openai.com/index/how-we-detect-frontier-model-misalignment",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -4531,18 +4544,6 @@
    ],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "highereddive|https://www.highereddive.com/news/cornell-dei-hiring-lawsuit-lack-of-standing/873069/",
-   "source": "Higher Ed Dive",
-   "sourceId": "highereddive",
-   "group": "Higher ed trade press",
-   "title": "Cornell prevails on DEI hiring lawsuit after judge finds plaintiff ‘had no intention of reentering academia’",
-   "url": "https://www.highereddive.com/news/cornell-dei-hiring-lawsuit-lack-of-standing/873069/",
-   "published": "2026-10-29T09:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
   },
   {
    "id": "openai|https://openai.com/index/ropes-gray-ai-diligence",
