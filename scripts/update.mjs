@@ -1,4 +1,4 @@
-// Midterm Desk updater. Node 20+, zero dependencies.
+// Aurevane Media updater. Node 20+, zero dependencies.
 // Pulls headlines from the RSS/Atom feeds in config/sources.json and (optionally)
 // official results from the URL(s) in config/results.json, then writes JSON into /data.
 // A failing source never stops the run; it is reported in data/status.json instead.

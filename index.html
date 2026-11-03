@@ -3,23 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Midterm Desk</title>
+<title>Aurevane Media</title>
 <style>
   :root{
-    --bg:#f6f5f2; --card:#ffffff; --ink:#1b1f23; --muted:#5d6670; --line:#dcdad4;
-    --accent:#1f4e79; --accent-soft:#e3edf6; --ok:#2f7d4f; --warn:#b26a00; --bad:#b3261e;
-    --bar:#9db7cf; --bar-lead:#1f4e79;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --bg:#14171a; --card:#1c2024; --ink:#e9ecef; --muted:#9aa4ae; --line:#2e353b;
-      --accent:#8fb8e3; --accent-soft:#223445; --ok:#5cc68a; --warn:#e0a13a; --bad:#f0857d;
-      --bar:#3b5266; --bar-lead:#8fb8e3; }
+    --bg:#07130f; --card:#0d1f18; --ink:#f1ece0; --muted:#9fb3a8; --line:#1f3a2e;
+    --accent:#d4af5f; --accent-soft:#16301f; --gold:#d4af5f; --ok:#5cc68a; --warn:#e0a13a; --bad:#f0857d;
+    --bar:#2c5a45; --bar-lead:#d4af5f;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  body{margin:0;background:radial-gradient(1200px 500px at 50% -200px,#0f2a20 0,var(--bg) 70%) no-repeat,var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
   a{color:var(--accent)}
   header{padding:20px 16px 8px;max-width:1100px;margin:0 auto}
-  h1{margin:0;font-size:1.6rem;letter-spacing:-.01em}
+  h1{margin:0;font-family:var(--serif);font-size:2rem;letter-spacing:.01em;font-weight:600;color:var(--gold)}
+  h1 small{display:block;font:600 .7rem/1 system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  h2,.card h3,.col h3{font-family:var(--serif)}
+  header{border-top:3px solid var(--gold)}
   .tag{margin:4px 0 0;color:var(--muted);font-size:.95rem}
   .bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px;font-size:.85rem;color:var(--muted)}
   .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:baseline}
@@ -41,7 +40,7 @@
   .pill{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);margin-right:6px}
   .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
   .chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer}
-  .chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .chip[aria-pressed="true"]{background:var(--accent);color:#07130f;border-color:var(--accent);font-weight:600}
   input[type=search]{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;min-width:200px}
   .cols{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));align-items:start}
   .col h3{font-size:.95rem;margin:0 0 8px;padding-bottom:6px;border-bottom:2px solid var(--line)}
@@ -56,12 +55,18 @@
   button.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
   details{margin:10px 0} summary{cursor:pointer;padding:6px 0;font-size:1.02rem}
   select{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+  .clock{max-width:1100px;margin:14px auto 0;padding:0 16px}
+  .clockbox{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;border:1px solid var(--gold);border-radius:10px;padding:12px 16px;background:linear-gradient(90deg,#0d1f18,#0a1a14)}
+  .clockbox .big{font:600 1.7rem/1.1 var(--serif);color:var(--gold)}
+  .clockbox .lbl{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .upd{margin:0;padding:0;list-style:none} .upd li{padding:7px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+  .upd li:last-child{border-bottom:0} .upd time{color:var(--gold);font-size:.78rem;margin-right:8px}
   [hidden]{display:none!important}
 </style>
 </head>
 <body>
 <header>
-  <h1 id="siteName">Midterm Desk</h1>
+  <h1><small>Live election desk</small><span id="siteName">Aurevane Media</span></h1>
   <p class="tag" id="siteTag"></p>
   <div class="bar">
     <span><span class="dot" id="dot"></span><span id="fresh">Loading…</span></span>
@@ -69,6 +74,7 @@
     <button class="link" id="refreshNow">Refresh now</button>
   </div>
 </header>
+<div class="clock"><div class="clockbox" id="clockbox"></div></div>
 
 <nav role="tablist" aria-label="Sections">
   <button role="tab" data-tab="north-dakota">North Dakota</button>
@@ -94,7 +100,8 @@ const REFRESH_SECONDS = 60;
 const TABS = ['north-dakota','national','compare','sources'];
 const S = { site:null, races:null, news:null, status:null, nd:null, national:null,
             topic:'All', electionOnly:true, q:'', ndq:'', loadedAt:null, county:'', open:{} };
-try{ S.county = localStorage.getItem('md-county') || ''; }catch(_){}
+let _saved=null; try{ _saved = localStorage.getItem('md-county'); }catch(_){}
+if(_saved !== null) S.county = _saved;
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -126,16 +133,51 @@ async function loadAll(){
     getJSON('data/status.json'), getJSON('data/nd_results.json'), getJSON('data/national.json')
   ]);
   Object.assign(S, {site, races, news, status, nd, national, loadedAt: Date.now()});
+  if(_saved === null && site?.defaultCounty && !S.county) S.county = site.defaultCounty;
   const a = document.activeElement;
   if(a && ((a.tagName === 'INPUT' && a.type === 'search') || a.tagName === 'SELECT')){ renderHeader(); return; } // don't steal focus while typing
   render();
 }
 
+
+/* ---------------- election-night clock ---------------- */
+const POLLS_CLOSE = [ // ND polls close at 7 PM local time (source: 270toWin / ND SOS)
+  {label:'7 PM Central', t:Date.UTC(2026,10,4,1,0,0)},
+  {label:'7 PM Mountain', t:Date.UTC(2026,10,4,2,0,0)}
+];
+function dur(ms){
+  const s=Math.max(0,Math.floor(ms/1000)), h=Math.floor(s/3600), m=Math.floor(s%3600/60), x=s%60;
+  return `${h}h ${String(m).padStart(2,'0')}m ${String(x).padStart(2,'0')}s`;
+}
+function localT(t){ return new Date(t).toLocaleString([], {hour:'numeric',minute:'2-digit',timeZoneName:'short'}); }
+function renderClock(){
+  const now = Date.now(), el = $('#clockbox'); if(!el) return;
+  const first = POLLS_CLOSE[0].t, last = POLLS_CLOSE[1].t;
+  let big, lbl;
+  if(now < first){ big = dur(first-now); lbl = 'until North Dakota polls begin closing'; }
+  else if(now < last){ big = 'Polls closing'; lbl = 'Central-time counties closed · Mountain-time counties close in ' + dur(last-now); }
+  else { big = 'Polls closed'; lbl = 'Results appear as the Secretary of State publishes them'; }
+  el.innerHTML = `<div><div class="lbl">Election Day · Nov 3, 2026</div><div class="big">${esc(big)}</div></div>
+    <div class="small muted">${esc(lbl)}<br>ND polls close at 7 PM local time. In your time zone: ${localT(first)} for Central-time counties, ${localT(last)} for Mountain-time counties.
+    <a href="https://www.270towin.com/poll-closing-times" target="_blank" rel="noopener">All states</a></div>`;
+}
+setInterval(renderClock, 1000);
+
+function updatesLog(){
+  const items = [];
+  const st = S.status, nd = S.nd;
+  if(nd?.generatedAt) items.push([nd.generatedAt, `North Dakota results feed checked${nd.officialLastUpdated?`; ND Secretary of State data last updated ${clock(nd.officialLastUpdated)}`:''}.`]);
+  if(nd?.turnout?.totalPrecincts) items.push([nd.generatedAt, `${fmt(nd.turnout.precinctsReporting)} of ${fmt(nd.turnout.totalPrecincts)} precincts reporting.`]);
+  if(S.news?.generatedAt) items.push([S.news.generatedAt, `News headlines refreshed from ${(st?.sources||[]).filter(x=>x.ok).length} of ${(st?.sources||[]).length} sources.`]);
+  items.sort((a,b)=>b[0].localeCompare(a[0]));
+  return `<h2>Latest data checks</h2><div class="card"><ul class="upd">${items.map(([t,m])=>`<li><time>${esc(clock(t))}</time>${esc(m)}</li>`).join('') || '<li>No checks yet.</li>'}</ul><div class="muted small">This shows the most recent automated checks only. It is not a history of every change.</div></div>`;
+}
+
 /* ---------------- header ---------------- */
 function renderHeader(){
   if(S.site){
-    $('#siteName').textContent = S.site.name || 'Midterm Desk';
-    document.title = S.site.name || 'Midterm Desk';
+    $('#siteName').textContent = S.site.name || 'Aurevane Media';
+    document.title = S.site.name || 'Aurevane Media';
     $('#siteTag').textContent = S.site.tagline || '';
     $('#contact').textContent = S.site.contact ? ' Corrections: ' + S.site.contact : '';
   }
@@ -245,6 +287,7 @@ function renderND(){
   }
   const ndNews = (S.news?.items||[]).filter(i=>i.topics?.includes('North Dakota') && i.election).slice(0,14);
   h += `<h2>North Dakota headlines</h2><div class="card">` + (ndNews.length ? ndNews.map(newsItem).join('') : `<span class="muted">No North Dakota election headlines yet.</span>`) + `</div>`;
+  h += updatesLog();
   $('#tab-north-dakota').innerHTML = h;
 
   const f = $('#ndq'); if(f){ f.oninput = e => { S.ndq = e.target.value; const pos = e.target.selectionStart; renderND(); const n=$('#ndq'); n.focus(); n.setSelectionRange(pos,pos); }; }
@@ -320,7 +363,7 @@ function renderSources(){
 
 /* ---------------- routing / loop ---------------- */
 function render(){
-  renderHeader(); renderND(); renderNational(); renderCompare(); renderSources();
+  renderHeader(); renderClock(); renderND(); renderNational(); renderCompare(); renderSources();
 }
 function showTab(name){
   if(!TABS.includes(name)) name = 'north-dakota';

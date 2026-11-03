@@ -1,4 +1,4 @@
-# Midterm Desk
+# Aurevane Media
 
 A free, auto-updating election tracker: official North Dakota results, side-by-side headlines from many outlets, and a source-health panel. It runs on GitHub (no server, no cost). A scheduled job fetches data into `/data`, and the static page in `index.html` reads it and re-checks every 60 seconds.
 
