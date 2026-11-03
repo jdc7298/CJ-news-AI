@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:09:06.349Z",
+ "generatedAt": "2026-11-03T21:10:18.907Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/crime/4789792/jacob-morley-escaped-tennessee-murderer-missouri/",
@@ -18,7 +18,7 @@
    "source": "The Hill",
    "sourceId": "hill",
    "group": "Center / mixed",
-   "title": "North Carolina, Massachusetts report technical issues at polls",
+   "title": "North Carolina, Massachusetts, New York report technical issues at polls",
    "url": "https://thehill.com/homenews/campaign/6193947-election-day-poll-technical-issues/",
    "published": "2026-11-03T21:07:16.000Z",
    "topics": [],
@@ -42,7 +42,7 @@
    "source": "The Verge: AI",
    "sourceId": "vergeai",
    "group": "Tech press",
-   "title": "Don’t be fooled by the fake hair on these famous baldies",
+   "title": "Those Jeff Bezos hair transplant photos are very fake",
    "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
    "published": "2026-11-03T21:01:07.000Z",
    "topics": [],
@@ -98,6 +98,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T20:51:16.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "nyt|https://www.nytimes.com/video/us/politics/100000011228221/whats-at-stake-in-todays-elections.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -117,18 +129,6 @@
    "title": "Election Day challenges facing voters in battleground states",
    "url": "https://www.washingtonexaminer.com/news/campaigns/4789848/election-day-challenge-voter-battleground-state/",
    "published": "2026-11-03T20:48:47.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:47:44.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -2868,6 +2868,30 @@
    "section": "politics"
   },
   {
+   "id": "openai|https://openai.com/index/cisco-cyber",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "group": "Company announcements",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
+   "id": "openai|https://openai.com/index/heimstaden",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "group": "Company announcements",
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "url": "https://openai.com/index/heimstaden",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -2990,30 +3014,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "openai|https://openai.com/index/cisco-cyber",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "group": "Company announcements",
-   "title": "How Cisco defends at machine speed with OpenAI",
-   "url": "https://openai.com/index/cisco-cyber",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "openai|https://openai.com/index/heimstaden",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "group": "Company announcements",
-   "title": "Heimstaden is changing residential real estate management with AI",
-   "url": "https://openai.com/index/heimstaden",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
