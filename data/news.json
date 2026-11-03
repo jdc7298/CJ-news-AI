@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T22:11:15.469Z",
+ "generatedAt": "2026-11-03T22:12:19.193Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "DOJ sends target letters to Marc Elias and other Democrats over decoy Dan Sullivan candidacy",
+   "url": "https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/",
+   "published": "2026-11-03T22:11:52.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/house/6194215-republicans-accuse-apa-antisemitism/",
    "source": "The Hill",
@@ -34,20 +46,6 @@
    "url": "https://thehill.com/homenews/senate/6194191-warnock-democrats-midterm-risks/",
    "published": "2026-11-03T22:04:34.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Voter turnout surges in US midterm elections with control of Congress at stake – live",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:03:56.000Z",
-   "topics": [
-    "Voting & access"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -149,6 +147,20 @@
    "published": "2026-11-03T21:48:55.000Z",
    "topics": [
     "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Voter turnout surges in US midterm elections with control of Congress at stake – live",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T21:47:46.000Z",
+   "topics": [
+    "Voting & access"
    ],
    "election": true,
    "section": "politics"
@@ -850,18 +862,6 @@
    "section": "politics"
   },
   {
-   "id": "examiner|https://www.washingtonexaminer.com/opinion/beltway-confidential/4789598/democrats-dominate-campaign-cash-midterm-elections/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Democrats dominate on campaign cash this year",
-   "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4789598/democrats-dominate-campaign-cash-midterm-elections/",
-   "published": "2026-11-03T19:34:02.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "reason|https://reason.com/2026/11/03/the-housing-ballot-initiatives-to-watch/",
    "source": "Reason (libertarian)",
    "sourceId": "reason",
@@ -1180,18 +1180,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1204,6 +1192,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
