@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:26:40.806Z",
+ "generatedAt": "2026-11-03T23:27:44.328Z",
  "items": [
   {
    "id": "motherjones|https://www.motherjones.com/politics/2026/11/supreme-court-religious-descrimination-mary-catholic-parish-roy/",
@@ -11,6 +11,18 @@
    "published": "2026-11-03T23:26:31.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/politics/ap-voter-poll-the-economy-and-the-state-of-democracy-are-voters-top-issues",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "AP Voter Poll: The economy and the state of democracy are voters' top issues",
+   "url": "https://www.pbs.org/newshour/politics/ap-voter-poll-the-economy-and-the-state-of-democracy-are-voters-top-issues",
+   "published": "2026-11-03T23:26:06.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -1371,18 +1383,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1395,6 +1395,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -2204,20 +2216,6 @@
    "title": "Live Results: Ohio Senate midterm election",
    "url": "https://www.pbs.org/newshour/politics/live-results-ohio-senate-midterm-election",
    "published": "2026-11-03T14:30:20.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/live-results-texas-senate-midterm-election",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Live Results: Texas Senate midterm election",
-   "url": "https://www.pbs.org/newshour/politics/live-results-texas-senate-midterm-election",
-   "published": "2026-11-03T14:30:17.000Z",
    "topics": [
     "Senate"
    ],
