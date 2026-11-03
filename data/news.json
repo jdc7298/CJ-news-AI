@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T22:21:57.116Z",
+ "generatedAt": "2026-11-03T22:23:00.619Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/newsletters/business-economy/6194251-how-does-inflation-compare-to-past-midterm-cycles/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "How does inflation compare to past midterm cycles?",
+   "url": "https://thehill.com/newsletters/business-economy/6194251-how-does-inflation-compare-to-past-midterm-cycles/",
+   "published": "2026-11-03T22:22:10.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/6194223-iowa-senate-josh-turek-ticket-splitting/",
    "source": "The Hill",
@@ -109,6 +121,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Voter turnout surges in US midterm elections with control of Congress at stake – live",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T22:08:02.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6194159-crockett-says-stevens-boosted-el-sayed/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -129,20 +155,6 @@
    "url": "https://thehill.com/homenews/senate/6194191-warnock-democrats-midterm-risks/",
    "published": "2026-11-03T22:04:34.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Voter turnout surges in US midterm elections with control of Congress at stake – live",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:03:56.000Z",
-   "topics": [
-    "Voting & access"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -171,12 +183,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Nicole Taylor of country trio Taylor Red dies at 35 after breast cancer diagnosis, sisters say",
-   "url": "https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "url": "https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
    "published": "2026-11-03T21:57:07.000Z",
    "topics": [
     "North Dakota"
@@ -185,12 +197,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Nicole Taylor of country trio Taylor Red dies at 35 after breast cancer diagnosis, sisters say",
-   "url": "https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "url": "https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
    "published": "2026-11-03T21:57:07.000Z",
    "topics": [
     "North Dakota"
@@ -578,18 +590,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/state-watch/6193851-paxton-texas-felony-voting-probe-harris-county/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Paxton: Review of Harris County voting claims 'won't be resolved by the time the election is over'",
-   "url": "https://thehill.com/homenews/state-watch/6193851-paxton-texas-felony-voting-probe-harris-county/",
-   "published": "2026-11-03T20:43:25.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/politics/man-charged-with-mailing-hundreds-of-letters-containing-powder-to-officials-ahead-of-the-election",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -676,12 +676,12 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Endangered missing 6-year-old from Kentucky found alive, police say",
-   "url": "https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "url": "https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
    "published": "2026-11-03T20:05:00.000Z",
    "topics": [
     "North Dakota"
@@ -690,12 +690,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Endangered missing 6-year-old from Kentucky found alive, police say",
-   "url": "https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "url": "https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
    "published": "2026-11-03T20:05:00.000Z",
    "topics": [
     "North Dakota"
@@ -732,12 +732,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
-   "url": "https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "url": "https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
    "published": "2026-11-03T19:55:46.000Z",
    "topics": [
     "Voting & access",
@@ -747,12 +747,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
-   "url": "https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "url": "https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
    "published": "2026-11-03T19:55:46.000Z",
    "topics": [
     "Voting & access",
@@ -774,12 +774,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "4-year-old found dead underneath pile of clothes in closet, police say",
-   "url": "https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "url": "https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
    "published": "2026-11-03T19:52:55.000Z",
    "topics": [
     "North Dakota"
@@ -788,12 +788,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "4-year-old found dead underneath pile of clothes in closet, police say",
-   "url": "https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "url": "https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
    "published": "2026-11-03T19:52:55.000Z",
    "topics": [
     "North Dakota"
@@ -1023,12 +1023,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Aging Untold: What to know about medical uses and risks for anti-wrinkle injections",
-   "url": "https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "url": "https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
    "published": "2026-11-03T19:08:29.000Z",
    "topics": [
     "North Dakota"
@@ -1037,12 +1037,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Aging Untold: What to know about medical uses and risks for anti-wrinkle injections",
-   "url": "https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "url": "https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
    "published": "2026-11-03T19:08:29.000Z",
    "topics": [
     "North Dakota"
@@ -1063,12 +1063,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "15-year-old calls mom for help before being found dead inside abandoned apartment",
-   "url": "https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "url": "https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
    "published": "2026-11-03T19:00:54.000Z",
    "topics": [
     "North Dakota"
@@ -1077,12 +1077,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "15-year-old calls mom for help before being found dead inside abandoned apartment",
-   "url": "https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "url": "https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
    "published": "2026-11-03T19:00:54.000Z",
    "topics": [
     "North Dakota"
@@ -1105,12 +1105,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Escaped Tennessee inmate convicted of co-worker’s murder recaptured in Missouri",
-   "url": "https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "url": "https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
    "published": "2026-11-03T18:48:31.000Z",
    "topics": [
     "North Dakota"
@@ -1119,12 +1119,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Escaped Tennessee inmate convicted of co-worker’s murder recaptured in Missouri",
-   "url": "https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "url": "https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
    "published": "2026-11-03T18:48:31.000Z",
    "topics": [
     "North Dakota"
@@ -1209,20 +1209,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Father charged after 13-month-old dies of hypothermia in freezing bedroom, police say",
-   "url": "https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
-   "published": "2026-11-03T18:05:34.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1237,25 +1223,13 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
    "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "published": "2026-11-03T18:00:00.000Z",
+   "title": "Father charged after 13-month-old dies of hypothermia in freezing bedroom, police say",
+   "url": "https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
+   "published": "2026-11-03T18:05:34.000Z",
    "topics": [
     "North Dakota"
    ],
@@ -1277,18 +1251,30 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
    "group": "Local ND",
-   "title": "Flight attendants union, Congress members seek privacy protections in Spirit data sale to Google",
-   "url": "https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
-   "published": "2026-11-03T17:57:27.000Z",
+   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
+   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "published": "2026-11-03T18:00:00.000Z",
    "topics": [
     "North Dakota"
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -1297,6 +1283,20 @@
    "group": "Local ND",
    "title": "Flight attendants union, Congress members seek privacy protections in Spirit data sale to Google",
    "url": "https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
+   "published": "2026-11-03T17:57:27.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Flight attendants union, Congress members seek privacy protections in Spirit data sale to Google",
+   "url": "https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
    "published": "2026-11-03T17:57:27.000Z",
    "topics": [
     "North Dakota"
@@ -1714,12 +1714,12 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "This community darkroom gives photographers a place to learn, create and share",
-   "url": "https://www.valleynewslive.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
+   "url": "https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
    "published": "2026-11-03T15:58:33.000Z",
    "topics": [
     "North Dakota"
@@ -1728,12 +1728,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "This community darkroom gives photographers a place to learn, create and share",
-   "url": "https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
+   "url": "https://www.valleynewslive.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
    "published": "2026-11-03T15:58:33.000Z",
    "topics": [
     "North Dakota"
@@ -1866,12 +1866,12 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Lake Region Correctional Facility inmate dies",
-   "url": "https://www.valleynewslive.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
+   "url": "https://www.kfyrtv.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
    "published": "2026-11-03T15:19:58.000Z",
    "topics": [
     "North Dakota"
@@ -1880,12 +1880,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Lake Region Correctional Facility inmate dies",
-   "url": "https://www.kfyrtv.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
+   "url": "https://www.valleynewslive.com/2026/11/03/lake-region-correctional-facility-inmate-dies/",
    "published": "2026-11-03T15:19:58.000Z",
    "topics": [
     "North Dakota"
@@ -3084,6 +3084,18 @@
    "section": "highered"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3106,18 +3118,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
@@ -4027,6 +4027,18 @@
    "section": "politics"
   },
   {
+   "id": "politico|https://www.politico.com/news/2026/11/02/republicans-blame-trump-midterms-2026-01143980",
+   "source": "Politico",
+   "sourceId": "politico",
+   "group": "Center / mixed",
+   "title": "‘A lot of Republicans have held their tongues’: Anger at Trump is growing",
+   "url": "https://www.politico.com/news/2026/11/02/republicans-blame-trump-midterms-2026-01143980",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4075,18 +4087,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "politico|https://www.politico.com/news/2026/11/02/republicans-blame-trump-midterms-2026-01143980",
-   "source": "Politico",
-   "sourceId": "politico",
-   "group": "Center / mixed",
-   "title": "‘A lot of Republicans have held their tongues’: Anger at Trump is growing",
-   "url": "https://www.politico.com/news/2026/11/02/republicans-blame-trump-midterms-2026-01143980",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
