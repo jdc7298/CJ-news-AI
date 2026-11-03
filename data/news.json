@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:18:11.451Z",
+ "generatedAt": "2026-11-03T20:19:17.566Z",
  "items": [
+  {
+   "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "Election night opens with Trump in battle mode",
+   "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+   "published": "2026-11-03T20:17:21.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4779884/polls-closing-times-your-state-election-day/",
    "source": "Washington Examiner",
@@ -24,6 +36,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T20:10:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/media/6193762-trump-lincoln-memorial-speech/",
@@ -76,18 +100,6 @@
    "topics": [
     "Recounts & courts"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:02:39.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -855,15 +867,15 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
-   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
+   "url": "https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "published": "2026-11-03T18:00:00.000Z",
    "topics": [
-    "Misinformation & AI"
+    "North Dakota"
    ],
    "election": true,
    "section": "politics"
@@ -881,15 +893,15 @@
    "section": "ai"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
+   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
    "published": "2026-11-03T18:00:00.000Z",
    "topics": [
-    "North Dakota"
+    "Misinformation & AI"
    ],
    "election": true,
    "section": "politics"
@@ -3887,18 +3899,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/02/trump-musk-democrats",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "Trump vows to protect Musk, floats pre-emptive staff pardons",
-   "url": "https://www.axios.com/2026/11/02/trump-musk-democrats",
-   "published": "2026-11-02T12:38:14.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "wiredai|https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
