@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:19:17.566Z",
+ "generatedAt": "2026-11-03T20:20:44.449Z",
  "items": [
   {
    "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
@@ -36,18 +36,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:10:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "hill|https://thehill.com/homenews/media/6193762-trump-lincoln-memorial-speech/",
@@ -100,6 +88,18 @@
    "topics": [
     "Recounts & courts"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T20:02:39.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -2812,6 +2812,18 @@
    "section": "politics"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -2958,18 +2970,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
