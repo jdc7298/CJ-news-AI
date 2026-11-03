@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T21:39:27.429Z",
+ "generatedAt": "2026-11-03T21:40:44.864Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "ChatGPT provided Democracy Works info to voters more than 16 million times this cycle",
+   "url": "https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info/",
+   "published": "2026-11-03T21:39:26.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6194071-gop-organizes-alaska-recount-fund/",
    "source": "The Hill",
@@ -153,10 +165,12 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+   "title": "US midterm elections 2026 live: Turnout surges across country as voters decide control of Congress",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
    "published": "2026-11-03T21:16:15.000Z",
-   "topics": [],
+   "topics": [
+    "Voting & access"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -834,18 +848,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/campaign/6193309-ken-burns-democracy-crisis/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Ken Burns: 'Something more fundamental at stake' in this election",
-   "url": "https://thehill.com/homenews/campaign/6193309-ken-burns-democracy-crisis/",
-   "published": "2026-11-03T19:09:30.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1060,18 +1062,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1098,6 +1088,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
