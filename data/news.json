@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T22:31:33.912Z",
+ "generatedAt": "2026-11-03T22:32:37.398Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4790028/hegseth-more-liked-than-other-possible-blackburn-senate-replacements-poll-bill-lee-successor/",
@@ -12,18 +12,6 @@
    "topics": [
     "Senate"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/nasa-astronaut-casts-midterms-vote-from-space-video",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Nasa astronaut casts midterms vote from space – video",
-   "url": "https://www.theguardian.com/us-news/video/2026/nov/03/nasa-astronaut-casts-midterms-vote-from-space-video",
-   "published": "2026-11-03T22:23:46.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -44,9 +32,9 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: turnout surges in vote that will define final years of Trump presidency",
+   "title": "US midterm elections 2026: turnout surges in vote that will define final years of Trump presidency – live",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T22:21:04.000Z",
+   "published": "2026-11-03T22:19:56.000Z",
    "topics": [
     "Voting & access"
    ],
@@ -1252,18 +1240,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1276,6 +1252,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -2544,6 +2532,18 @@
    "group": "Left-leaning",
    "title": "‘In the trenches’: Wisconsin’s struggling small businesses could turn a Trump ally’s district blue",
    "url": "https://www.theguardian.com/us-news/2026/nov/03/small-business-economy-wisconsin-house-race",
+   "published": "2026-11-03T11:00:57.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/jennifer-welch-ive-had-it-podcast",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Did Democrats finally find their fight? Jennifer Welch on rage – Stateside with Kai and Carter",
+   "url": "https://www.theguardian.com/us-news/video/2026/nov/03/jennifer-welch-ive-had-it-podcast",
    "published": "2026-11-03T11:00:57.000Z",
    "topics": [],
    "election": false,
