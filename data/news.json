@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:34:02.901Z",
+ "generatedAt": "2026-11-03T23:35:06.543Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
@@ -10,6 +10,44 @@
    "url": "https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
    "published": "2026-11-03T23:32:22.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/the-on-politics-guide-to-election-night.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "The On Politics Guide to Election Night",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/the-on-politics-guide-to-election-night.html",
+   "published": "2026-11-03T23:31:46.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Drone Boat Maker Saildrone Wins Protest Over Navy Contract",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
+   "published": "2026-11-03T23:31:36.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/gloomy-windy-weather-carries-over-one-more-day/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Gloomy, windy weather carries over for one more day",
+   "url": "https://www.valleynewslive.com/2026/11/03/gloomy-windy-weather-carries-over-one-more-day/",
+   "published": "2026-11-03T23:28:19.000Z",
+   "topics": [
+    "North Dakota"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -38,6 +76,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:22:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -48,18 +98,6 @@
    "topics": [
     "House"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:19:16.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -2401,20 +2439,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/how-districts-are-addressing-bus-driver-shortages/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "How districts are addressing bus driver shortages",
-   "url": "https://www.valleynewslive.com/2026/11/03/how-districts-are-addressing-bus-driver-shortages/",
-   "published": "2026-11-03T13:01:42.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "reason|https://reason.com/volokh/2026/11/03/would-go-luigi-was-a-threat-and-thus-subject-to-harassment-prevention-order-statute/",
    "source": "Reason (libertarian)",
    "sourceId": "reason",
@@ -4045,18 +4069,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4093,6 +4105,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
