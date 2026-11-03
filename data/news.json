@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T19:52:27.868Z",
+ "generatedAt": "2026-11-03T19:53:54.175Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/daily-on-energy/4789808/daily-on-energy-happy-election-day/",
@@ -11,6 +11,18 @@
    "published": "2026-11-03T19:50:39.000Z",
    "topics": [],
    "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6193617-desantis-iran-war-gop-midterms/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "DeSantis: War in Iran 'big, big drag' on Republicans",
+   "url": "https://thehill.com/homenews/campaign/6193617-desantis-iran-war-gop-midterms/",
+   "published": "2026-11-03T19:50:04.000Z",
+   "topics": [],
+   "election": false,
    "section": "politics"
   },
   {
@@ -856,18 +868,6 @@
     "Senate"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6192670-abbott-attacks-hinojosa-texas-radical/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Abbott: Hinojosa 'makes Talarico look almost conservative'",
-   "url": "https://thehill.com/homenews/campaign/6192670-abbott-attacks-hinojosa-texas-radical/",
-   "published": "2026-11-03T17:31:03.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
