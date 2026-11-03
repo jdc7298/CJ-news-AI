@@ -1,0 +1,22 @@
+{
+  "_note": "Static facts about what is on North Dakota's ballot. Every line carries its source. Edit freely; confirm final candidate lists at vote.nd.gov.",
+  "nd": {
+    "facts": [
+      { "label": "Election Day", "text": "Tuesday, November 3, 2026. Per Multistate, the last polls in North Dakota close at 9 PM ET.", "source": "Multistate", "url": "https://www.multistate.us/elections/results/north-dakota-2026" },
+      { "label": "Counting", "text": "Election-night results are unofficial. Counties submit results and the State Canvassing Board certifies them later (it certified the June primary on June 24).", "source": "ND Secretary of State", "url": "https://www.sos.nd.gov/sites/default/files/documents/news/state-canvassing-election-results-24jun26.pdf" },
+      { "label": "Recounts", "text": "Per AP Decision Notes, ballot measures decided by a margin of 0.25% or less are recounted automatically.", "source": "AP Decision Notes via WTOP", "url": "https://wtop.com/news/2026/06/ap-decision-notes-what-to-expect-in-north-dakotas-state-primary/" },
+      { "label": "Turnout context", "text": "About 372,000 North Dakotans voted in the 2024 general election; about 594,000 were eligible. June 2026 primary turnout was 20.84% (125,101 ballots).", "source": "AP Decision Notes; ND Secretary of State", "url": "https://www.sos.nd.gov/sites/default/files/documents/news/2026-primary-voter-turnout-06jun26.pdf" }
+    ],
+    "races": [
+      { "group": "Congress", "office": "U.S. House, North Dakota At-large", "detail": "Julie Fedorchak (R, incumbent) and Trygve Hammer (Democratic-NPL). Fedorchak won the June Republican primary over Alex Balazs.", "source": "KX News primary results; North Dakota Monitor", "url": "https://northdakotamonitor.com/category/election-2026/" },
+      { "group": "Congress", "office": "U.S. Senate", "detail": "No U.S. Senate seat is on North Dakota's ballot this year.", "source": "Confirm at Ballotpedia", "url": "https://ballotpedia.org/North_Dakota_elections,_2026" },
+      { "group": "Statewide", "office": "Secretary of State", "detail": "Michael Howe (R, incumbent) vs. Ryan Braunberger (Democratic-NPL).", "source": "The Green Papers", "url": "https://www.thegreenpapers.com/G26/ND" },
+      { "group": "Statewide", "office": "Attorney General", "detail": "Drew Wrigley (R, incumbent) vs. Timothy Lamb (D).", "source": "Multistate", "url": "https://www.multistate.us/elections/results/north-dakota-2026" },
+      { "group": "Statewide", "office": "Superintendent of Public Instruction", "detail": "Levi Bachmeier (incumbent) vs. Tracy Layne Foss, after both advanced from the June primary.", "source": "North Dakota Monitor", "url": "https://northdakotamonitor.com/category/election-2026/page/2/" },
+      { "group": "Statewide", "office": "Agriculture Commissioner, Tax Commissioner, Public Service Commission (2 seats)", "detail": "All on the ballot. See the official candidate list.", "source": "Ballotpedia", "url": "https://ballotpedia.org/North_Dakota_state_executive_official_elections,_2026" },
+      { "group": "Legislature", "office": "State Senate and State House", "detail": "Slightly more than half of the 47 Senate and 94 House seats are up. Republicans hold large supermajorities in both chambers.", "source": "AP Decision Notes via AJC", "url": "https://www.ajc.com/news/2026/06/ap-decision-notes-what-to-expect-in-north-dakotas-state-primary/" },
+      { "group": "Ballot measures", "office": "Measure 1: term limits", "detail": "Proposes changes to the term limits voters approved in 2022 (placed on the ballot by the Legislature).", "source": "North Dakota Monitor (via public notice)", "url": "https://ndpublicnotices.newzgroup.com/NDLegals/2026/393820-2026-01-09_1001.pdf" },
+      { "group": "Ballot measures", "office": "School meals (initiated constitutional amendment)", "detail": "Would require public schools to provide at least one free breakfast and one free lunch to all students each school day, regardless of income.", "source": "Multistate", "url": "https://www.multistate.us/elections/results/north-dakota-2026" }
+    ]
+  }
+}

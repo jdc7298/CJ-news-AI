@@ -1,0 +1,35 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # GitHub treats this as best-effort; expect gaps of 5-15 minutes
+  workflow_dispatch:
+    inputs:
+      loop_minutes:
+        description: "Keep refreshing for this many minutes (0 = run once). Use 300 on election night."
+        default: "0"
+      interval_seconds:
+        description: "Seconds between refreshes while looping"
+        default: "60"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh data
+        env:
+          LOOP_MINUTES: ${{ inputs.loop_minutes || '0' }}
+          INTERVAL_SECONDS: ${{ inputs.interval_seconds || '60' }}
+        run: bash scripts/run.sh

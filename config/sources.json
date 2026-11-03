@@ -1,0 +1,27 @@
+{
+  "_note": "Add or remove feeds freely. 'group' controls which column a source appears in. The grouping is a rough editorial starting point, not a rating; change it if you disagree. Any feed that fails shows up red on the Sources tab, so a wrong URL is easy to spot.",
+  "sources": [
+    { "id": "npr", "name": "NPR Politics", "group": "Wire & public media", "url": "https://feeds.npr.org/1014/rss.xml" },
+    { "id": "pbs", "name": "PBS NewsHour Politics", "group": "Wire & public media", "url": "https://www.pbs.org/newshour/feeds/rss/politics" },
+    { "id": "bbc", "name": "BBC US & Canada", "group": "Wire & public media", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" },
+
+    { "id": "guardian", "name": "The Guardian US Politics", "group": "Left-leaning", "url": "https://www.theguardian.com/us-news/us-politics/rss" },
+    { "id": "nyt", "name": "New York Times Politics", "group": "Left-leaning", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml" },
+    { "id": "motherjones", "name": "Mother Jones", "group": "Left-leaning", "url": "https://www.motherjones.com/feed/" },
+
+    { "id": "fox", "name": "Fox News Politics", "group": "Right-leaning", "url": "https://moxie.foxnews.com/google-publisher/politics.xml" },
+    { "id": "natreview", "name": "National Review", "group": "Right-leaning", "url": "https://www.nationalreview.com/feed/" },
+    { "id": "examiner", "name": "Washington Examiner", "group": "Right-leaning", "url": "https://www.washingtonexaminer.com/feed" },
+
+    { "id": "hill", "name": "The Hill", "group": "Center / mixed", "url": "https://thehill.com/homenews/feed/" },
+    { "id": "politico", "name": "Politico", "group": "Center / mixed", "url": "https://rss.politico.com/politics-news.xml" },
+    { "id": "axios", "name": "Axios", "group": "Center / mixed", "url": "https://api.axios.com/feed/" },
+    { "id": "reason", "name": "Reason (libertarian)", "group": "Center / mixed", "url": "https://reason.com/feed/" },
+
+    { "id": "ndmonitor", "name": "North Dakota Monitor", "group": "Local ND", "url": "https://northdakotamonitor.com/feed/" },
+    { "id": "kfyr", "name": "KFYR-TV (Bismarck)", "group": "Local ND", "url": "https://www.kfyrtv.com/arc/outboundfeeds/rss/?outputType=xml" },
+    { "id": "vnl", "name": "Valley News Live (Fargo)", "group": "Local ND", "url": "https://www.valleynewslive.com/arc/outboundfeeds/rss/?outputType=xml" },
+    { "id": "kxnet", "name": "KX News (Bismarck)", "group": "Local ND", "url": "https://www.kxnet.com/feed/" },
+    { "id": "bismtrib", "name": "Bismarck Tribune", "group": "Local ND", "url": "https://bismarcktribune.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc" }
+  ]
+}

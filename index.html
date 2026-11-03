@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midterm Desk</title>
+<style>
+  :root{
+    --bg:#f6f5f2; --card:#ffffff; --ink:#1b1f23; --muted:#5d6670; --line:#dcdad4;
+    --accent:#1f4e79; --accent-soft:#e3edf6; --ok:#2f7d4f; --warn:#b26a00; --bad:#b3261e;
+    --bar:#9db7cf; --bar-lead:#1f4e79;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --card:#1c2024; --ink:#e9ecef; --muted:#9aa4ae; --line:#2e353b;
+      --accent:#8fb8e3; --accent-soft:#223445; --ok:#5cc68a; --warn:#e0a13a; --bad:#f0857d;
+      --bar:#3b5266; --bar-lead:#8fb8e3; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--accent)}
+  header{padding:20px 16px 8px;max-width:1100px;margin:0 auto}
+  h1{margin:0;font-size:1.6rem;letter-spacing:-.01em}
+  .tag{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+  .bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px;font-size:.85rem;color:var(--muted)}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:baseline}
+  .dot.ok{background:var(--ok)} .dot.warn{background:var(--warn)} .dot.bad{background:var(--bad)}
+  nav{max-width:1100px;margin:8px auto 0;padding:0 16px;display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+  nav button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 12px;font:inherit;color:var(--muted);cursor:pointer}
+  nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+  main{max-width:1100px;margin:0 auto;padding:16px}
+  .notice{background:var(--accent-soft);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:.9rem;margin-bottom:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+  .card h3{margin:0 0 4px;font-size:1.02rem}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .muted{color:var(--muted)} .small{font-size:.85rem}
+  h2{font-size:1.15rem;margin:22px 0 8px}
+  .cand{display:grid;grid-template-columns:1fr auto;gap:2px 10px;margin:8px 0}
+  .cand .nm{font-weight:500}
+  .cand .meter{grid-column:1/-1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+  .cand .fill{height:100%;background:var(--bar)} .cand.lead .fill{background:var(--bar-lead)}
+  .pill{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);margin-right:6px}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+  .chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+  input[type=search]{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;min-width:200px}
+  .cols{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));align-items:start}
+  .col h3{font-size:.95rem;margin:0 0 8px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+  .item{padding:8px 0;border-bottom:1px solid var(--line)} .item:last-child{border-bottom:0}
+  .item a{color:var(--ink);text-decoration:none;font-weight:500} .item a:hover{text-decoration:underline}
+  .item .meta{font-size:.78rem;color:var(--muted);margin-top:2px}
+  table{width:100%;border-collapse:collapse;font-size:.9rem}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  .tiles{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .tile .big{font-size:2rem;font-weight:700;line-height:1.1}
+  footer{max-width:1100px;margin:10px auto 40px;padding:0 16px;color:var(--muted);font-size:.82rem}
+  button.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="siteName">Midterm Desk</h1>
+  <p class="tag" id="siteTag"></p>
+  <div class="bar">
+    <span><span class="dot" id="dot"></span><span id="fresh">Loading…</span></span>
+    <span id="next"></span>
+    <button class="link" id="refreshNow">Refresh now</button>
+  </div>
+</header>
+
+<nav role="tablist" aria-label="Sections">
+  <button role="tab" data-tab="north-dakota">North Dakota</button>
+  <button role="tab" data-tab="national">National</button>
+  <button role="tab" data-tab="compare">Compare coverage</button>
+  <button role="tab" data-tab="sources">Sources &amp; method</button>
+</nav>
+
+<main>
+  <section id="tab-north-dakota" hidden></section>
+  <section id="tab-national" hidden></section>
+  <section id="tab-compare" hidden></section>
+  <section id="tab-sources" hidden></section>
+</main>
+
+<footer>
+  Results shown here are unofficial until certified by election officials. Headlines link to the original publishers; we show no article text.
+  <span id="contact"></span>
+</footer>
+
+<script>
+const REFRESH_SECONDS = 60;
+const TABS = ['north-dakota','national','compare','sources'];
+const S = { site:null, races:null, news:null, status:null, nd:null, national:null,
+            topic:'All', electionOnly:true, q:'', ndq:'', loadedAt:null };
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
+const fmt = n => (n ?? 0).toLocaleString('en-US');
+
+async function getJSON(path){
+  try{
+    const r = await fetch(path + (path.includes('?') ? '&' : '?') + 't=' + Date.now(), {cache:'no-store'});
+    return r.ok ? await r.json() : null;
+  }catch(e){ return null; }
+}
+function ago(iso){
+  if(!iso) return 'never';
+  const s = Math.max(0, Math.round((Date.now() - new Date(iso).getTime())/1000));
+  if(s < 60) return s + 's ago';
+  if(s < 3600) return Math.round(s/60) + ' min ago';
+  if(s < 86400) return Math.round(s/3600) + ' h ago';
+  return Math.round(s/86400) + ' d ago';
+}
+function clock(iso){
+  if(!iso) return '';
+  return new Date(iso).toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}) + ' CT';
+}
+
+async function loadAll(){
+  const [site, races, news, status, nd, national] = await Promise.all([
+    getJSON('config/site.json'), getJSON('config/races.json'), getJSON('data/news.json'),
+    getJSON('data/status.json'), getJSON('data/nd_results.json'), getJSON('data/national.json')
+  ]);
+  Object.assign(S, {site, races, news, status, nd, national, loadedAt: Date.now()});
+  const a = document.activeElement;
+  if(a && a.tagName === 'INPUT' && a.type === 'search'){ renderHeader(); return; } // don't steal focus while typing
+  render();
+}
+
+/* ---------------- header ---------------- */
+function renderHeader(){
+  if(S.site){
+    $('#siteName').textContent = S.site.name || 'Midterm Desk';
+    document.title = S.site.name || 'Midterm Desk';
+    $('#siteTag').textContent = S.site.tagline || '';
+    $('#contact').textContent = S.site.contact ? ' Corrections: ' + S.site.contact : '';
+  }
+  const newest = [S.news?.generatedAt, S.status?.generatedAt, S.nd?.generatedAt].filter(Boolean).sort().pop();
+  const ageMin = newest ? (Date.now() - new Date(newest).getTime())/60000 : Infinity;
+  const dot = $('#dot');
+  dot.className = 'dot ' + (ageMin < 20 ? 'ok' : ageMin < 60 ? 'warn' : 'bad');
+  $('#fresh').textContent = newest
+    ? `Data refreshed ${ago(newest)} (${clock(newest)})` + (ageMin >= 20 ? ' — feed may be delayed' : '')
+    : 'Waiting for the first data run (see setup steps in README)';
+}
+
+/* ---------------- North Dakota ---------------- */
+function contestGroup(name){
+  if(/u\.?s\.?\s*(house|representative)|congress/i.test(name)) return 'Congress';
+  if(/measure|amendment|initiated|referred|question/i.test(name)) return 'Ballot measures';
+  if(/district|legislat|state (house|senate)|^house|^senate/i.test(name)) return 'Legislature';
+  return 'Statewide';
+}
+function contestCard(c){
+  const lead = c.candidates?.[0]?.votes || 0;
+  const rep = (c.precinctsTotal ? `${fmt(c.precinctsReporting)} of ${fmt(c.precinctsTotal)} precincts reporting` : '');
+  const rows = (c.candidates||[]).map((x,i)=>`
+    <div class="cand ${i===0 && lead>0 ? 'lead':''}">
+      <span class="nm">${esc(x.name)}${x.party? ` <span class="muted small">(${esc(x.party)})</span>`:''}${x.called? ' <span class="pill">Called</span>':''}</span>
+      <span>${fmt(x.votes)} · ${x.pct ?? 0}%</span>
+      <div class="meter"><div class="fill" style="width:${Math.min(100,x.pct||0)}%"></div></div>
+    </div>`).join('');
+  return `<div class="card"><h3>${esc(c.name)}</h3><div class="muted small">${esc(rep)}${rep?' · ':''}${fmt(c.totalVotes)} votes counted</div>${rows}</div>`;
+}
+function renderND(){
+  const links = (S.site?.officialLinks||[]).slice(0,2).map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join(' · ');
+  let h = '';
+  const contests = S.nd?.contests || [];
+  h += `<h2>Live results</h2>`;
+  if(contests.length){
+    h += `<div class="notice">Source: ${esc(S.nd.source)}. Updated ${ago(S.nd.generatedAt)}. "Leading" is not a call: race calls come from AP, Decision Desk HQ and the official canvass. Official site: ${links}</div>`;
+    h += `<div class="row"><input type="search" id="ndq" placeholder="Filter contests (e.g. Fedorchak, measure, district 12)" value="${esc(S.ndq)}"></div>`;
+    const q = S.ndq.toLowerCase();
+    const shown = contests.filter(c => !q || (c.name+' '+(c.candidates||[]).map(x=>x.name).join(' ')).toLowerCase().includes(q));
+    for(const g of ['Congress','Statewide','Ballot measures','Legislature']){
+      const list = shown.filter(c=>contestGroup(c.name)===g);
+      if(list.length) h += `<h2>${g}</h2><div class="grid">${list.map(contestCard).join('')}</div>`;
+    }
+    if(!shown.length) h += `<p class="muted">No contests match.</p>`;
+  } else {
+    h += `<div class="notice">No official results are loaded yet. Polls close at 9 PM ET. Until the official feed is connected, use the official site: ${links}</div>`;
+  }
+
+  const r = S.races?.nd;
+  if(r){
+    h += `<h2>Key facts</h2><div class="grid">` + r.facts.map(f=>`<div class="card"><h3>${esc(f.label)}</h3>${esc(f.text)}<div class="small muted">Source: <a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.source)}</a></div></div>`).join('') + `</div>`;
+    h += `<h2>What's on North Dakota's ballot</h2>`;
+    for(const g of ['Congress','Statewide','Legislature','Ballot measures']){
+      const list = r.races.filter(x=>x.group===g);
+      if(list.length) h += `<h3 class="muted small" style="margin:14px 0 6px;text-transform:uppercase;letter-spacing:.05em">${g}</h3><div class="grid">` +
+        list.map(x=>`<div class="card"><h3>${esc(x.office)}</h3>${esc(x.detail)}<div class="small muted">Source: <a href="${safeUrl(x.url)}" target="_blank" rel="noopener">${esc(x.source)}</a></div></div>`).join('') + `</div>`;
+    }
+  }
+  const ndNews = (S.news?.items||[]).filter(i=>i.topics?.includes('North Dakota') && i.election).slice(0,14);
+  h += `<h2>North Dakota headlines</h2><div class="card">` + (ndNews.length ? ndNews.map(newsItem).join('') : `<span class="muted">No North Dakota election headlines yet.</span>`) + `</div>`;
+  $('#tab-north-dakota').innerHTML = h;
+  const f = $('#ndq'); if(f){ f.oninput = e => { S.ndq = e.target.value; const pos = e.target.selectionStart; renderND(); const n=$('#ndq'); n.focus(); n.setSelectionRange(pos,pos); }; }
+}
+
+/* ---------------- National ---------------- */
+function tile(title, d){
+  if(!d) return `<div class="card tile"><h3>${title}</h3><div class="muted">No licensed results feed connected.</div></div>`;
+  return `<div class="card tile"><h3>${title}</h3>
+    <div class="big">${esc(d.a?.label||'A')} ${fmt(d.a?.seats)} · ${esc(d.b?.label||'B')} ${fmt(d.b?.seats)}</div>
+    <div class="muted small">${d.other!=null?`Other ${fmt(d.other)} · `:''}Needed for control: ${fmt(d.needed)} · Undecided: ${fmt(d.undecided)}</div></div>`;
+}
+function renderNational(){
+  const n = S.national;
+  let h = `<div class="notice">${n ? `National totals from ${esc(n.source)}, updated ${ago(n.generatedAt)}.` :
+    `National seat totals need a licensed results feed (AP or Decision Desk HQ). Until one is connected this page will not guess: use the sources below. Schema and setup are in the README.`}</div>`;
+  h += `<div class="tiles">${tile('U.S. House', n?.house)}${tile('U.S. Senate', n?.senate)}</div>`;
+  h += `<h2>Where to watch live national results</h2><div class="card">` +
+    (S.site?.officialLinks||[]).map(l=>`<div><a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></div>`).join('') + `</div>`;
+  const nat = (S.news?.items||[]).filter(i=>i.election && !i.topics.includes('North Dakota') && i.group!=='Local ND').slice(0,16);
+  h += `<h2>Latest national election headlines</h2><div class="card">` + (nat.length? nat.map(newsItem).join('') : `<span class="muted">No headlines yet.</span>`) + `</div>`;
+  $('#tab-national').innerHTML = h;
+}
+
+/* ---------------- Compare ---------------- */
+function newsItem(i){
+  return `<div class="item"><a href="${safeUrl(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+    <div class="meta">${esc(i.source)}${i.published? ' · '+ago(i.published):''}${(i.topics||[]).slice(0,3).map(t=>` <span class="pill">${esc(t)}</span>`).join('')}</div></div>`;
+}
+const GROUP_ORDER = ['Wire & public media','Left-leaning','Center / mixed','Right-leaning','Local ND'];
+function renderCompare(){
+  const items = S.news?.items || [];
+  const topics = ['All', ...[...new Set(items.flatMap(i=>i.topics||[]))].sort()];
+  const q = S.q.toLowerCase();
+  const filtered = items.filter(i =>
+    (!S.electionOnly || i.election) &&
+    (S.topic==='All' || i.topics?.includes(S.topic)) &&
+    (!q || i.title.toLowerCase().includes(q)));
+  let h = `<div class="notice">Same story, different outlets. Pick a topic to see how each group of sources is covering it. Groupings are a rough starting point, not a rating, and are editable in config/sources.json.</div>`;
+  h += `<div class="row">` + topics.map(t=>`<button class="chip" data-topic="${esc(t)}" aria-pressed="${S.topic===t}">${esc(t)}</button>`).join('') + `</div>`;
+  h += `<div class="row"><input type="search" id="q" placeholder="Search headlines" value="${esc(S.q)}">
+        <label class="small"><input type="checkbox" id="eo" ${S.electionOnly?'checked':''}> Election-related only</label>
+        <span class="muted small">${filtered.length} headlines</span></div>`;
+  const groups = GROUP_ORDER.concat([...new Set(items.map(i=>i.group))].filter(g=>!GROUP_ORDER.includes(g)));
+  h += `<div class="cols">` + groups.map(g=>{
+    const list = filtered.filter(i=>i.group===g).slice(0,10);
+    return `<div class="col card"><h3>${esc(g)} <span class="muted small">(${filtered.filter(i=>i.group===g).length})</span></h3>${list.length? list.map(newsItem).join('') : '<span class="muted small">Nothing matching right now.</span>'}</div>`;
+  }).join('') + `</div>`;
+  $('#tab-compare').innerHTML = h;
+  document.querySelectorAll('[data-topic]').forEach(b=>b.onclick=()=>{S.topic=b.dataset.topic;renderCompare();});
+  const qi=$('#q'); qi.oninput=e=>{S.q=e.target.value;const p=e.target.selectionStart;renderCompare();const n=$('#q');n.focus();n.setSelectionRange(p,p);};
+  $('#eo').onchange=e=>{S.electionOnly=e.target.checked;renderCompare();};
+}
+
+/* ---------------- Sources ---------------- */
+function renderSources(){
+  const st = S.status?.sources || [];
+  const bad = st.filter(s=>!s.ok).length;
+  let h = `<div class="notice">Every source is checked on each update. Red means that feed failed on the last run, so you can see gaps instead of silently missing a side of the story. ${st.length? `${st.length-bad} of ${st.length} sources working.`:''}</div>`;
+  h += `<div class="card"><table><thead><tr><th>Source</th><th>Group</th><th>Status</th><th>Items</th><th>Last checked</th></tr></thead><tbody>` +
+    (st.length? st.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td>
+      <td>${s.ok? '<span class="dot ok"></span>OK' : `<span class="dot bad"></span>${esc(s.error||'failed')}`}</td><td>${s.count}</td><td>${ago(s.fetchedAt)}</td></tr>`).join('')
+      : `<tr><td colspan="5" class="muted">No data run yet.</td></tr>`) + `</tbody></table></div>`;
+  h += `<h2>Method</h2><div class="card small">
+    <p><b>What this is.</b> A feed of official results plus headlines from many outlets, shown side by side. No article text is copied; every headline links to its publisher.</p>
+    <p><b>Results.</b> North Dakota numbers come straight from the Secretary of State's results export. They are unofficial until canvassed. We label "leading" separately from "called", and we do not make our own calls.</p>
+    <p><b>Topics.</b> Topic tags come from simple keyword rules in <code>scripts/update.mjs</code>. They can miss or over-match; they are filters, not judgments.</p>
+    <p><b>Independence.</b> No party, campaign or PAC funds or directs this site. Corrections: ${esc(S.site?.contact||'')}.</p></div>`;
+  $('#tab-sources').innerHTML = h;
+}
+
+/* ---------------- routing / loop ---------------- */
+function render(){
+  renderHeader(); renderND(); renderNational(); renderCompare(); renderSources();
+}
+function showTab(name){
+  if(!TABS.includes(name)) name = 'north-dakota';
+  TABS.forEach(t=>{ $('#tab-'+t).hidden = t!==name; });
+  document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-selected', b.dataset.tab===name));
+  if(location.hash !== '#'+name) history.replaceState(null,'','#'+name);
+}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+window.addEventListener('hashchange',()=>showTab(location.hash.slice(1)));
+$('#refreshNow').onclick = () => { countdown = REFRESH_SECONDS; loadAll(); };
+
+let countdown = REFRESH_SECONDS;
+setInterval(()=>{
+  countdown--;
+  $('#next').textContent = `Page re-checks in ${countdown}s`;
+  if(S.loadedAt) renderHeader();
+  if(countdown <= 0){ countdown = REFRESH_SECONDS; loadAll(); }
+}, 1000);
+
+showTab(location.hash.slice(1));
+loadAll();
+</script>
+</body>
+</html>

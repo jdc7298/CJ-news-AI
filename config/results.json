@@ -1,0 +1,10 @@
+{
+  "_howto": "Leave 'url' empty until you have the official export link. Open https://resultsnd.sos.nd.gov/ , use its Exports menu, right-click the CSV (or JSON/XML) link, Copy Link Address, and paste it into 'url' below. Format 'auto' detects CSV vs JSON. If the CSV headers are unusual, name them in 'columns' (keys: contest, candidate, party, votes, reporting, totalPrecincts).",
+  "nd": {
+    "enabled": true,
+    "label": "North Dakota Secretary of State (official, unofficial until canvassed)",
+    "sources": [
+      { "label": "ND SOS statewide export", "url": "", "format": "auto", "columns": {} }
+    ]
+  }
+}
