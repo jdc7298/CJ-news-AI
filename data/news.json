@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T22:55:54.314Z",
+ "generatedAt": "2026-11-03T22:56:57.481Z",
  "items": [
   {
    "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
@@ -41,20 +41,6 @@
    "published": "2026-11-03T22:49:37.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: key House and Senate races to determine control of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T22:49:27.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -260,6 +246,18 @@
     "Voting & access",
     "North Dakota"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/doj-democrats-alaska-dan-sullivan-investigation-letters",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "DoJ tells Democrats in letters they could be targets of Alaska ballot investigation",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/doj-democrats-alaska-dan-sullivan-investigation-letters",
+   "published": "2026-11-03T22:12:53.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -1306,6 +1304,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1318,18 +1328,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -1781,18 +1779,6 @@
    "topics": [
     "North Dakota"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Christian voters in Washington state divided by common religion: ‘I don’t think the US is God’s kingdom on Earth’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/washington-state-religious-christian-voters-midterms",
-   "published": "2026-11-03T15:57:09.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -2614,6 +2600,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Are prediction markets accurate on elections? The US midterms are a big test",
+   "url": "https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
+   "published": "2026-11-03T11:00:56.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/03/worker-training-voter-education-called-keys-to-smooth-election/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -2989,6 +2987,18 @@
    "section": "politics"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -3135,18 +3145,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
