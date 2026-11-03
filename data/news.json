@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:15:26.778Z",
+ "generatedAt": "2026-11-03T20:16:52.002Z",
  "items": [
+  {
+   "id": "vergeai|https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Apple starts giving Siri AI access to third-party apps",
+   "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+   "published": "2026-11-03T20:16:17.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
   {
    "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
    "source": "The Guardian US Politics",
@@ -843,6 +855,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -869,18 +893,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6192895-acton-ramaswamy-ohio-attack-ad/",
@@ -2788,18 +2800,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -2946,6 +2946,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
@@ -3715,21 +3727,6 @@
    "topics": [],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-   "published": "2026-11-02T18:01:30.000Z",
-   "topics": [
-    "Data & privacy",
-    "Chips & infrastructure"
-   ],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "openai|https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
