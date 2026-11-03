@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:31:47.482Z",
+ "generatedAt": "2026-11-03T21:33:01.763Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
@@ -14,6 +14,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+   "published": "2026-11-03T21:28:13.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/6193992-idaho-voters-choose-official-firearm/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -21,6 +35,18 @@
    "title": "Winchester vs. Colt: Idaho votes to designate a state gun",
    "url": "https://thehill.com/homenews/6193992-idaho-voters-choose-official-firearm/",
    "published": "2026-11-03T21:27:20.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Minneapolis community leave ‘I Voted’ stickers at memorial sites for Alex Pretti and Renee Good",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
+   "published": "2026-11-03T21:27:03.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -86,18 +112,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T21:14:42.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "examiner|https://www.washingtonexaminer.com/news/crime/4789792/jacob-morley-escaped-tennessee-murderer-missouri/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -119,18 +133,6 @@
    "published": "2026-11-03T21:07:16.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Minneapolis community leave ‘I Voted’ stickers at Alex Pretti’s memorial site",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
-   "published": "2026-11-03T21:05:52.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1009,6 +1011,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1021,18 +1035,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
