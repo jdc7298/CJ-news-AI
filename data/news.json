@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T20:43:02.148Z",
+ "generatedAt": "2026-11-03T20:44:17.205Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/state-watch/6193851-paxton-texas-felony-voting-probe-harris-county/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Paxton: Review of Harris County voting claims 'won't be resolved by the time the election is over'",
+   "url": "https://thehill.com/homenews/state-watch/6193851-paxton-texas-felony-voting-probe-harris-county/",
+   "published": "2026-11-03T20:43:25.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/blogs/ballot-box/6193842-dhs-warns-noncitizens-midterms/",
    "source": "The Hill",
@@ -9,6 +21,18 @@
    "title": "DHS's Mullin warns people who illegally vote will be hunted down",
    "url": "https://thehill.com/blogs/ballot-box/6193842-dhs-warns-noncitizens-midterms/",
    "published": "2026-11-03T20:40:30.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Live updates: America heads to the polls as Trump fights to protect his agenda",
+   "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
+   "published": "2026-11-03T20:40:00.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -44,7 +68,7 @@
    "group": "Left-leaning",
    "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-   "published": "2026-11-03T20:33:22.000Z",
+   "published": "2026-11-03T20:36:48.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -323,18 +347,6 @@
     "Voting & access",
     "North Dakota"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Live updates: America heads to the polls as Trump fights to protect his agenda",
-   "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
-   "published": "2026-11-03T19:46:00.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -889,26 +901,26 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Transparent, approved and stoppable: A standard for government’s use of AI",
-   "url": "https://thehill.com/opinion/technology/6191080-lawmakers-must-regulate-government-ai/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "Misinformation & AI"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Holiday gift budgets drop 21% as families cut back, report finds",
    "url": "https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
+   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "published": "2026-11-03T18:00:00.000Z",
    "topics": [
     "North Dakota"
@@ -927,20 +939,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
