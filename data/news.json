@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T21:33:01.763Z",
+ "generatedAt": "2026-11-03T21:34:24.887Z",
  "items": [
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
@@ -11,6 +11,18 @@
    "published": "2026-11-03T21:30:34.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
+   "url": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
+   "published": "2026-11-03T21:30:27.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -288,6 +300,20 @@
    "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4789823/what-to-watch-for-when-election-night/",
    "published": "2026-11-03T20:33:10.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/kansas-postal-worker-indicted-stealing-mail-including-hundreds-republican-election-flyers",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Kansas postal worker indicted for stealing mail including hundreds of Republican election flyers",
+   "url": "https://www.foxnews.com/politics/kansas-postal-worker-indicted-stealing-mail-including-hundreds-republican-election-flyers",
+   "published": "2026-11-03T20:26:15.000Z",
+   "topics": [
+    "Voting & access"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -1011,18 +1037,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1049,6 +1063,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -2011,18 +2037,6 @@
    "section": "politics"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
-   "url": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
-   "published": "2026-11-03T14:09:33.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "reason|https://reason.com/volokh/2026/11/03/accusing-university-lecturer-who-called-police-of-blatant-racial-profiling-leads-to-37500-defamation-verdict/",
    "source": "Reason (libertarian)",
    "sourceId": "reason",
@@ -2748,18 +2762,6 @@
    "section": "politics"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -2769,18 +2771,6 @@
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "A new cold war: hackers target fridges across the globe",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -2805,6 +2795,30 @@
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "A new cold war: hackers target fridges across the globe",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -3617,18 +3631,6 @@
    "published": "2026-11-02T20:48:47.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/battleground-dem-touts-bipartisan-record-cant-name-single-issue-shed-work-trump",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on",
-   "url": "https://www.foxnews.com/politics/battleground-dem-touts-bipartisan-record-cant-name-single-issue-shed-work-trump",
-   "published": "2026-11-02T20:30:44.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
