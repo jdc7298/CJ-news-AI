@@ -1,10 +1,11 @@
 {
-  "_howto": "Leave 'url' empty until you have the official export link. Open https://resultsnd.sos.nd.gov/ , use its Exports menu, right-click the CSV (or JSON/XML) link, Copy Link Address, and paste it into 'url' below. Format 'auto' detects CSV vs JSON. If the CSV headers are unusual, name them in 'columns' (keys: contest, candidate, party, votes, reporting, totalPrecincts).",
+  "_howto": "Paste the direct download link of the ND Secretary of State CSV export into 'url'. In Chrome: open https://resultsnd.sos.nd.gov/#election=348 , Exports, download the 'General Election' CSV, then open chrome://downloads and copy the link shown under the file name. Use the big all-contests file as the first source. The smaller 'State' file is optional backup for statewide races. Leave a url empty to skip it.",
   "nd": {
     "enabled": true,
     "label": "North Dakota Secretary of State (official, unofficial until canvassed)",
     "sources": [
-      { "label": "ND SOS statewide export", "url": "", "format": "auto", "columns": {} }
+      { "label": "ND SOS General Election export (all contests)", "url": "", "format": "nd-sos" },
+      { "label": "ND SOS General Election export (statewide only)", "url": "", "format": "nd-sos" }
     ]
   }
 }

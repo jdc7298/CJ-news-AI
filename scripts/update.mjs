@@ -195,6 +195,70 @@ export function normalizeCSV(text, overrides = {}) {
   return finishContests([...map.values()]);
 }
 
+// ---- North Dakota Secretary of State "General Election" CSV export ----
+// One row per contest x location x candidate. Location ID 38xxx = a county; 4-digit IDs are
+// precincts/sub-areas inside a county, which are ignored here so nothing is double counted.
+// The smaller "State" export has no Location ID column and uses county names only.
+const ND_STATEWIDE = /^(Secretary of State|Attorney General|Agriculture Commissioner|Public Service Commissioner|Tax Commissioner|Superintendent of Public Instruction|Justice of the Supreme Court)/i;
+const ND_PARTY = { REP: 'R', DEM: 'D-NPL', IND: 'Ind.', LIB: 'Lib.', NON: '' };
+
+export function ndCategory(name) {
+  if (/^Representative in Congress/i.test(name)) return 'Congress';
+  if (ND_STATEWIDE.test(name)) return 'Statewide';
+  if (/^(Initiated )?Constitutional Measure/i.test(name)) return 'Ballot measures';
+  if (/^State (Senator|Representative)/i.test(name)) return 'Legislature';
+  return 'Local';
+}
+
+export function isNDSOS(headerRow) {
+  const h = headerRow.map(x => x.trim().toLowerCase());
+  return h.includes('candidate vote percentage') && h.includes('contest id') && (h.includes('location id') || h.includes('location'));
+}
+
+export function normalizeNDSOS(text) {
+  const rows = parseCSV(text);
+  const header = rows[0].map(h => h.trim());
+  const ix = n => header.findIndex(h => h.toLowerCase() === n.toLowerCase());
+  const c = {
+    id: ix('Contest ID'), name: ix('Contest Name'),
+    locId: ix('Location ID'), loc: ix('Location Name') >= 0 ? ix('Location Name') : ix('Location'),
+    pt: ix('Total Precincts'), pr: ix('Precincts Reporting'), pp: ix('Precincts Partially Reporting'),
+    cid: ix('Candidate ID'), cname: ix('Candidate Name'), party: ix('Party ID'), votes: ix('Candidate Votes'),
+  };
+  for (const [k, v] of Object.entries(c)) if (v < 0 && !['locId', 'party'].includes(k)) throw new Error('ND export is missing column for ' + k);
+  const map = new Map();
+  for (const r of rows.slice(1)) {
+    if (c.locId >= 0 && !/^38\d{3}$/.test((r[c.locId] || '').trim())) continue; // county-level rows only
+    const cid = r[c.id];
+    const name = (r[c.name] || '').replace(/\s+/g, ' ').trim();
+    if (!cid || !name) continue;
+    let k = map.get(cid);
+    if (!k) { k = { id: cid, name, category: ndCategory(name), precinctsTotal: 0, precinctsReporting: 0, precinctsPartial: 0, cands: new Map(), counties: {} }; map.set(cid, k); }
+    const county = (r[c.loc] || '').trim();
+    const pt = num(r[c.pt]) || 0, pr = num(r[c.pr]) || 0, pp = num(r[c.pp]) || 0;
+    let cty = k.counties[county];
+    if (!cty) { cty = k.counties[county] = { pt, pr, pp, v: {} }; k.precinctsTotal += pt; k.precinctsReporting += pr; k.precinctsPartial += pp; }
+    const candId = r[c.cid];
+    let cn = (r[c.cname] || '').replace(/\s+/g, ' ').trim();
+    if (/^write-?in$/i.test(cn)) cn = 'Write-in';
+    const partyRaw = c.party >= 0 ? (r[c.party] || '').trim().toUpperCase() : '';
+    const party = partyRaw in ND_PARTY ? ND_PARTY[partyRaw] : partyRaw;
+    const votes = num(r[c.votes]) || 0;
+    cty.v[candId] = (cty.v[candId] || 0) + votes;
+    const cand = k.cands.get(candId) || { id: candId, name: cn, party, votes: 0 };
+    cand.votes += votes;
+    k.cands.set(candId, cand);
+  }
+  const out = [];
+  for (const k of map.values()) {
+    out.push({ id: k.id, name: k.name, category: k.category, precinctsTotal: k.precinctsTotal, precinctsReporting: k.precinctsReporting,
+      precinctsPartial: k.precinctsPartial, candidates: [...k.cands.values()], counties: k.counties });
+  }
+  const order = { Congress: 0, Statewide: 1, 'Ballot measures': 2, Legislature: 3, Local: 4 };
+  out.sort((a, b) => order[a.category] - order[b.category] || a.name.localeCompare(b.name, 'en', { numeric: true }));
+  return finishContests(out);
+}
+
 function finishContests(contests) {
   for (const c of contests) {
     const total = c.candidates.reduce((a, x) => a + (x.votes || 0), 0);
@@ -214,21 +278,27 @@ async function updateResults(now) {
   for (const [key, block] of Object.entries(cfg)) {
     if (key.startsWith('_') || !block || block.enabled === false) continue;
     const contests = [];
+    const seenIds = new Set();
     for (const src of block.sources || []) {
       if (!src.url) continue;
       const t0 = Date.now();
       try {
         const text = await getText(src.url);
-        const fmt = src.format && src.format !== 'auto' ? src.format : /^\s*[\[{]/.test(text) ? 'json' : 'csv';
+        let fmt = src.format && src.format !== 'auto' ? src.format : /^\s*[\[{]/.test(text) ? 'json' : 'csv';
         let got;
         if (fmt === 'json') {
           const j = JSON.parse(text);
           got = finishContests(Array.isArray(j) ? j : j.contests); // already-normalized JSON
           if (!Array.isArray(got)) throw new Error('JSON must be an array of contests or {contests:[...]}');
+        } else if (fmt === 'nd-sos' || (fmt === 'csv' && isNDSOS(parseCSV(text.slice(0, 2000).split(/\r?\n/)[0] || '')[0] || []))) {
+          got = normalizeNDSOS(text);
         } else {
           got = normalizeCSV(text, src.columns || {});
         }
-        contests.push(...got);
+        for (const g of got) {
+          const key = g.id ?? g.name;
+          if (!seenIds.has(key)) { seenIds.add(key); contests.push(g); } // first source wins on duplicates
+        }
         status.push({ id: 'results-' + key, name: src.label || src.url, group: 'Official results', ok: true, count: got.length, error: null, fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });
       } catch (e) {
         status.push({ id: 'results-' + key, name: src.label || src.url, group: 'Official results', ok: false, count: 0, error: String(e.message || e).slice(0, 200), fetchedAt: new Date(now).toISOString(), ms: Date.now() - t0 });

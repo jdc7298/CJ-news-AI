@@ -54,6 +54,8 @@
   .tile .big{font-size:2rem;font-weight:700;line-height:1.1}
   footer{max-width:1100px;margin:10px auto 40px;padding:0 16px;color:var(--muted);font-size:.82rem}
   button.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
+  details{margin:10px 0} summary{cursor:pointer;padding:6px 0;font-size:1.02rem}
+  select{padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
   [hidden]{display:none!important}
 </style>
 </head>
@@ -91,7 +93,8 @@
 const REFRESH_SECONDS = 60;
 const TABS = ['north-dakota','national','compare','sources'];
 const S = { site:null, races:null, news:null, status:null, nd:null, national:null,
-            topic:'All', electionOnly:true, q:'', ndq:'', loadedAt:null };
+            topic:'All', electionOnly:true, q:'', ndq:'', loadedAt:null, county:'', open:{} };
+try{ S.county = localStorage.getItem('md-county') || ''; }catch(_){}
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -124,7 +127,7 @@ async function loadAll(){
   ]);
   Object.assign(S, {site, races, news, status, nd, national, loadedAt: Date.now()});
   const a = document.activeElement;
-  if(a && a.tagName === 'INPUT' && a.type === 'search'){ renderHeader(); return; } // don't steal focus while typing
+  if(a && ((a.tagName === 'INPUT' && a.type === 'search') || a.tagName === 'SELECT')){ renderHeader(); return; } // don't steal focus while typing
   render();
 }
 
@@ -146,37 +149,75 @@ function renderHeader(){
 }
 
 /* ---------------- North Dakota ---------------- */
-function contestGroup(name){
-  if(/u\.?s\.?\s*(house|representative)|congress/i.test(name)) return 'Congress';
-  if(/measure|amendment|initiated|referred|question/i.test(name)) return 'Ballot measures';
-  if(/district|legislat|state (house|senate)|^house|^senate/i.test(name)) return 'Legislature';
+const CATS = ['Congress','Statewide','Ballot measures','Legislature','Local'];
+function catOf(c){
+  if(c.category) return c.category;
+  if(/u\.?s\.?\s*(house|representative)|congress/i.test(c.name)) return 'Congress';
+  if(/measure|amendment|initiated|referred|question/i.test(c.name)) return 'Ballot measures';
+  if(/district|legislat|state (house|senate)|^house|^senate/i.test(c.name)) return 'Legislature';
   return 'Statewide';
 }
-function contestCard(c){
-  const lead = c.candidates?.[0]?.votes || 0;
-  const rep = (c.precinctsTotal ? `${fmt(c.precinctsReporting)} of ${fmt(c.precinctsTotal)} precincts reporting` : '');
-  const rows = (c.candidates||[]).map((x,i)=>`
+function view(c, county){
+  // returns the numbers to display: statewide totals, or one county's numbers
+  if(!county) return {cands:c.candidates||[], total:c.totalVotes||0, pr:c.precinctsReporting, pt:c.precinctsTotal, pp:c.precinctsPartial};
+  const cd = c.counties?.[county]; if(!cd) return null;
+  const cands = (c.candidates||[]).map(x=>({...x, votes: cd.v?.[x.id]||0}));
+  const total = cands.reduce((a,x)=>a+x.votes,0);
+  cands.forEach(x=>x.pct = total ? Math.round(x.votes/total*1000)/10 : 0);
+  cands.sort((a,b)=>b.votes-a.votes);
+  return {cands, total, pr:cd.pr, pt:cd.pt, pp:cd.pp};
+}
+function contestCard(c, county){
+  const v = view(c, county); if(!v) return '';
+  const lead = v.cands[0]?.votes || 0;
+  const rep = v.pt ? `${fmt(v.pr)} of ${fmt(v.pt)} precinct${v.pt===1?'':'s'} reporting${v.pp?` (+${fmt(v.pp)} partial)`:''}` : '';
+  const rows = v.cands.map((x,i)=>`
     <div class="cand ${i===0 && lead>0 ? 'lead':''}">
       <span class="nm">${esc(x.name)}${x.party? ` <span class="muted small">(${esc(x.party)})</span>`:''}${x.called? ' <span class="pill">Called</span>':''}</span>
       <span>${fmt(x.votes)} · ${x.pct ?? 0}%</span>
       <div class="meter"><div class="fill" style="width:${Math.min(100,x.pct||0)}%"></div></div>
     </div>`).join('');
-  return `<div class="card"><h3>${esc(c.name)}</h3><div class="muted small">${esc(rep)}${rep?' · ':''}${fmt(c.totalVotes)} votes counted</div>${rows}</div>`;
+  return `<div class="card"><h3>${esc(c.name)}</h3><div class="muted small">${esc(rep)}${rep?' · ':''}${fmt(v.total)} votes counted${county?` in ${esc(county)} County`:''}</div>${rows}</div>`;
+}
+function matches(c, q){
+  return !q || (c.name+' '+(c.candidates||[]).map(x=>x.name).join(' ')+' '+Object.keys(c.counties||{}).join(' ')).toLowerCase().includes(q);
+}
+function section(title, list, county, key, openByDefault, note){
+  if(!list.length) return '';
+  const open = S.open[key] ?? openByDefault;
+  return `<details data-key="${key}" ${open?'open':''}><summary><b>${esc(title)}</b> <span class="muted small">(${list.length})</span></summary>
+    ${note?`<div class="small muted" style="margin:6px 0">${note}</div>`:''}
+    <div class="grid" style="margin-top:8px">${list.map(c=>contestCard(c,county)).join('')}</div></details>`;
 }
 function renderND(){
   const links = (S.site?.officialLinks||[]).slice(0,2).map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join(' · ');
-  let h = '';
   const contests = S.nd?.contests || [];
-  h += `<h2>Live results</h2>`;
+  const q = S.ndq.toLowerCase();
+  let h = `<h2>Live results</h2>`;
   if(contests.length){
-    h += `<div class="notice">Source: ${esc(S.nd.source)}. Updated ${ago(S.nd.generatedAt)}. "Leading" is not a call: race calls come from AP, Decision Desk HQ and the official canvass. Official site: ${links}</div>`;
-    h += `<div class="row"><input type="search" id="ndq" placeholder="Filter contests (e.g. Fedorchak, measure, district 12)" value="${esc(S.ndq)}"></div>`;
-    const q = S.ndq.toLowerCase();
-    const shown = contests.filter(c => !q || (c.name+' '+(c.candidates||[]).map(x=>x.name).join(' ')).toLowerCase().includes(q));
-    for(const g of ['Congress','Statewide','Ballot measures','Legislature']){
-      const list = shown.filter(c=>contestGroup(c.name)===g);
-      if(list.length) h += `<h2>${g}</h2><div class="grid">${list.map(contestCard).join('')}</div>`;
+    const counties = [...new Set(contests.flatMap(c=>Object.keys(c.counties||{})))].sort();
+    h += `<div class="notice">Source: ${esc(S.nd.source)}. Updated ${ago(S.nd.generatedAt)}. Unofficial until certified. "Leading" is not a call: race calls come from AP, Decision Desk HQ and the official canvass. Official site: ${links}</div>`;
+    h += `<div class="row">
+      <label class="small">My county: <select id="county"><option value="">Statewide totals</option>${counties.map(n=>`<option ${n===S.county?'selected':''}>${esc(n)}</option>`).join('')}</select></label>
+      <input type="search" id="ndq" placeholder="Search any contest, candidate or county" value="${esc(S.ndq)}"></div>`;
+    const county = S.county || '';
+    const shown = contests.filter(c=>matches(c,q));
+    if(county){
+      const mine = shown.filter(c=>c.counties?.[county]);
+      h += `<h2>In ${esc(county)} County</h2><p class="muted small" style="margin-top:-4px">County numbers only. Statewide races show this county's share of the vote, not the state result.</p>`;
+      for(const g of CATS){
+        const list = mine.filter(c=>catOf(c)===g);
+        h += section(g==='Local' ? 'County, city, school and local measures' : g, list, county, 'my-'+g, g!=='Legislature' && g!=='Local' || list.length<=12);
+      }
+      h += `<h2>Statewide totals</h2>`;
     }
+    const total = (g)=>shown.filter(c=>catOf(c)===g);
+    for(const g of ['Congress','Statewide','Ballot measures']) h += section(g==='Statewide'?'Statewide offices':g, total(g), '', 'st-'+g, true);
+    h += section('Legislature (State Senate and State House)', total('Legislature'), '', 'st-Legislature', !!q || false,
+      'Most districts elect one senator and two House members, so in a House race the top two finishers win.');
+    const loc = total('Local');
+    h += q ? section('Local contests matching your search', loc.slice(0,60), '', 'st-Local', true, loc.length>60 ? `Showing 60 of ${loc.length}. Narrow your search.` : '')
+           : `<p class="muted small">${loc.length} local contests (county offices, cities, schools, local measures) are available: choose your county above or search by name.</p>`;
     if(!shown.length) h += `<p class="muted">No contests match.</p>`;
   } else {
     h += `<div class="notice">No official results are loaded yet. Polls close at 9 PM ET. Until the official feed is connected, use the official site: ${links}</div>`;
@@ -186,7 +227,7 @@ function renderND(){
   if(r){
     h += `<h2>Key facts</h2><div class="grid">` + r.facts.map(f=>`<div class="card"><h3>${esc(f.label)}</h3>${esc(f.text)}<div class="small muted">Source: <a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.source)}</a></div></div>`).join('') + `</div>`;
     h += `<h2>What's on North Dakota's ballot</h2>`;
-    for(const g of ['Congress','Statewide','Legislature','Ballot measures']){
+    for(const g of ['Congress','Statewide','Legislature','Ballot measures','Local']){
       const list = r.races.filter(x=>x.group===g);
       if(list.length) h += `<h3 class="muted small" style="margin:14px 0 6px;text-transform:uppercase;letter-spacing:.05em">${g}</h3><div class="grid">` +
         list.map(x=>`<div class="card"><h3>${esc(x.office)}</h3>${esc(x.detail)}<div class="small muted">Source: <a href="${safeUrl(x.url)}" target="_blank" rel="noopener">${esc(x.source)}</a></div></div>`).join('') + `</div>`;
@@ -195,7 +236,10 @@ function renderND(){
   const ndNews = (S.news?.items||[]).filter(i=>i.topics?.includes('North Dakota') && i.election).slice(0,14);
   h += `<h2>North Dakota headlines</h2><div class="card">` + (ndNews.length ? ndNews.map(newsItem).join('') : `<span class="muted">No North Dakota election headlines yet.</span>`) + `</div>`;
   $('#tab-north-dakota').innerHTML = h;
+
   const f = $('#ndq'); if(f){ f.oninput = e => { S.ndq = e.target.value; const pos = e.target.selectionStart; renderND(); const n=$('#ndq'); n.focus(); n.setSelectionRange(pos,pos); }; }
+  const sel = $('#county'); if(sel){ sel.onchange = e => { S.county = e.target.value; try{ localStorage.setItem('md-county', S.county); }catch(_){} renderND(); }; }
+  document.querySelectorAll('#tab-north-dakota details[data-key]').forEach(d=>d.addEventListener('toggle',()=>{ S.open[d.dataset.key] = d.open; }));
 }
 
 /* ---------------- National ---------------- */
