@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-03T21:57:08.089Z",
+ "generatedAt": "2026-11-03T21:58:12.127Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Live updates: Midterms in full swing in final hours before polls close",
+   "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
+   "published": "2026-11-03T21:57:37.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/trump-israel-aid-netanyahu.html",
    "source": "New York Times Politics",
@@ -56,7 +68,7 @@
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
+   "title": "Voter turnout surges in US midterm elections with control of Congress at stake – live",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
    "published": "2026-11-03T21:47:46.000Z",
    "topics": [
@@ -414,18 +426,6 @@
    "title": "DHS's Mullin warns people who illegally vote will be hunted down",
    "url": "https://thehill.com/blogs/ballot-box/6193842-dhs-warns-noncitizens-midterms/",
    "published": "2026-11-03T20:40:30.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Live updates: America heads to the polls as Trump fights to protect his agenda",
-   "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
-   "published": "2026-11-03T20:40:00.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -1140,6 +1140,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1152,18 +1164,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
