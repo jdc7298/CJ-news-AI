@@ -1,185 +1,291 @@
 {
- "generatedAt": "2026-11-03T19:04:41.543Z",
+ "generatedAt": "2026-11-03T19:48:04.572Z",
  "sources": [
   {
    "id": "axios",
    "name": "Axios",
    "group": "Center / mixed",
+   "section": "politics",
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 368
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 756
   },
   {
    "id": "politico",
    "name": "Politico",
    "group": "Center / mixed",
+   "section": "politics",
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 317
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 720
   },
   {
    "id": "reason",
    "name": "Reason (libertarian)",
    "group": "Center / mixed",
+   "section": "politics",
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 498
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1047
   },
   {
    "id": "hill",
    "name": "The Hill",
    "group": "Center / mixed",
+   "section": "politics",
    "ok": true,
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 300
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 725
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI News",
+   "group": "Company announcements",
+   "section": "ai",
+   "ok": true,
+   "count": 25,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1261
+  },
+  {
+   "id": "hechinger",
+   "name": "The Hechinger Report",
+   "group": "Education nonprofit news",
+   "section": "highered",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1278
+  },
+  {
+   "id": "highereddive",
+   "name": "Higher Ed Dive",
+   "group": "Higher ed trade press",
+   "section": "highered",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1112
+  },
+  {
+   "id": "insidehighered",
+   "name": "Inside Higher Ed",
+   "group": "Higher ed trade press",
+   "section": "highered",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1106
   },
   {
    "id": "motherjones",
    "name": "Mother Jones",
    "group": "Left-leaning",
+   "section": "politics",
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 379
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 438
   },
   {
    "id": "nyt",
    "name": "New York Times Politics",
    "group": "Left-leaning",
+   "section": "politics",
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 168
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 550
   },
   {
    "id": "guardian",
    "name": "The Guardian US Politics",
    "group": "Left-leaning",
+   "section": "politics",
    "ok": true,
    "count": 17,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 142
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 342
   },
   {
    "id": "bismtrib",
    "name": "Bismarck Tribune",
    "group": "Local ND",
+   "section": "politics",
    "ok": true,
    "count": 0,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 1102
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1111
   },
   {
    "id": "kfyr",
    "name": "KFYR-TV (Bismarck)",
    "group": "Local ND",
+   "section": "politics",
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 842
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1214
   },
   {
    "id": "kxnet",
    "name": "KX News (Bismarck)",
    "group": "Local ND",
+   "section": "politics",
    "ok": true,
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 1238
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1634
   },
   {
    "id": "ndmonitor",
    "name": "North Dakota Monitor",
    "group": "Local ND",
+   "section": "politics",
    "ok": true,
    "count": 11,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 1073
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 896
   },
   {
    "id": "vnl",
    "name": "Valley News Live (Fargo)",
    "group": "Local ND",
+   "section": "politics",
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 891
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1114
   },
   {
    "id": "fox",
    "name": "Fox News Politics",
    "group": "Right-leaning",
+   "section": "politics",
    "ok": true,
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 210
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 545
   },
   {
    "id": "natreview",
    "name": "National Review",
    "group": "Right-leaning",
+   "section": "politics",
    "ok": true,
-   "count": 19,
+   "count": 18,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 289
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 615
   },
   {
    "id": "examiner",
    "name": "Washington Examiner",
    "group": "Right-leaning",
+   "section": "politics",
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 818
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1221
+  },
+  {
+   "id": "mittr",
+   "name": "MIT Technology Review: AI",
+   "group": "Tech press",
+   "section": "ai",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1090
+  },
+  {
+   "id": "vergeai",
+   "name": "The Verge: AI",
+   "group": "Tech press",
+   "section": "ai",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1165
+  },
+  {
+   "id": "venturebeat",
+   "name": "VentureBeat: AI",
+   "group": "Tech press",
+   "section": "ai",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 429",
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1234
+  },
+  {
+   "id": "wiredai",
+   "name": "WIRED: AI",
+   "group": "Tech press",
+   "section": "ai",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 1166
   },
   {
    "id": "bbc",
    "name": "BBC US & Canada",
    "group": "Wire & public media",
+   "section": "politics",
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 369
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 322
   },
   {
    "id": "npr",
    "name": "NPR Politics",
    "group": "Wire & public media",
+   "section": "politics",
    "ok": true,
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 187
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 226
   },
   {
    "id": "pbs",
    "name": "PBS NewsHour Politics",
    "group": "Wire & public media",
+   "section": "politics",
    "ok": true,
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 182
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 374
   },
   {
    "id": "nd-list",
@@ -188,8 +294,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 1489
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 264
   },
   {
    "id": "nd-info",
@@ -198,8 +304,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 375
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 56
   },
   {
    "id": "nd-type-SW",
@@ -208,38 +314,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 338
-  },
-  {
-   "id": "nd-type-JUD",
-   "name": "ND results: Judicial contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 877
-  },
-  {
-   "id": "nd-type-SCH",
-   "name": "ND results: School contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 876
-  },
-  {
-   "id": "nd-type-MUN",
-   "name": "ND results: City contests",
-   "group": "Official results",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 895
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 53
   },
   {
    "id": "nd-type-CON",
@@ -248,8 +324,8 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 929
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 83
   },
   {
    "id": "nd-type-LEG",
@@ -258,8 +334,28 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 934
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 138
+  },
+  {
+   "id": "nd-type-SCH",
+   "name": "ND results: School contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 142
+  },
+  {
+   "id": "nd-type-MUN",
+   "name": "ND results: City contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 150
   },
   {
    "id": "nd-type-CW",
@@ -268,8 +364,18 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "fetchedAt": "2026-11-03T19:04:41.543Z",
-   "ms": 1109
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 184
+  },
+  {
+   "id": "nd-type-JUD",
+   "name": "ND results: Judicial contests",
+   "group": "Official results",
+   "ok": true,
+   "count": 1,
+   "error": null,
+   "fetchedAt": "2026-11-03T19:48:04.572Z",
+   "ms": 212
   }
  ]
 }
