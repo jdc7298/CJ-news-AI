@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:33:00.036Z",
+ "generatedAt": "2026-11-03T23:34:02.901Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
@@ -38,18 +38,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:22:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -60,6 +48,18 @@
    "topics": [
     "House"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:19:16.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -144,7 +144,7 @@
    "source": "The Hill",
    "sourceId": "hill",
    "group": "Center / mixed",
-   "title": "Greene says Trump’s Israel aid announcement shows ‘how bad the polling is’",
+   "title": "Greene: Trump’s Israel aid announcement shows ‘how bad the polling is’",
    "url": "https://thehill.com/policy/international/6194330-greene-criticizes-trump-israel-aid/",
    "published": "2026-11-03T23:06:04.000Z",
    "topics": [],
@@ -4045,6 +4045,18 @@
    "section": "politics"
   },
   {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4081,18 +4093,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/c8zxle6qq4q0o?at_medium=RSS&at_campaign=rss",
