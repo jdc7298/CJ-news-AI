@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T23:11:59.401Z",
+ "generatedAt": "2026-11-03T23:13:03.179Z",
  "items": [
   {
    "id": "hill|https://thehill.com/newsletters/healthcare/6194310-whats-on-the-ballot-abortion-transgender-care/",
@@ -9,6 +9,30 @@
    "title": "What’s on the ballot: Abortion, transgender care",
    "url": "https://thehill.com/newsletters/healthcare/6194310-whats-on-the-ballot-abortion-transgender-care/",
    "published": "2026-11-03T23:10:50.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls begin to close with control of Congress for remainder of Trump’s term at stake",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:10:21.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/politics/ap-voter-poll-voters-want-congress-to-impose-more-checks-on-an-unpopular-president",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "AP Voter Poll: Voters want Congress to impose more checks on an unpopular president",
+   "url": "https://www.pbs.org/newshour/politics/ap-voter-poll-voters-want-congress-to-impose-more-checks-on-an-unpopular-president",
+   "published": "2026-11-03T23:08:12.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -141,20 +165,6 @@
    "published": "2026-11-03T22:49:37.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: key House and Senate races to determine control of Congress for remainder of Trump’s term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T22:49:27.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -1319,18 +1329,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1343,6 +1341,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -2166,20 +2176,6 @@
    "title": "Live Results: Texas Senate midterm election",
    "url": "https://www.pbs.org/newshour/politics/live-results-texas-senate-midterm-election",
    "published": "2026-11-03T14:30:17.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/live-results-michigan-senate-midterm-election",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Live Results: Michigan Senate midterm election",
-   "url": "https://www.pbs.org/newshour/politics/live-results-michigan-senate-midterm-election",
-   "published": "2026-11-03T14:30:16.000Z",
    "topics": [
     "Senate"
    ],
@@ -3126,6 +3122,18 @@
    "section": "highered"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3148,18 +3156,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
