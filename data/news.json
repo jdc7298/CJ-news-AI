@@ -1,6 +1,44 @@
 {
- "generatedAt": "2026-11-04T01:12:59.641Z",
+ "generatedAt": "2026-11-04T01:14:03.169Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6184932-koh-wins-moultons-open-massachusetts-house-seat/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Koh wins Moulton's open Massachusetts House seat",
+   "url": "https://thehill.com/homenews/campaign/6184932-koh-wins-moultons-open-massachusetts-house-seat/",
+   "published": "2026-11-04T01:12:59.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6178282-shaheen-wins-nh-congressional-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Stefany Shaheen wins, holding onto New Hampshire's 1st District for Democrats",
+   "url": "https://thehill.com/homenews/campaign/6178282-shaheen-wins-nh-congressional-race/",
+   "published": "2026-11-04T01:12:40.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/house/6126923-chris-stigall-wins-missouri-house-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Stigall set to replace retiring Graves representing Missouri in House",
+   "url": "https://thehill.com/homenews/house/6126923-chris-stigall-wins-missouri-house-race/",
+   "published": "2026-11-04T01:12:40.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6184486-democrat-jeremy-moss-wins-michigan-house-race-haley-stevens-2026-midterms/",
    "source": "The Hill",
@@ -192,34 +230,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/campaign/6152350-reed-wins-rhode-island-senate/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Rhode Island’s Reed clinches sixth term in Senate",
-   "url": "https://thehill.com/homenews/campaign/6152350-reed-wins-rhode-island-senate/",
-   "published": "2026-11-04T01:05:28.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6165627-coons-wins-delaware-senate-race/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Coons wins Delaware Senate reelection",
-   "url": "https://thehill.com/homenews/campaign/6165627-coons-wins-delaware-senate-race/",
-   "published": "2026-11-04T01:05:12.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4759585/josh-shapiro-stacy-garrity-pennsylvania-governor-race/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -229,20 +239,6 @@
    "published": "2026-11-04T01:04:54.000Z",
    "topics": [
     "Governors"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6185147-democratic-rep-chris-pappas-wins-senate-seat-in-new-hampshire/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Democratic Rep. Chris Pappas wins Senate seat in New Hampshire",
-   "url": "https://thehill.com/homenews/campaign/6185147-democratic-rep-chris-pappas-wins-senate-seat-in-new-hampshire/",
-   "published": "2026-11-04T01:04:35.000Z",
-   "topics": [
-    "Senate"
    ],
    "election": true,
    "section": "politics"
@@ -260,6 +256,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: Ossoff and Warner win re-election as Democrats vie for Senate control",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T01:00:08.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4780192/georgia-senate-election-results-jon-ossoff-mike-collins/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -267,6 +277,20 @@
    "title": "Jon Ossoff defeats Mike Collins to hold Georgia Senate seat",
    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4780192/georgia-senate-election-results-jon-ossoff-mike-collins/",
    "published": "2026-11-04T00:57:28.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/jon-ossoff-mike-collins-georgia-senate",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Jon Ossoff wins Georgia Senate race over Republican Mike Collins",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/jon-ossoff-mike-collins-georgia-senate",
+   "published": "2026-11-04T00:57:23.000Z",
    "topics": [
     "Senate"
    ],
@@ -298,20 +322,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:51:51.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
    "source": "Axios",
    "sourceId": "axios",
@@ -336,20 +346,6 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/election-day-america-three-things-know/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Election day in America - three things to know",
-   "url": "https://www.valleynewslive.com/2026/11/04/election-day-america-three-things-know/",
-   "published": "2026-11-04T00:40:44.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/04/election-day-america-three-things-know/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -364,15 +360,14 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/election-day-america-three-things-know/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
    "group": "Local ND",
-   "title": "Supreme Court to hear dispute over death row inmate sentence",
-   "url": "https://www.valleynewslive.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
-   "published": "2026-11-04T00:34:16.000Z",
+   "title": "Election day in America - three things to know",
+   "url": "https://www.valleynewslive.com/2026/11/04/election-day-america-three-things-know/",
+   "published": "2026-11-04T00:40:44.000Z",
    "topics": [
-    "Recounts & courts",
     "North Dakota"
    ],
    "election": true,
@@ -385,6 +380,21 @@
    "group": "Local ND",
    "title": "Supreme Court to hear dispute over death row inmate sentence",
    "url": "https://www.kfyrtv.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
+   "published": "2026-11-04T00:34:16.000Z",
+   "topics": [
+    "Recounts & courts",
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Supreme Court to hear dispute over death row inmate sentence",
+   "url": "https://www.valleynewslive.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
    "published": "2026-11-04T00:34:16.000Z",
    "topics": [
     "Recounts & courts",
@@ -418,12 +428,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Star NASCAR driver suspended by own team for final race of season",
-   "url": "https://www.valleynewslive.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
+   "url": "https://www.kfyrtv.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
    "published": "2026-11-04T00:28:29.000Z",
    "topics": [
     "North Dakota"
@@ -432,12 +442,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Star NASCAR driver suspended by own team for final race of season",
-   "url": "https://www.kfyrtv.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
+   "url": "https://www.valleynewslive.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
    "published": "2026-11-04T00:28:29.000Z",
    "topics": [
     "North Dakota"
@@ -590,21 +600,6 @@
    "url": "https://www.npr.org/sections/the-picture-show/2026/11/03/g-s1-151528/election-day-2026-photos-from-around-the-country",
    "published": "2026-11-04T00:00:10.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
-   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "published": "2026-11-04T00:00:02.000Z",
-   "topics": [
-    "Senate",
-    "Governors"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -1056,12 +1051,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Nicole Taylor of country trio Taylor Red dies at 35 after breast cancer diagnosis, sisters say",
-   "url": "https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "url": "https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
    "published": "2026-11-03T21:57:07.000Z",
    "topics": [
     "North Dakota"
@@ -1070,12 +1065,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Nicole Taylor of country trio Taylor Red dies at 35 after breast cancer diagnosis, sisters say",
-   "url": "https://www.kfyrtv.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
+   "url": "https://www.valleynewslive.com/2026/11/03/nicole-taylor-country-trio-taylor-red-dies-35-after-breast-cancer-diagnosis-sisters-say/",
    "published": "2026-11-03T21:57:07.000Z",
    "topics": [
     "North Dakota"
@@ -1292,12 +1287,12 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Endangered missing 6-year-old from Kentucky found alive, police say",
-   "url": "https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "url": "https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
    "published": "2026-11-03T20:05:00.000Z",
    "topics": [
     "North Dakota"
@@ -1306,12 +1301,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Endangered missing 6-year-old from Kentucky found alive, police say",
-   "url": "https://www.kfyrtv.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
+   "url": "https://www.valleynewslive.com/2026/11/02/alert-issued-missing-endangered-6-year-old-boy-kentucky/",
    "published": "2026-11-03T20:05:00.000Z",
    "topics": [
     "North Dakota"
@@ -1348,12 +1343,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
-   "url": "https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "url": "https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
    "published": "2026-11-03T19:55:46.000Z",
    "topics": [
     "Voting & access",
@@ -1363,12 +1358,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Polling location at Ohio elementary school evacuated due to bomb threat",
-   "url": "https://www.kfyrtv.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
+   "url": "https://www.valleynewslive.com/2026/11/03/polling-location-ohio-elementary-school-evacuated-due-bomb-threat/",
    "published": "2026-11-03T19:55:46.000Z",
    "topics": [
     "Voting & access",
@@ -1390,12 +1385,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "4-year-old found dead underneath pile of clothes in closet, police say",
-   "url": "https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "url": "https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
    "published": "2026-11-03T19:52:55.000Z",
    "topics": [
     "North Dakota"
@@ -1404,12 +1399,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "4-year-old found dead underneath pile of clothes in closet, police say",
-   "url": "https://www.kfyrtv.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
+   "url": "https://www.valleynewslive.com/2026/11/03/4-year-old-found-dead-underneath-pile-clothes-closet-police-say/",
    "published": "2026-11-03T19:52:55.000Z",
    "topics": [
     "North Dakota"
@@ -1613,12 +1608,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Aging Untold: What to know about medical uses and risks for anti-wrinkle injections",
-   "url": "https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "url": "https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
    "published": "2026-11-03T19:08:29.000Z",
    "topics": [
     "North Dakota"
@@ -1627,12 +1622,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Aging Untold: What to know about medical uses and risks for anti-wrinkle injections",
-   "url": "https://www.kfyrtv.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
+   "url": "https://www.valleynewslive.com/2026/11/03/aging-untold-what-know-about-medical-uses-risks-anti-wrinkle-injections/",
    "published": "2026-11-03T19:08:29.000Z",
    "topics": [
     "North Dakota"
@@ -1653,12 +1648,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "15-year-old calls mom for help before being found dead inside abandoned apartment",
-   "url": "https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "url": "https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
    "published": "2026-11-03T19:00:54.000Z",
    "topics": [
     "North Dakota"
@@ -1667,12 +1662,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "15-year-old calls mom for help before being found dead inside abandoned apartment",
-   "url": "https://www.kfyrtv.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
+   "url": "https://www.valleynewslive.com/2026/11/03/15-year-old-calls-mom-help-before-being-found-dead-inside-abandoned-apartment/",
    "published": "2026-11-03T19:00:54.000Z",
    "topics": [
     "North Dakota"
@@ -1695,12 +1690,12 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
    "group": "Local ND",
    "title": "Escaped Tennessee inmate convicted of co-worker’s murder recaptured in Missouri",
-   "url": "https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "url": "https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
    "published": "2026-11-03T18:48:31.000Z",
    "topics": [
     "North Dakota"
@@ -1709,12 +1704,12 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
    "group": "Local ND",
    "title": "Escaped Tennessee inmate convicted of co-worker’s murder recaptured in Missouri",
-   "url": "https://www.kfyrtv.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
+   "url": "https://www.valleynewslive.com/2026/11/03/escaped-tennessee-inmate-convicted-co-workers-murder-recaptured-missouri/",
    "published": "2026-11-03T18:48:31.000Z",
    "topics": [
     "North Dakota"
@@ -1787,20 +1782,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Father charged after 13-month-old dies of hypothermia in freezing bedroom, police say",
-   "url": "https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
-   "published": "2026-11-03T18:05:34.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -1815,13 +1796,13 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
    "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "published": "2026-11-03T18:00:00.000Z",
+   "title": "Father charged after 13-month-old dies of hypothermia in freezing bedroom, police say",
+   "url": "https://www.valleynewslive.com/2026/11/03/father-charged-after-13-month-old-dies-hypothermia-freezing-bedroom-police-say/",
+   "published": "2026-11-03T18:05:34.000Z",
    "topics": [
     "North Dakota"
    ],
@@ -1835,6 +1816,20 @@
    "group": "Local ND",
    "title": "Holiday gift budgets drop 21% as families cut back, report finds",
    "url": "https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
+   "url": "https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "published": "2026-11-03T18:00:00.000Z",
    "topics": [
     "North Dakota"
@@ -3300,18 +3295,6 @@
    "section": "highered"
   },
   {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3334,6 +3317,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
