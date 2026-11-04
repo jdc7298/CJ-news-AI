@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:19:10.694Z",
+ "generatedAt": "2026-11-04T00:20:14.928Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6194638-trump-approval-tanking-midterms/",
@@ -28,20 +28,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:10:12.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -51,6 +37,20 @@
    "published": "2026-11-04T00:05:38.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:04:53.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
