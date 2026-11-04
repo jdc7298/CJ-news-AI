@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:54:00.847Z",
+ "generatedAt": "2026-11-04T00:55:03.757Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6184808-castor-defends-florida-district-seat/",
@@ -1778,18 +1778,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1802,6 +1790,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -3273,6 +3273,18 @@
    "section": "highered"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3295,18 +3307,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
