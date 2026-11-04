@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:26:41.634Z",
+ "generatedAt": "2026-11-04T00:27:44.877Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6186589-wasserman-schultz-wins-florida-district/",
@@ -68,6 +68,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:17:56.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6194638-trump-approval-tanking-midterms/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -94,15 +108,15 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:10:12.000Z",
+   "title": "Democrats aim to retake Senate from Republicans as Americans go to polls",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
+   "published": "2026-11-04T00:12:38.000Z",
    "topics": [
-    "Ballot measures"
+    "Senate"
    ],
    "election": true,
    "section": "politics"
@@ -687,18 +701,6 @@
    "title": "2026 Midterm Elections: Live Updates",
    "url": "https://www.nationalreview.com/2026/11/2026-midterm-elections-live-updates/",
    "published": "2026-11-03T22:30:24.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US voters share why they cast their ballots – from frustration with Trump to affordability concerns",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
-   "published": "2026-11-03T22:30:16.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -2990,6 +2992,18 @@
    "section": "politics"
   },
   {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -2999,18 +3013,6 @@
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "From 'model minority' to target, anti-Indian hate on the rise",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -3071,18 +3073,6 @@
    "published": "2026-11-03T08:00:56.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -3232,6 +3222,18 @@
    "topics": [],
    "election": false,
    "section": "ai"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
