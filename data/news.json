@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T00:12:53.166Z",
+ "generatedAt": "2026-11-04T00:13:56.162Z",
  "items": [
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:10:12.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
    "source": "The Hill",
@@ -11,6 +25,18 @@
    "published": "2026-11-04T00:05:38.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/us-midterm-voting-problems",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm voting goes smoothly with only a handful of issues nationwide",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/us-midterm-voting-problems",
+   "published": "2026-11-04T00:03:52.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -48,6 +74,21 @@
    "url": "https://www.npr.org/sections/the-picture-show/2026/11/03/g-s1-151528/election-day-2026-photos-from-around-the-country",
    "published": "2026-11-04T00:00:10.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "published": "2026-11-04T00:00:02.000Z",
+   "topics": [
+    "Senate",
+    "Governors"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -130,20 +171,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: economy a top issue for voters as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:54:23.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/show/a-look-at-the-dojs-effort-to-gain-greater-control-over-elections",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -219,6 +246,18 @@
    "section": "politics"
   },
   {
+   "id": "pbs|https://www.pbs.org/newshour/show/former-rnc-chair-ronna-mcdaniel-on-gops-political-challenges",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "Former RNC chair Ronna McDaniel on GOP's political challenges",
+   "url": "https://www.pbs.org/newshour/show/former-rnc-chair-ronna-mcdaniel-on-gops-political-challenges",
+   "published": "2026-11-03T23:40:33.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/administration/6194501-mullin-dismisses-hillary-clinton-ice-warning/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -275,21 +314,6 @@
    "url": "https://www.nytimes.com/2026/11/03/us/politics/the-on-politics-guide-to-election-night.html",
    "published": "2026-11-03T23:31:46.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
-   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-   "published": "2026-11-03T23:30:14.000Z",
-   "topics": [
-    "Senate",
-    "Governors"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -632,18 +656,6 @@
    "group": "Left-leaning",
    "title": "US voters share why they cast their ballots – from frustration with Trump to affordability concerns",
    "url": "https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
-   "published": "2026-11-03T22:30:16.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm voters poised to deliver verdict on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
    "published": "2026-11-03T22:30:16.000Z",
    "topics": [],
    "election": true,
@@ -1552,18 +1564,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1576,6 +1576,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -2202,20 +2214,6 @@
    "published": "2026-11-03T15:00:14.000Z",
    "topics": [
     "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/election-day-underway-after-a-surge-in-early-voting-as-trump-sows-on-results",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Election Day underway after a surge in early voting, as Trump sows doubt on results",
-   "url": "https://www.pbs.org/newshour/politics/election-day-underway-after-a-surge-in-early-voting-as-trump-sows-on-results",
-   "published": "2026-11-03T14:48:30.000Z",
-   "topics": [
-    "Voting & access"
    ],
    "election": true,
    "section": "politics"
