@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-04T01:03:29.770Z",
+ "generatedAt": "2026-11-04T01:04:32.527Z",
  "items": [
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Justice Dept. Sends Target Letters to Democrats in Escalation of Alaska Inquiry",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
+   "published": "2026-11-04T01:03:49.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6194779-minnesota-voters-ice-memorial/",
    "source": "The Hill",
@@ -51,6 +63,18 @@
    "published": "2026-11-04T00:56:05.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Jon Ossoff wins reelection in Georgia, easily defeating Republican Mike Collins",
+   "url": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
+   "published": "2026-11-04T00:55:57.000Z",
+   "topics": [],
+   "election": true,
    "section": "politics"
   },
   {
@@ -1119,18 +1143,6 @@
    "title": "Why Is Donald Trump Suddenly Obsessed With Men's Bodies, Especially Their Butts?",
    "url": "https://reason.com/2026/11/03/why-is-donald-trump-suddenly-obsessed-with-mens-bodies-especially-their-butts/",
    "published": "2026-11-03T21:26:48.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Justice Dept. Sends Target Letters to Democrats in Escalation of Alaska Inquiry",
-   "url": "https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
-   "published": "2026-11-03T21:24:35.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -3082,27 +3094,15 @@
    "section": "politics"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
    "source": "NPR Politics",
    "sourceId": "npr",
    "group": "Wire & public media",
-   "title": "How NPR makes race calls in the 2026 election",
-   "url": "https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
+   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
    "published": "2026-11-03T10:00:00.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "From 'model minority' to target, anti-Indian hate on the rise",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -4133,18 +4133,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4181,6 +4169,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "mittr|https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
