@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:01:18.947Z",
+ "generatedAt": "2026-11-04T00:02:22.470Z",
  "items": [
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
@@ -66,20 +66,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: economy a top issue for voters as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-03T23:54:23.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/show/a-look-at-the-dojs-effort-to-gain-greater-control-over-elections",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -115,6 +101,20 @@
    "url": "https://www.washingtonexaminer.com/news/white-house/4790304/trump-proclamation-anti-communism-week/",
    "published": "2026-11-03T23:48:52.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: economy a top issue for voters as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-03T23:47:26.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
    "election": true,
    "section": "politics"
   },
