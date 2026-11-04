@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:27:44.877Z",
+ "generatedAt": "2026-11-04T00:28:49.376Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6186589-wasserman-schultz-wins-florida-district/",
@@ -54,6 +54,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:21:40.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6175449-gop-jim-schwartzel-florida-house-race-2026/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -63,20 +77,6 @@
    "published": "2026-11-04T00:19:39.000Z",
    "topics": [
     "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:17:56.000Z",
-   "topics": [
-    "Ballot measures"
    ],
    "election": true,
    "section": "politics"
