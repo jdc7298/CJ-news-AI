@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T01:25:38.287Z",
+ "generatedAt": "2026-11-04T01:26:42.444Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6177363-pritzker-wins-illinois-third-term/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Pritzker wins third term as Illinois governor",
+   "url": "https://thehill.com/homenews/campaign/6177363-pritzker-wins-illinois-third-term/",
+   "published": "2026-11-04T01:25:21.000Z",
+   "topics": [
+    "Governors"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4790479/el-sayed-sky-news-reporter-michigan-senate/",
    "source": "Washington Examiner",
@@ -295,18 +309,6 @@
    "topics": [
     "Senate"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6157042-la-shawn-ford-wins-congressional-seat/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Ford wins Illinois House election for retiring Danny Davis’s seat",
-   "url": "https://thehill.com/homenews/campaign/6157042-la-shawn-ford-wins-congressional-seat/",
-   "published": "2026-11-04T01:09:42.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
