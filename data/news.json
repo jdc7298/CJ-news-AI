@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:07:36.210Z",
+ "generatedAt": "2026-11-04T00:08:39.145Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
@@ -11,6 +11,20 @@
    "published": "2026-11-04T00:05:38.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/ward-county-voters-head-polls-busy-election-day/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Ward County voters head to polls on busy election day",
+   "url": "https://www.kfyrtv.com/2026/11/04/ward-county-voters-head-polls-busy-election-day/",
+   "published": "2026-11-04T00:02:53.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -1983,20 +1997,6 @@
    "group": "Local ND",
    "title": "This community darkroom gives photographers a place to learn, create and share",
    "url": "https://www.valleynewslive.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
-   "published": "2026-11-03T15:58:33.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "This community darkroom gives photographers a place to learn, create and share",
-   "url": "https://www.kfyrtv.com/2026/11/03/this-community-darkroom-gives-photographers-place-learn-create-share/",
    "published": "2026-11-03T15:58:33.000Z",
    "topics": [
     "North Dakota"
