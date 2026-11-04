@@ -1,6 +1,34 @@
 {
- "generatedAt": "2026-11-04T01:14:03.169Z",
+ "generatedAt": "2026-11-04T01:15:06.192Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6134961-haynes-wins-texas-house-election/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Haynes wins election for Crockett's Texas House seat",
+   "url": "https://thehill.com/homenews/campaign/6134961-haynes-wins-texas-house-election/",
+   "published": "2026-11-04T01:14:04.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6179281-chris-rabb-wins-pa-congressional/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Democratic socialist secures House seat in Pennsylvania",
+   "url": "https://thehill.com/homenews/campaign/6179281-chris-rabb-wins-pa-congressional/",
+   "published": "2026-11-04T01:13:39.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6184932-koh-wins-moultons-open-massachusetts-house-seat/",
    "source": "The Hill",
@@ -80,6 +108,20 @@
    "section": "politics"
   },
   {
+   "id": "pbs|https://www.pbs.org/newshour/politics/ap-voter-poll-senate-voters-in-south-carolina-have-doubts-about-darline-grahams-experience",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "AP Voter Poll: Senate voters in South Carolina have doubts about Darline Graham's experience",
+   "url": "https://www.pbs.org/newshour/politics/ap-voter-poll-senate-voters-in-south-carolina-have-doubts-about-darline-grahams-experience",
+   "published": "2026-11-04T01:10:12.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/house/6123874-biss-wins-illinois-house-election/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -88,6 +130,20 @@
    "url": "https://thehill.com/homenews/house/6123874-biss-wins-illinois-house-election/",
    "published": "2026-11-04T01:09:54.000Z",
    "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: Ossoff and Warner win re-election as Democrats vie for Senate control",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T01:09:49.000Z",
+   "topics": [
+    "Senate"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -120,7 +176,7 @@
    "source": "Washington Examiner",
    "sourceId": "examiner",
    "group": "Right-leaning",
-   "title": "Jared Moskowitz prevails in redrawn South Florida district",
+   "title": "Jared Moskow prevails in redrawn South Florida district",
    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4775780/jared-moskowitz-scott-singer-florida-race/",
    "published": "2026-11-04T01:09:32.000Z",
    "topics": [],
@@ -149,6 +205,21 @@
    "published": "2026-11-04T01:08:56.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
+   "published": "2026-11-04T01:08:42.000Z",
+   "topics": [
+    "Senate",
+    "Governors"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -192,18 +263,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/campaign/6175000-carl-wins-alabama-house-race/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Alabama’s Carl wins election to return to House",
-   "url": "https://thehill.com/homenews/campaign/6175000-carl-wins-alabama-house-race/",
-   "published": "2026-11-04T01:06:05.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4788109/jb-pritzker-wins-reelection-illinois-2026/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -212,20 +271,6 @@
    "url": "https://www.washingtonexaminer.com/news/campaigns/state/4788109/jb-pritzker-wins-reelection-illinois-2026/",
    "published": "2026-11-04T01:05:46.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6152360-hern-wins-oklahoma-senate-race/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Hern wins Mullin's Oklahoma Senate seat",
-   "url": "https://thehill.com/homenews/campaign/6152360-hern-wins-oklahoma-senate-race/",
-   "published": "2026-11-04T01:05:39.000Z",
-   "topics": [
-    "Senate"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -253,20 +298,6 @@
    "published": "2026-11-04T01:03:49.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: Ossoff and Warner win re-election as Democrats vie for Senate control",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T01:00:08.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -550,18 +581,6 @@
    "topics": [
     "Senate"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/03/us-midterm-voting-problems",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm voting goes smoothly with only a handful of issues nationwide",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/us-midterm-voting-problems",
-   "published": "2026-11-04T00:03:52.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -2293,18 +2312,6 @@
    "title": "A Guide to What We’ll Know on Election Night, Hour by Hour",
    "url": "https://www.nytimes.com/2026/11/03/upshot/poll-closing-times-midterm-elections.html",
    "published": "2026-11-03T15:41:14.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/what-to-look-for-on-election-day-as-questions-loom-over-trump",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "What to look for on Election Day as questions loom over Trump",
-   "url": "https://www.pbs.org/newshour/politics/what-to-look-for-on-election-day-as-questions-loom-over-trump",
-   "published": "2026-11-03T15:40:03.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
