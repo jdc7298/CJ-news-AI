@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T01:02:27.192Z",
+ "generatedAt": "2026-11-04T01:03:29.770Z",
  "items": [
   {
    "id": "hill|https://thehill.com/homenews/campaign/6194779-minnesota-voters-ice-memorial/",
@@ -278,7 +278,7 @@
    "source": "BBC US & Canada",
    "sourceId": "bbc",
    "group": "Wire & public media",
-   "title": "BBC asks voters across US what brought them to the polls today",
+   "title": "'A brighter future' - why Americans came out to vote",
    "url": "https://www.bbc.co.uk/news/videos/cq8rz6xlz6ejo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-04T00:26:48.000Z",
    "topics": [],
@@ -4133,6 +4133,18 @@
    "section": "politics"
   },
   {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4169,18 +4181,6 @@
    "topics": [],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "mittr|https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
