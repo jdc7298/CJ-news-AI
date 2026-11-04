@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T00:20:14.928Z",
+ "generatedAt": "2026-11-04T00:21:20.660Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6175449-gop-jim-schwartzel-florida-house-race-2026/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Schwartzel wins Florida House seat vacated by Donalds",
+   "url": "https://thehill.com/homenews/campaign/6175449-gop-jim-schwartzel-florida-house-race-2026/",
+   "published": "2026-11-04T00:19:39.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6194638-trump-approval-tanking-midterms/",
    "source": "The Hill",
@@ -28,6 +42,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:10:12.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -37,20 +65,6 @@
    "published": "2026-11-04T00:05:38.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:04:53.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -597,18 +611,6 @@
     "Governors"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/state-watch/6194328-florida-learjet-crash-investigation/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Learjet's parts may have broken off before Florida crash: Investigators",
-   "url": "https://thehill.com/homenews/state-watch/6194328-florida-learjet-crash-investigation/",
-   "published": "2026-11-03T22:49:37.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
