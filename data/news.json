@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:38:17.737Z",
+ "generatedAt": "2026-11-04T00:39:20.488Z",
  "items": [
   {
    "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
@@ -537,6 +537,20 @@
    "section": "politics"
   },
   {
+   "id": "fox|https://www.foxnews.com/politics/paper-ballot-shortages-spark-election-day-scramble-polling-places-several-states",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Paper ballot shortages spark Election Day scramble at polling places in several states",
+   "url": "https://www.foxnews.com/politics/paper-ballot-shortages-spark-election-day-scramble-polling-places-several-states",
+   "published": "2026-11-03T23:33:23.000Z",
+   "topics": [
+    "Voting & access"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/6194490-trump-space-communism-proclamation/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -556,6 +570,18 @@
    "title": "The On Politics Guide to Election Night",
    "url": "https://www.nytimes.com/2026/11/03/us/politics/the-on-politics-guide-to-election-night.html",
    "published": "2026-11-03T23:31:46.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
+   "url": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
+   "published": "2026-11-03T23:31:35.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -1683,6 +1709,18 @@
    "section": "politics"
   },
   {
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1695,18 +1733,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -3024,30 +3050,6 @@
    "section": "politics"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
-   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "How NPR makes race calls in the 2026 election",
-   "url": "https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
-   "published": "2026-11-03T10:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/news/inside-the-supreme-court-case-that-could-decide-title-ix-employee-protectio/873499/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -3070,6 +3072,30 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "How NPR makes race calls in the 2026 election",
+   "url": "https://www.npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
+   "published": "2026-11-03T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
@@ -3525,20 +3551,6 @@
    "section": "politics"
   },
   {
-   "id": "fox|https://www.foxnews.com/politics/how-midterm-tie-gets-settled-case-senate",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "How a midterm tie gets settled in the case of the Senate",
-   "url": "https://www.foxnews.com/politics/how-midterm-tie-gets-settled-case-senate",
-   "published": "2026-11-02T23:38:26.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "axios|https://www.axios.com/2026/11/02/supreme-court-california-voter-rolls-doj",
    "source": "Axios",
    "sourceId": "axios",
@@ -3606,20 +3618,6 @@
    "title": "Another judge blocks DOJ ballot demands in California",
    "url": "https://www.axios.com/2026/11/02/judge-blocks-trump-doj-california-ballot-demands",
    "published": "2026-11-02T22:45:11.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/exclusive-woman-allegedly-raped-illegal-alien-clinton-appointed-federal-judge-ordered-release",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "EXCLUSIVE: Woman allegedly raped by illegal alien after Clinton-appointed federal judge ordered his release",
-   "url": "https://www.foxnews.com/politics/exclusive-woman-allegedly-raped-illegal-alien-clinton-appointed-federal-judge-ordered-release",
-   "published": "2026-11-02T22:32:49.000Z",
    "topics": [
     "Recounts & courts"
    ],
