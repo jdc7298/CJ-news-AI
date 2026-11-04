@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T00:34:05.347Z",
+ "generatedAt": "2026-11-04T00:35:09.261Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6134077-shelley-moore-capito-wins-west-virginia-senate-reelection/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "West Virginia’s Moore Capito clinches third term in Senate",
+   "url": "https://thehill.com/homenews/campaign/6134077-shelley-moore-capito-wins-west-virginia-senate-reelection/",
+   "published": "2026-11-04T00:33:27.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6163101-joe-strada-republican-florida-11th-congressional-district/",
    "source": "The Hill",
@@ -12,6 +26,18 @@
    "topics": [
     "House"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/insider/how-we-confirm-tips-about-voting-issues.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "How The New York Times Tracks Election News and Tips",
+   "url": "https://www.nytimes.com/2026/11/03/insider/how-we-confirm-tips-about-voting-issues.html",
+   "published": "2026-11-04T00:30:28.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -294,18 +320,6 @@
    "published": "2026-11-03T23:59:56.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/03/insider/how-we-confirm-tips-about-voting-issues.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "How The New York Times Tracks Election News and Tips",
-   "url": "https://www.nytimes.com/2026/11/03/insider/how-we-confirm-tips-about-voting-issues.html",
-   "published": "2026-11-03T23:57:29.000Z",
-   "topics": [],
-   "election": true,
    "section": "politics"
   },
   {
@@ -605,18 +619,6 @@
    "title": "What Democrats plan to prioritize if they retake the House",
    "url": "https://www.npr.org/2026/11/03/nx-s1-6026666/what-democrats-plan-to-prioritize-if-they-retake-the-house",
    "published": "2026-11-03T23:11:49.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/newsletters/healthcare/6194310-whats-on-the-ballot-abortion-transgender-care/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "What’s on the ballot: Abortion, transgender care",
-   "url": "https://thehill.com/newsletters/healthcare/6194310-whats-on-the-ballot-abortion-transgender-care/",
-   "published": "2026-11-03T23:10:50.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
