@@ -1,6 +1,44 @@
 {
- "generatedAt": "2026-11-04T00:00:15.863Z",
+ "generatedAt": "2026-11-04T00:01:18.947Z",
  "items": [
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Drone Boat Maker Saildrone Wins Protest Over Navy Contract",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
+   "published": "2026-11-04T00:01:13.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/supreme-court/4790007/samuel-alito-colorado-poor-supreme-court-record-catholic-preschool-case/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Alito highlights Colorado’s poor Supreme Court record during Catholic preschool case",
+   "url": "https://www.washingtonexaminer.com/news/supreme-court/4790007/samuel-alito-colorado-poor-supreme-court-record-catholic-preschool-case/",
+   "published": "2026-11-04T00:00:01.000Z",
+   "topics": [
+    "Recounts & courts"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/03/2026-midterms-attack-ads-republicans",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "The brutal 2026 attack ads even rivals had to respect",
+   "url": "https://www.axios.com/2026/11/03/2026-midterms-attack-ads-republicans",
+   "published": "2026-11-03T23:59:56.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/insider/how-we-confirm-tips-about-voting-issues.html",
    "source": "New York Times Politics",
@@ -162,18 +200,6 @@
    "published": "2026-11-03T23:31:46.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Drone Boat Maker Saildrone Wins Protest Over Navy Contract",
-   "url": "https://www.nytimes.com/2026/11/03/us/politics/drone-boat-maker-navy-protest.html",
-   "published": "2026-11-03T23:31:36.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -360,7 +386,7 @@
    "source": "The Hill",
    "sourceId": "hill",
    "group": "Center / mixed",
-   "title": "Live updates: Polls begin to close in Indiana, Kentucky as battle for Congress heats up",
+   "title": "Polls close in 8 states as midterm election calls begin",
    "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
    "published": "2026-11-03T23:01:33.000Z",
    "topics": [],
@@ -776,18 +802,6 @@
    "published": "2026-11-03T21:26:48.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4789562/doj-charges-oklahoma-man-mail-white-powder/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "DOJ charges Oklahoma man accused of mailing white powder to public officials before elections",
-   "url": "https://www.washingtonexaminer.com/news/justice/4789562/doj-charges-oklahoma-man-mail-white-powder/",
-   "published": "2026-11-03T21:25:49.000Z",
-   "topics": [],
-   "election": true,
    "section": "politics"
   },
   {
@@ -3804,18 +3818,6 @@
     "North Dakota"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/02/doomsday-apocalypse-iran-war-ai-financial-insecurity",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "The internet's latest obsession: The end of the world",
-   "url": "https://www.axios.com/2026/11/02/doomsday-apocalypse-iran-war-ai-financial-insecurity",
-   "published": "2026-11-02T18:27:57.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
