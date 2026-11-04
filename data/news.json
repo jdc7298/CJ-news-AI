@@ -1,6 +1,42 @@
 {
- "generatedAt": "2026-11-04T01:08:44.657Z",
+ "generatedAt": "2026-11-04T01:09:48.046Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4775780/jared-moskowitz-scott-singer-florida-race/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Jared Moskowitz prevails in redrawn South Florida district",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4775780/jared-moskowitz-scott-singer-florida-race/",
+   "published": "2026-11-04T01:09:32.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6155201-boafo-wins-maryland-house-election/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Boafo wins House contest in Maryland to replace Hoyer",
+   "url": "https://thehill.com/homenews/campaign/6155201-boafo-wins-maryland-house-election/",
+   "published": "2026-11-04T01:09:14.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6179409-jared-moskowitz-reelection-win-florida-house-midterms-2026/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Moskowitz fends off Trump-backed rival in Florida battleground",
+   "url": "https://thehill.com/homenews/campaign/6179409-jared-moskowitz-reelection-win-florida-house-midterms-2026/",
+   "published": "2026-11-04T01:08:56.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4778457/wes-moore-democrat-maryland-governor-race/",
    "source": "Washington Examiner",
@@ -12,6 +48,18 @@
    "topics": [
     "Governors"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6137368-patty-garcia-wins-illinois-4th/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Chuy García’s former chief of staff wins House election in Illinois",
+   "url": "https://thehill.com/homenews/campaign/6137368-patty-garcia-wins-illinois-4th/",
+   "published": "2026-11-04T01:08:02.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -242,20 +290,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:51:51.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/campaign/6184808-castor-defends-florida-district-seat/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -271,6 +305,20 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:49:48.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
    "source": "Axios",
    "sourceId": "axios",
@@ -279,20 +327,6 @@
    "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
    "published": "2026-11-04T00:48:53.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/senate/6170463-michigan-live-results-2026-senate-election/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Michigan live results: 2026 Senate election",
-   "url": "https://thehill.com/homenews/senate/6170463-michigan-live-results-2026-senate-election/",
-   "published": "2026-11-04T00:48:01.000Z",
-   "topics": [
-    "Senate"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -362,34 +396,6 @@
    "topics": [
     "Recounts & courts",
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6134077-shelley-moore-capito-wins-west-virginia-senate-reelection/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "West Virginia’s Capito clinches third term in Senate",
-   "url": "https://thehill.com/homenews/campaign/6134077-shelley-moore-capito-wins-west-virginia-senate-reelection/",
-   "published": "2026-11-04T00:33:27.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6163101-joe-strada-republican-florida-11th-congressional-district/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Republican Joe Strada wins Florida's 11th Congressional District",
-   "url": "https://thehill.com/homenews/campaign/6163101-joe-strada-republican-florida-11th-congressional-district/",
-   "published": "2026-11-04T00:32:39.000Z",
-   "topics": [
-    "House"
    ],
    "election": true,
    "section": "politics"
@@ -524,6 +530,20 @@
    "title": "Democrats aim to retake Senate from Republicans as Americans go to polls",
    "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
    "published": "2026-11-04T00:12:38.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/ossoff-wins-democrats-hold-firm-georgia-republicans-fail-flip-prized-senate-seat",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Democrats hold firm in Georgia as Republicans fail to flip prized Senate seat",
+   "url": "https://www.foxnews.com/politics/ossoff-wins-democrats-hold-firm-georgia-republicans-fail-flip-prized-senate-seat",
+   "published": "2026-11-04T00:05:02.000Z",
    "topics": [
     "Senate"
    ],
@@ -935,18 +955,6 @@
    "published": "2026-11-03T22:37:03.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/4789941/democratic-candidates-transgender-stance-midterm-elections/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Races to watch where Democratic candidates broke ranks with the transgender movement",
-   "url": "https://www.washingtonexaminer.com/news/campaigns/4789941/democratic-candidates-transgender-stance-midterm-elections/",
-   "published": "2026-11-03T22:36:25.000Z",
-   "topics": [],
-   "election": true,
    "section": "politics"
   },
   {
@@ -3175,18 +3183,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -3335,6 +3331,18 @@
    "section": "ai"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "bbc|https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -3457,20 +3465,6 @@
    "url": "https://www.motherjones.com/politics/2026/11/stress-test-video-podcast-election-eve-michigan-haley-stevens-polling/",
    "published": "2026-11-03T00:43:07.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/jd-vance-says-haley-stevens-endorsement-gops-mike-rogers-certainly-help-michigan-senate-race",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "JD Vance says Haley Stevens' endorsement of GOP's Mike Rogers will 'certainly' help Michigan Senate race",
-   "url": "https://www.foxnews.com/politics/jd-vance-says-haley-stevens-endorsement-gops-mike-rogers-certainly-help-michigan-senate-race",
-   "published": "2026-11-03T00:39:04.000Z",
-   "topics": [
-    "Senate"
-   ],
    "election": true,
    "section": "politics"
   },
