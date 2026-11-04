@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T01:07:41.272Z",
+ "generatedAt": "2026-11-04T01:08:44.657Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4778457/wes-moore-democrat-maryland-governor-race/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Wes Moore wins second term as Maryland governor",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/state/4778457/wes-moore-democrat-maryland-governor-race/",
+   "published": "2026-11-04T01:08:28.000Z",
+   "topics": [
+    "Governors"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/house/6185059-luke-bronin-connecticut-1st-district/",
    "source": "The Hill",
@@ -128,7 +142,7 @@
    "source": "The Hill",
    "sourceId": "hill",
    "group": "Center / mixed",
-   "title": "Ed Markey wins Senate seat in Massachusetts",
+   "title": "Ed Markey retains Senate seat in Massachusetts",
    "url": "https://thehill.com/homenews/campaign/6158643-markey-wins-massachusetts-senate-race/",
    "published": "2026-11-04T01:04:15.000Z",
    "topics": [
@@ -933,18 +947,6 @@
    "published": "2026-11-03T22:36:25.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4790016/cleveland-meredith-jan-6-arrest-threats-federal-judges/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Pardoned Jan. 6 defendant arrested and charged with threatening federal judges",
-   "url": "https://www.washingtonexaminer.com/news/justice/4790016/cleveland-meredith-jan-6-arrest-threats-federal-judges/",
-   "published": "2026-11-03T22:33:15.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -3173,6 +3175,18 @@
    "section": "politics"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/03/democrats-vie-take-back-house-education-committee",
    "source": "Inside Higher Ed",
    "sourceId": "insidehighered",
@@ -3319,18 +3333,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
