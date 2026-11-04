@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T01:06:38.074Z",
+ "generatedAt": "2026-11-04T01:07:41.272Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/house/6185059-luke-bronin-connecticut-1st-district/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Former Hartford mayor secures House seat to replace incumbent Larson",
+   "url": "https://thehill.com/homenews/house/6185059-luke-bronin-connecticut-1st-district/",
+   "published": "2026-11-04T01:07:25.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6175000-carl-wins-alabama-house-race/",
    "source": "The Hill",
@@ -468,20 +482,6 @@
    "title": "Democrats look poised to win House control in midterm elections after two turbulent years of Trump",
    "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-house-midterm-elections-results",
    "published": "2026-11-04T00:25:51.000Z",
-   "topics": [
-    "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6186589-wasserman-schultz-wins-florida-district/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Rep. Debbie Wasserman Schultz wins Florida House seat",
-   "url": "https://thehill.com/homenews/campaign/6186589-wasserman-schultz-wins-florida-district/",
-   "published": "2026-11-04T00:24:10.000Z",
    "topics": [
     "House"
    ],
@@ -4140,18 +4140,6 @@
    "section": "politics"
   },
   {
-   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "published": "2026-11-02T10:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/spons/how-a-university-partnership-is-bringing-public-procurement-into-the-talent/872832/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -4188,6 +4176,18 @@
    "topics": [],
    "election": false,
    "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "published": "2026-11-02T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "mittr|https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
