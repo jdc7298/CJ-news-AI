@@ -1,6 +1,90 @@
 {
- "generatedAt": "2026-11-04T01:04:32.527Z",
+ "generatedAt": "2026-11-04T01:05:35.412Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6165627-coons-wins-delaware-senate-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Coons wins Delaware Senate reelection",
+   "url": "https://thehill.com/homenews/campaign/6165627-coons-wins-delaware-senate-race/",
+   "published": "2026-11-04T01:05:12.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/state/4759585/josh-shapiro-stacy-garrity-pennsylvania-governor-race/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Josh Shapiro clinches second term as governor in battleground Pennsylvania",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/state/4759585/josh-shapiro-stacy-garrity-pennsylvania-governor-race/",
+   "published": "2026-11-04T01:04:54.000Z",
+   "topics": [
+    "Governors"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6185147-democratic-rep-chris-pappas-wins-senate-seat-in-new-hampshire/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Democratic Rep. Chris Pappas wins Senate seat in New Hampshire",
+   "url": "https://thehill.com/homenews/campaign/6185147-democratic-rep-chris-pappas-wins-senate-seat-in-new-hampshire/",
+   "published": "2026-11-04T01:04:35.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6176122-stratton-wins-illinois-senate-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Juliana Stratton wins Senate seat in Illinois",
+   "url": "https://thehill.com/homenews/campaign/6176122-stratton-wins-illinois-senate-race/",
+   "published": "2026-11-04T01:04:22.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6158643-markey-wins-massachusetts-senate-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Ed Markey wins Senate seat in Massachusetts",
+   "url": "https://thehill.com/homenews/campaign/6158643-markey-wins-massachusetts-senate-race/",
+   "published": "2026-11-04T01:04:15.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/senate/6163883-moody-wins-florida-senate-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Moody projected to win Florida Senate seat in tight contest over Angie Nixon",
+   "url": "https://thehill.com/homenews/senate/6163883-moody-wins-florida-senate-race/",
+   "published": "2026-11-04T01:03:59.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
    "source": "New York Times Politics",
@@ -391,32 +475,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/homenews/campaign/6175449-gop-jim-schwartzel-florida-house-race-2026/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Schwartzel wins Florida House seat vacated by Donalds",
-   "url": "https://thehill.com/homenews/campaign/6175449-gop-jim-schwartzel-florida-house-race-2026/",
-   "published": "2026-11-04T00:19:39.000Z",
-   "topics": [
-    "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6194638-trump-approval-tanking-midterms/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Early exit polls: 38 percent approve of Trump, lower than past 4 presidents",
-   "url": "https://thehill.com/homenews/campaign/6194638-trump-approval-tanking-midterms/",
-   "published": "2026-11-04T00:15:01.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/politics/justice-department-sent-target-letters-in-alaska-senate-criminal-probe-heres-what-that-means",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -442,18 +500,6 @@
     "Senate"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Warner wins fourth term as Virginia’s senator",
-   "url": "https://thehill.com/homenews/campaign/6134075-warner-wins-virginia-senate-election/",
-   "published": "2026-11-04T00:05:38.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -612,21 +658,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/policy/international/6194470-us-iran-strait-hormuz-conflict/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Iran speaker: Ball in Trump administration court to prevent renewed war",
-   "url": "https://thehill.com/policy/international/6194470-us-iran-strait-hormuz-conflict/",
-   "published": "2026-11-03T23:50:31.000Z",
-   "topics": [
-    "House",
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "examiner|https://www.washingtonexaminer.com/news/white-house/4790304/trump-proclamation-anti-communism-week/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -646,18 +677,6 @@
    "title": "Pelosi reflects on historic career and predicts 'big victory' for Democrats",
    "url": "https://www.pbs.org/newshour/show/pelosi-reflects-on-historic-career-and-predicts-big-victory-for-democrats",
    "published": "2026-11-03T23:45:16.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6194509-doj-investigates-alaska-ballot-stacking/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "DOJ sends target letters in Alaska probe to 20 Democrats",
-   "url": "https://thehill.com/homenews/campaign/6194509-doj-investigates-alaska-ballot-stacking/",
-   "published": "2026-11-03T23:42:56.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -1005,18 +1024,6 @@
     "Recounts & courts"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "DOJ sends target letters to Marc Elias and other Democrats over decoy Dan Sullivan candidacy",
-   "url": "https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/",
-   "published": "2026-11-03T22:11:52.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -3290,6 +3297,18 @@
    "section": "highered"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3312,18 +3331,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
