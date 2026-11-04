@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T01:15:06.192Z",
+ "generatedAt": "2026-11-04T01:16:09.127Z",
  "items": [
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6160858-hamawy-wins-new-jersey-house-succeeding-watson-coleman/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Hamawy wins open New Jersey House seat, succeeding Watson Coleman",
+   "url": "https://thehill.com/homenews/campaign/6160858-hamawy-wins-new-jersey-house-succeeding-watson-coleman/",
+   "published": "2026-11-04T01:15:07.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "hill|https://thehill.com/homenews/campaign/6134961-haynes-wins-texas-house-election/",
    "source": "The Hill",
@@ -11,6 +25,20 @@
    "published": "2026-11-04T01:14:04.000Z",
    "topics": [
     "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/nd-sports-scores-week-november-2/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "ND Sports Scores for week of November 2",
+   "url": "https://www.kfyrtv.com/2026/11/04/nd-sports-scores-week-november-2/",
+   "published": "2026-11-04T01:13:52.000Z",
+   "topics": [
+    "North Dakota"
    ],
    "election": true,
    "section": "politics"
@@ -245,20 +273,6 @@
    "url": "https://thehill.com/homenews/campaign/6137368-patty-garcia-wins-illinois-4th/",
    "published": "2026-11-04T01:08:02.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/house/6185059-luke-bronin-connecticut-1st-district/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Former Hartford mayor secures House seat to replace incumbent Larson",
-   "url": "https://thehill.com/homenews/house/6185059-luke-bronin-connecticut-1st-district/",
-   "published": "2026-11-04T01:07:25.000Z",
-   "topics": [
-    "House"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -1829,18 +1843,16 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Holiday gift budgets drop 21% as families cut back, report finds",
-   "url": "https://www.kfyrtv.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
+   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
    "published": "2026-11-03T18:00:00.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/holiday-gift-budgets-drop-21-families-cut-back-report-finds/",
@@ -1855,18 +1867,6 @@
    ],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "published": "2026-11-03T18:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "vnl|https://www.valleynewslive.com/2026/11/03/flight-attendants-union-congress-members-seek-privacy-protections-spirit-data-sale-google/",
@@ -3302,6 +3302,18 @@
    "section": "highered"
   },
   {
+   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
+   "published": "2026-11-03T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "openai|https://openai.com/index/cisco-cyber",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3324,18 +3336,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Open Thread",
-   "url": "https://reason.com/volokh/2026/11/03/open-thread-377/",
-   "published": "2026-11-03T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
