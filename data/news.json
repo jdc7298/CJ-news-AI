@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:31:58.533Z",
+ "generatedAt": "2026-11-04T00:33:01.752Z",
  "items": [
   {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/04/star-nascar-driver-suspended-by-own-team-final-race-season/",
@@ -442,18 +442,6 @@
    "topics": [],
    "election": true,
    "section": "politics"
-  },
-  {
-   "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "Please stop asking me when the AI bubble will pop",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-   "published": "2026-11-03T23:37:45.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
   },
   {
    "id": "pbs|https://www.pbs.org/newshour/show/how-exit-polls-are-evolving-as-more-americans-vote-early",
@@ -2266,6 +2254,21 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+   "published": "2026-11-03T15:00:44.000Z",
+   "topics": [
+    "Data & privacy",
+    "Chips & infrastructure"
+   ],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "reason|https://reason.com/2026/11/03/californias-bond-issues-arent-free-money-voters-should-tread-carefully/",
