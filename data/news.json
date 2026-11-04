@@ -1,6 +1,20 @@
 {
- "generatedAt": "2026-11-04T00:57:10.106Z",
+ "generatedAt": "2026-11-04T00:58:12.907Z",
  "items": [
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4780192/georgia-senate-election-results-jon-ossoff-mike-collins/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Jon Ossoff defeats Mike Collins to hold Georgia Senate seat",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4780192/georgia-senate-election-results-jon-ossoff-mike-collins/",
+   "published": "2026-11-04T00:57:28.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
   {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
@@ -11,6 +25,20 @@
    "published": "2026-11-04T00:56:05.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "published": "2026-11-04T00:51:51.000Z",
+   "topics": [
+    "Ballot measures"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -95,20 +123,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-   "published": "2026-11-04T00:38:58.000Z",
-   "topics": [
-    "Ballot measures"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kfyr|https://www.kfyrtv.com/2026/11/04/supreme-court-hear-dispute-over-death-row-inmate-sentence/",
    "source": "KFYR-TV (Bismarck)",
    "sourceId": "kfyr",
@@ -163,6 +177,18 @@
    "topics": [
     "House"
    ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/video/2026/nov/03/us-midterm-voting-issues-new-york-florida-video",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm voting issues: New York voting machine failures and Florida flooding affect some – video",
+   "url": "https://www.theguardian.com/us-news/video/2026/nov/03/us-midterm-voting-issues-new-york-florida-video",
+   "published": "2026-11-04T00:31:46.000Z",
+   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -1067,18 +1093,6 @@
    "title": "Britain Owes No One an Apology",
    "url": "https://www.nationalreview.com/2026/11/britain-owes-no-one-an-apology/",
    "published": "2026-11-03T21:33:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Ketanji Brown Jackson accuses Catholic preschools of wanting ‘special rule’ to bar LGBT families in universal preschool case",
-   "url": "https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
-   "published": "2026-11-03T21:30:34.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -2657,18 +2671,6 @@
    "topics": [
     "Recounts & courts"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/politics/video/2026/nov/03/what-effect-will-the-big-democratic-betrayal-have-on-the-midterms-politics-weekly-america",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "What effect will the big Democratic 'betrayal' have on the midterms? | Politics Weekly America",
-   "url": "https://www.theguardian.com/politics/video/2026/nov/03/what-effect-will-the-big-democratic-betrayal-have-on-the-midterms-politics-weekly-america",
-   "published": "2026-11-03T12:00:06.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
