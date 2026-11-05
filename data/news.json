@@ -1,15 +1,888 @@
 {
- "generatedAt": "2026-11-04T23:41:13.606Z",
+ "generatedAt": "2026-11-05T03:44:25.836Z",
  "items": [
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/chance-fog-mist-during-chilly-thursday-morning/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Chance of fog & mist during a chilly Thursday morning",
+   "url": "https://www.valleynewslive.com/2026/11/05/chance-fog-mist-during-chilly-thursday-morning/",
+   "published": "2026-11-05T03:30:00.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/04/the-time-the-opportunity-and-the-need-to-reclaim-the-republican-party-from-trump-and-trumpism/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "\"The Time, the Opportunity, and the Need to Reclaim the Republican Party from Trump and Trumpism\"",
+   "url": "https://reason.com/volokh/2026/11/04/the-time-the-opportunity-and-the-need-to-reclaim-the-republican-party-from-trump-and-trumpism/",
+   "published": "2026-11-05T03:20:48.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+   "published": "2026-11-05T03:16:32.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Angry Voters Usher in Beginning of the End to the Trump Era",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html",
+   "published": "2026-11-05T03:08:42.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Candy and Smiles on MS NOW, and Some Regrets on Fox News",
+   "url": "https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
+   "published": "2026-11-05T03:06:30.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/roseau-man-arrested-after-90-mph-pursuit-highway-11-sheriffs-office-says/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Roseau man arrested after 90 mph pursuit on Highway 11, sheriff’s office says",
+   "url": "https://www.valleynewslive.com/2026/11/05/roseau-man-arrested-after-90-mph-pursuit-highway-11-sheriffs-office-says/",
+   "published": "2026-11-05T03:04:38.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/news/audio/2026/nov/05/trump-has-been-humbled-now-what-podcast",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Trump has been humbled. Now what? - podcast",
+   "url": "https://www.theguardian.com/news/audio/2026/nov/05/trump-has-been-humbled-now-what-podcast",
+   "published": "2026-11-05T03:00:51.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/house/4793550/thomas-massie-hegseth-impeachment-iran-war-used-as-blame-for-midterm-results/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Massie gives Hegseth impeachment ultimatum as GOP pins blue wave on Iran war",
+   "url": "https://www.washingtonexaminer.com/news/house/4793550/thomas-massie-hegseth-impeachment-iran-war-used-as-blame-for-midterm-results/",
+   "published": "2026-11-05T02:50:44.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/administration/6199783-trump-calls-congress-daylight-saving/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Trump urges Congress to pass daylight saving bill after 'ridiculous' early sunset",
+   "url": "https://thehill.com/homenews/administration/6199783-trump-calls-congress-daylight-saving/",
+   "published": "2026-11-05T02:48:08.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/house/6184793-scott-wiener-wins-pelosi-seat/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Scott Wiener prevails in race to succeed retiring Pelosi",
+   "url": "https://thehill.com/homenews/house/6184793-scott-wiener-wins-pelosi-seat/",
+   "published": "2026-11-05T02:43:36.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/04/dont-expect-a-lame-duck-supreme-court-vacancy-but-there-are-other-nominations-to-consider/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Don't Expect a Lame-Duck Supreme Court Vacancy (But There Are Other Nominations to Consider)",
+   "url": "https://reason.com/volokh/2026/11/04/dont-expect-a-lame-duck-supreme-court-vacancy-but-there-are-other-nominations-to-consider/",
+   "published": "2026-11-05T02:32:09.000Z",
+   "topics": [
+    "Recounts & courts"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "motherjones|https://www.motherjones.com/politics/2026/11/stress-test-video-podcast-maga-meltdown-trump-revolution/",
+   "source": "Mother Jones",
+   "sourceId": "motherjones",
+   "group": "Left-leaning",
+   "title": "The Last Days of MAGA and the Scramble to Dump Trump",
+   "url": "https://www.motherjones.com/politics/2026/11/stress-test-video-podcast-maga-meltdown-trump-revolution/",
+   "published": "2026-11-05T02:26:15.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4793513/leon-black-robert-garcia-defamation-lawsuit-epstein/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Billionaire Leon Black hits Rep. Robert Garcia with defamation suit over Epstein remarks",
+   "url": "https://www.washingtonexaminer.com/news/justice/4793513/leon-black-robert-garcia-defamation-lawsuit-epstein/",
+   "published": "2026-11-05T02:21:41.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/05/darwin-d-williams-sworn-new-chair-three-affiliated-tribes/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Darwin D. Williams sworn in as new chair of Three Affiliated Tribes",
+   "url": "https://www.kfyrtv.com/2026/11/05/darwin-d-williams-sworn-new-chair-three-affiliated-tribes/",
+   "published": "2026-11-05T02:14:44.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/two-grand-forks-residents-face-child-neglect-charges-after-911-hang-up-call/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Two Grand Forks residents face child neglect charges after 911 hang-up call",
+   "url": "https://www.valleynewslive.com/2026/11/05/two-grand-forks-residents-face-child-neglect-charges-after-911-hang-up-call/",
+   "published": "2026-11-05T02:13:59.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/trump-midterms-losses-republicans.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Inside Team Trump’s Historic Collapse in the 2026 Midterm Elections",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-midterms-losses-republicans.html",
+   "published": "2026-11-05T02:02:47.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
+   "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
+   "published": "2026-11-05T02:00:50.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/senate/6199935-cruz-warns-democrat-texas-wins/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Cruz warns 'Texans will be hurt' after 'blue tsunami'",
+   "url": "https://thehill.com/homenews/senate/6199935-cruz-warns-democrat-texas-wins/",
+   "published": "2026-11-05T01:59:27.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/bowler-bowling-alley-fargo-listed-43-million/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "The Bowler bowling alley in Fargo listed for $4.3 million",
+   "url": "https://www.valleynewslive.com/2026/11/05/bowler-bowling-alley-fargo-listed-43-million/",
+   "published": "2026-11-05T01:59:16.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/house/6190311-shah-wins-arizona-house-race/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Democrats flip open Arizona House seat",
+   "url": "https://thehill.com/homenews/house/6190311-shah-wins-arizona-house-race/",
+   "published": "2026-11-05T01:44:21.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/how-minnesota-north-dakota-fit-into-democrats-nationwide-midterm-wins/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "How Minnesota and North Dakota fit into Democrats’ nationwide midterm wins",
+   "url": "https://www.valleynewslive.com/2026/11/05/how-minnesota-north-dakota-fit-into-democrats-nationwide-midterm-wins/",
+   "published": "2026-11-05T01:34:50.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/moderate-democrats-midterms.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Moderate Democrats Increase Their Numbers, and Their Clout",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/moderate-democrats-midterms.html",
+   "published": "2026-11-05T01:32:45.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6142047-gluesenkamp-perez-defeats-braun/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Gluesenkamp Perez holds on to Washington House seat",
+   "url": "https://thehill.com/homenews/campaign/6142047-gluesenkamp-perez-defeats-braun/",
+   "published": "2026-11-05T01:32:33.000Z",
+   "topics": [
+    "House"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "‘It Is Never Enough’: Susan Collins Couldn’t Outrun Trump",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
+   "published": "2026-11-05T01:30:53.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Datacenters were on the ballot. US voters rejected them",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections",
+   "published": "2026-11-05T01:30:14.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/state-watch/6149517-nithya-raman-los-angeles-mayor/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Raman ousts Bass as Los Angeles mayor",
+   "url": "https://thehill.com/homenews/state-watch/6149517-nithya-raman-los-angeles-mayor/",
+   "published": "2026-11-05T01:10:59.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Colorado rejects conservative effort to require police to cooperate with immigration officers",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
+   "published": "2026-11-05T01:10:46.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/trump-new-role-lame-duck.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Trump Wrestles With New Reality: A Lame Duck With Two Years Left to Fight",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-new-role-lame-duck.html",
+   "published": "2026-11-05T01:08:24.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/reporter-forced-out-republican-candidates-election-party-during-profane-laced-speech-live-television/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Reporter forced out of Republican candidate’s election party during profane-laced speech on live television",
+   "url": "https://www.valleynewslive.com/2026/11/05/reporter-forced-out-republican-candidates-election-party-during-profane-laced-speech-live-television/",
+   "published": "2026-11-05T01:03:23.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/05/reporter-forced-out-republican-candidates-election-party-during-profane-laced-speech-live-television/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Reporter forced out of Republican candidate’s election party during profane-laced speech on live television",
+   "url": "https://www.kfyrtv.com/2026/11/05/reporter-forced-out-republican-candidates-election-party-during-profane-laced-speech-live-television/",
+   "published": "2026-11-05T01:03:23.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "After midterm defeat, Trump faces mostly bad options in Iran",
+   "url": "https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options",
+   "published": "2026-11-05T00:57:18.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6188142-live-updates-trump-democrats-congress-control/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Live updates: Trump blames Iran war for midterm loss while touting ballroom construction",
+   "url": "https://thehill.com/homenews/campaign/6188142-live-updates-trump-democrats-congress-control/",
+   "published": "2026-11-05T00:56:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/chilly-gloomy-night-ahead-cool-quiet-thursday/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Chilly, gloomy night ahead of a cool, quiet Thursday",
+   "url": "https://www.valleynewslive.com/2026/11/04/chilly-gloomy-night-ahead-cool-quiet-thursday/",
+   "published": "2026-11-05T00:55:28.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/state-watch/6199751-harrison-calls-abbott-limit-hinojosa/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Texas state rep calls on Abbott to curb Hinojosa's power before inauguration",
+   "url": "https://thehill.com/homenews/state-watch/6199751-harrison-calls-abbott-limit-hinojosa/",
+   "published": "2026-11-05T00:53:15.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "motherjones|https://www.motherjones.com/politics/2026/11/democrats-dhs-homeland-security-investigations-corruption-hassan-senate/",
+   "source": "Mother Jones",
+   "sourceId": "motherjones",
+   "group": "Left-leaning",
+   "title": "Democrats Are Already Hiring Lawyers to Investigate DHS",
+   "url": "https://www.motherjones.com/politics/2026/11/democrats-dhs-homeland-security-investigations-corruption-hassan-senate/",
+   "published": "2026-11-05T00:51:36.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/05/2028-white-house-talk-begins-after-historic-midterm-election-day/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "2028 White House talk begins after historic Midterm Election Day",
+   "url": "https://www.valleynewslive.com/2026/11/05/2028-white-house-talk-begins-after-historic-midterm-election-day/",
+   "published": "2026-11-05T00:51:24.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/05/2028-white-house-talk-begins-after-historic-midterm-election-day/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "2028 White House talk begins after historic Midterm Election Day",
+   "url": "https://www.kfyrtv.com/2026/11/05/2028-white-house-talk-begins-after-historic-midterm-election-day/",
+   "published": "2026-11-05T00:51:24.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/05/house-democrats-jeffries-centrists-majority-left",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "House Democrats face epic power struggle over their massive majority",
+   "url": "https://www.axios.com/2026/11/05/house-democrats-jeffries-centrists-majority-left",
+   "published": "2026-11-05T00:47:05.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/state-watch/6199864-eric-armstrong-iowa-house-win/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Iowa Democrat who quit race wins seat anyway",
+   "url": "https://thehill.com/homenews/state-watch/6199864-eric-armstrong-iowa-house-win/",
+   "published": "2026-11-05T00:41:44.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/house/6199833-trump-impeachment-vote-republicans-exit/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "None of the House Republicans who voted to impeach Trump will be in the next Congress",
+   "url": "https://thehill.com/homenews/house/6199833-trump-impeachment-vote-republicans-exit/",
+   "published": "2026-11-05T00:33:50.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
+   "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
+   "published": "2026-11-05T00:31:06.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/05/marketers-roadshow-brings-local-businesses-together-minot/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Marketer’s Roadshow brings local businesses together in Minot",
+   "url": "https://www.kfyrtv.com/2026/11/05/marketers-roadshow-brings-local-businesses-together-minot/",
+   "published": "2026-11-05T00:22:15.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/white-house/4793480/trump-senate-sunshine-protection-act/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Trump pressures Senate on Sunshine Protection Act over ‘ridiculous’ early sunsets",
+   "url": "https://www.washingtonexaminer.com/news/white-house/4793480/trump-senate-sunshine-protection-act/",
+   "published": "2026-11-05T00:19:39.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/policy/finance-and-economy/4793207/elon-musk-net-worth-drops-billion-democrats-sweep-midterms/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Elon Musk’s net worth drops $33.5 billion as Democratic majorities loom",
+   "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4793207/elon-musk-net-worth-drops-billion-democrats-sweep-midterms/",
+   "published": "2026-11-05T00:12:36.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "ndmonitor|https://northdakotamonitor.com/2026/11/04/repub/democrats-won-congress-now-they-have-to-figure-out-how-to-deal-with-trump/",
+   "source": "North Dakota Monitor",
+   "sourceId": "ndmonitor",
+   "group": "Local ND",
+   "title": "Democrats won Congress. Now they have to figure out how to deal with Trump.",
+   "url": "https://northdakotamonitor.com/2026/11/04/repub/democrats-won-congress-now-they-have-to-figure-out-how-to-deal-with-trump/",
+   "published": "2026-11-05T00:10:05.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/04/5-takeaways-democrats-win-big-states-congress",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "5 Takeaways From Democrats’ Historic Night",
+   "url": "https://www.insidehighered.com/news/government/politics-elections/2026/11/04/5-takeaways-democrats-win-big-states-congress",
+   "published": "2026-11-05T00:07:58.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "ndmonitor|https://northdakotamonitor.com/2026/11/04/repub/midterm-winners-include-several-who-made-history/",
+   "source": "North Dakota Monitor",
+   "sourceId": "ndmonitor",
+   "group": "Local ND",
+   "title": "Midterm winners include several who made history",
+   "url": "https://northdakotamonitor.com/2026/11/04/repub/midterm-winners-include-several-who-made-history/",
+   "published": "2026-11-05T00:07:48.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Five reasons why Republicans lost so badly",
+   "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-05T00:07:19.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/analysis/6199809-five-takeaways-on-the-demographic-shifts-that-powered-the-democrats-midterm-victory/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "5 takeaways on the demographic shifts that powered the Democrats’ midterm victory",
+   "url": "https://thehill.com/homenews/analysis/6199809-five-takeaways-on-the-demographic-shifts-that-powered-the-democrats-midterm-victory/",
+   "published": "2026-11-05T00:06:49.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/05/sports-spotlight-brooklyn-pudwill/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Sports Spotlight: Brooklyn Pudwill",
+   "url": "https://www.kfyrtv.com/2026/11/05/sports-spotlight-brooklyn-pudwill/",
+   "published": "2026-11-05T00:04:54.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/election-takeaways-democrats-win.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "8 Midterm Election Takeaways: A Democratic Landslide Punishes Trump’s Party",
+   "url": "https://www.nytimes.com/2026/11/04/us/politics/election-takeaways-democrats-win.html",
+   "published": "2026-11-05T00:04:19.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4793420/doj-quiet-alaska-investigation-senate-peltola-sullivan/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "DOJ stays quiet on Alaska investigations as Senate race too close to call",
+   "url": "https://www.washingtonexaminer.com/news/justice/4793420/doj-quiet-alaska-investigation-senate-peltola-sullivan/",
+   "published": "2026-11-05T00:01:48.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Trump Administration Moves to Oust Arbitrators as Doctor Payouts Soar",
+   "url": "https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
+   "published": "2026-11-05T00:01:15.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/white-house/4793367/trump-helps-fuel-democratic-talent-pool-midterm-elections/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Trump helps fuel Democratic talent pool post-midterm elections",
+   "url": "https://www.washingtonexaminer.com/news/white-house/4793367/trump-helps-fuel-democratic-talent-pool-midterm-elections/",
+   "published": "2026-11-04T23:57:24.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/registered-sex-offender-arrested-recording-children-concerning-images-found-police-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Registered sex offender arrested for recording children, ‘concerning’ images found, police say",
+   "url": "https://www.valleynewslive.com/2026/11/04/registered-sex-offender-arrested-recording-children-concerning-images-found-police-say/",
+   "published": "2026-11-04T23:55:08.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/registered-sex-offender-arrested-recording-children-concerning-images-found-police-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Registered sex offender arrested for recording children, ‘concerning’ images found, police say",
+   "url": "https://www.kfyrtv.com/2026/11/04/registered-sex-offender-arrested-recording-children-concerning-images-found-police-say/",
+   "published": "2026-11-04T23:55:08.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/midterm-voters-rebuke-trump-handing-democrats-both-chambers-of-congress",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "Midterm voters rebuke Trump, handing Democrats both chambers of Congress",
+   "url": "https://www.pbs.org/newshour/show/midterm-voters-rebuke-trump-handing-democrats-both-chambers-of-congress",
+   "published": "2026-11-04T23:55:07.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/newsletters/defense-national-security/6199780-the-blame-game-administration-points-finger-at-iran-after-major-gop-midterm-loss/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "The blame game: Administration points finger at Iran after major GOP midterm loss",
+   "url": "https://thehill.com/newsletters/defense-national-security/6199780-the-blame-game-administration-points-finger-at-iran-after-major-gop-midterm-loss/",
+   "published": "2026-11-04T23:51:21.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "News Wrap: Officials in Iran welcome midterm results as vote against war",
+   "url": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war",
+   "published": "2026-11-04T23:50:44.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+   "url": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-04T23:50:40.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/government/politics-elections/2026/11/04/democrats-texas-takeover-could-reshape-boards-and",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Democrats’ Texas Takeover Could Reshape Boards, Laws and More",
+   "url": "https://www.insidehighered.com/news/government/politics-elections/2026/11/04/democrats-texas-takeover-could-reshape-boards-and",
+   "published": "2026-11-04T23:48:37.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/breaking-down-the-democrats-big-majorities-after-the-blue-wave",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "Breaking down the Democrats' big majorities after the blue wave",
+   "url": "https://www.pbs.org/newshour/show/breaking-down-the-democrats-big-majorities-after-the-blue-wave",
+   "published": "2026-11-04T23:45:30.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/alito-trump-supreme-court-not-retiring.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
    "group": "Left-leaning",
-   "title": "Justice Alito Will Not Retire Immediately, Despite Election Outcome",
+   "title": "Justice Alito Will Not Retire From Supreme Court Immediately, Despite Election Outcome",
    "url": "https://www.nytimes.com/2026/11/04/us/politics/alito-trump-supreme-court-not-retiring.html",
-   "published": "2026-11-04T23:37:21.000Z",
+   "published": "2026-11-04T23:44:50.000Z",
+   "topics": [
+    "Recounts & courts"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/voter-turnout-lowest-50-years/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Voter turnout in ND lowest in 50 years",
+   "url": "https://www.kfyrtv.com/2026/11/04/voter-turnout-lowest-50-years/",
+   "published": "2026-11-04T23:42:17.000Z",
+   "topics": [
+    "Voting & access",
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/newsletters/energy-environment/6199755-blue-wave-crashes-into-data-centers/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Blue wave crashes into data centers",
+   "url": "https://thehill.com/newsletters/energy-environment/6199755-blue-wave-crashes-into-data-centers/",
+   "published": "2026-11-04T23:40:47.000Z",
    "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/04/dnc-chairman-shares-party-goals-after-blue-wave/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "DNC Chairman shares party goals after ‘blue wave’",
+   "url": "https://www.valleynewslive.com/2026/11/04/dnc-chairman-shares-party-goals-after-blue-wave/",
+   "published": "2026-11-04T23:40:36.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/dnc-chairman-shares-party-goals-after-blue-wave/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "DNC Chairman shares party goals after ‘blue wave’",
+   "url": "https://www.kfyrtv.com/2026/11/04/dnc-chairman-shares-party-goals-after-blue-wave/",
+   "published": "2026-11-04T23:40:36.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "The issues that drove voters' decisions in the midterms",
+   "url": "https://www.pbs.org/newshour/show/the-issues-that-drove-voters-decisions-in-the-midterms",
+   "published": "2026-11-04T23:40:31.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "'A mandate for change': Progressive Democrat William Lawrence flips House seat in Michigan",
+   "url": "https://www.pbs.org/newshour/show/a-mandate-for-change-progressive-democrat-william-lawrence-flips-house-seat-in-michigan",
+   "published": "2026-11-04T23:35:28.000Z",
+   "topics": [
+    "House"
+   ],
    "election": true,
    "section": "politics"
   },
@@ -23,6 +896,20 @@
    "published": "2026-11-04T23:30:49.000Z",
    "topics": [],
    "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "pbs|https://www.pbs.org/newshour/show/new-mexicos-deb-haaland-on-making-history-as-first-native-american-woman-elected-governor",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "New Mexico's Deb Haaland on making history as first Native American woman elected governor",
+   "url": "https://www.pbs.org/newshour/show/new-mexicos-deb-haaland-on-making-history-as-first-native-american-woman-elected-governor",
+   "published": "2026-11-04T23:30:16.000Z",
+   "topics": [
+    "Governors"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -103,6 +990,18 @@
    "section": "politics"
   },
   {
+   "id": "pbs|https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "OKC's Republican mayor says election wipeout is 'rejection of Trumpism'",
+   "url": "https://www.pbs.org/newshour/show/okcs-republican-mayor-says-election-wipeout-is-rejection-of-trumpism",
+   "published": "2026-11-04T23:25:13.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "motherjones|https://www.motherjones.com/politics/2026/11/warmongers-blame-iran-war-election-jd-vance-bolton-trump/",
    "source": "Mother Jones",
    "sourceId": "motherjones",
@@ -115,27 +1014,15 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US midterm elections 2026 live: Democrats pick up more wins as vote counting in tight races continues and Republican blame game begins",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-   "published": "2026-11-04T23:24:57.000Z",
+   "id": "pbs|https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "How the Latino shift to Democrats helped turn Texas blue",
+   "url": "https://www.pbs.org/newshour/show/how-the-latino-shift-to-democrats-helped-turn-texas-blue",
+   "published": "2026-11-04T23:20:54.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6188142-live-updates-trump-democrats-congress-control/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Live updates: Trump blames Iran war for midterm loss while touting ballroom construction",
-   "url": "https://thehill.com/homenews/campaign/6188142-live-updates-trump-democrats-congress-control/",
-   "published": "2026-11-04T23:20:00.000Z",
-   "topics": [],
-   "election": true,
+   "election": false,
    "section": "politics"
   },
   {
@@ -163,13 +1050,25 @@
    "section": "politics"
   },
   {
+   "id": "pbs|https://www.pbs.org/newshour/show/democratic-and-gop-strategists-on-how-parties-should-respond-to-midterm-results",
+   "source": "PBS NewsHour Politics",
+   "sourceId": "pbs",
+   "group": "Wire & public media",
+   "title": "Democratic and GOP strategists on how parties should respond to midterm results",
+   "url": "https://www.pbs.org/newshour/show/democratic-and-gop-strategists-on-how-parties-should-respond-to-midterm-results",
+   "published": "2026-11-04T23:15:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/midterm-elections-doctors-nurses.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
    "group": "Left-leaning",
    "title": "Medical Professionals Are Among the Winners of the Midterms",
    "url": "https://www.nytimes.com/2026/11/04/us/politics/midterm-elections-doctors-nurses.html",
-   "published": "2026-11-04T23:14:58.000Z",
+   "published": "2026-11-04T23:14:59.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -204,25 +1103,13 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/policy/energy-environment/6199690-3m-forever-chemical-pfas-injury-claims/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "3M settles 'forever chemical' personal injury claims for $7B",
-   "url": "https://thehill.com/policy/energy-environment/6199690-3m-forever-chemical-pfas-injury-claims/",
-   "published": "2026-11-04T23:11:10.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/trump-new-role-lame-duck.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Trump Confronts a New Role: A Lame Duck Facing a Hostile Congress",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-new-role-lame-duck.html",
-   "published": "2026-11-04T23:02:15.000Z",
+   "id": "fox|https://www.foxnews.com/politics/erika-kirk-channels-charlie-blunt-message-conservatives-after-gop-midterm-losses",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Erika Kirk channels Charlie with blunt message to conservatives after GOP midterm losses",
+   "url": "https://www.foxnews.com/politics/erika-kirk-channels-charlie-blunt-message-conservatives-after-gop-midterm-losses",
+   "published": "2026-11-04T23:00:14.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -254,30 +1141,6 @@
    "section": "politics"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Trump Administration Moves to Oust Arbitrators as Doctor Payouts Soar",
-   "url": "https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
-   "published": "2026-11-04T22:51:13.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/newsletters/business-economy/6199636-exit-polling-shows-electorate-still-frustrated-with-prices/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Exit polling shows electorate still frustrated with prices",
-   "url": "https://thehill.com/newsletters/business-economy/6199636-exit-polling-shows-electorate-still-frustrated-with-prices/",
-   "published": "2026-11-04T22:48:14.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "examiner|https://www.washingtonexaminer.com/news/white-house/4793312/trump-midterm-election-losses-joe-concha/",
    "source": "Washington Examiner",
    "sourceId": "examiner",
@@ -288,6 +1151,21 @@
    "topics": [],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+   "source": "The Verge: AI",
+   "sourceId": "vergeai",
+   "group": "Tech press",
+   "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+   "published": "2026-11-04T22:42:15.000Z",
+   "topics": [
+    "Data & privacy",
+    "Chips & infrastructure"
+   ],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "examiner|https://www.washingtonexaminer.com/news/senate/4793218/democrats-hire-investigators-published-job-postings-anti-corruption-trump-blue-wave/",
@@ -309,56 +1187,6 @@
    "title": "Americans on Why They Rejected Trump’s Republican Party",
    "url": "https://www.nytimes.com/2026/11/04/us/elections/midterms-mood.html",
    "published": "2026-11-04T22:35:27.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/newsletters/technology/6199593-democrats-won-big-on-election-day-prediction-markets-gave-an-early-glimpse/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Democrats won big on Election Day. Prediction markets gave an early glimpse",
-   "url": "https://thehill.com/newsletters/technology/6199593-democrats-won-big-on-election-day-prediction-markets-gave-an-early-glimpse/",
-   "published": "2026-11-04T22:34:11.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Susan Collins Finally Falls to an Election Foe: Donald Trump",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/susan-collins-defeat-donald-trump.html",
-   "published": "2026-11-04T22:33:34.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/senate/6199541-indivisible-calls-schumer-replacement/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Progressive group calls for Senate Dems to replace Schumer as leader",
-   "url": "https://thehill.com/homenews/senate/6199541-indivisible-calls-schumer-replacement/",
-   "published": "2026-11-04T22:32:24.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/administration/6199555-trump-midterm-losses-legacy/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Trump faces reckoning, but focuses on ballroom, after devastating losses",
-   "url": "https://thehill.com/homenews/administration/6199555-trump-midterm-losses-legacy/",
-   "published": "2026-11-04T22:31:47.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -440,32 +1268,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/regulation/court-battles/6199499-nyc-court-rules-mamdani-tax/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Appeals court rules for Mamdani on pied-à-terre tax, reversing lower court",
-   "url": "https://thehill.com/regulation/court-battles/6199499-nyc-court-rules-mamdani-tax/",
-   "published": "2026-11-04T22:10:33.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6199386-house-republican-incumbents-lose-midterm-elections/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "All the GOP House incumbents swept away in the blue wave",
-   "url": "https://thehill.com/homenews/campaign/6199386-house-republican-incumbents-lose-midterm-elections/",
-   "published": "2026-11-04T22:10:11.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "npr|https://www.npr.org/2026/11/04/nx-s1-6029122/whats-the-future-of-the-democratic-party-in-texas-amid-historic-midterm-wins",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -473,18 +1275,6 @@
    "title": "What's the future of the Democratic party in Texas, amid historic midterm wins?",
    "url": "https://www.npr.org/2026/11/04/nx-s1-6029122/whats-the-future-of-the-democratic-party-in-texas-amid-historic-midterm-wins",
    "published": "2026-11-04T22:10:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/policy/defense/6199306-dc-national-guard-arrest-finger-gun/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Man arrested near White House for making 'finger gun' gesture at National Guard",
-   "url": "https://thehill.com/policy/defense/6199306-dc-national-guard-arrest-finger-gun/",
-   "published": "2026-11-04T22:09:45.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -537,94 +1327,6 @@
    "published": "2026-11-04T22:02:02.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/campaign/6199228-stevens-doubles-down-rogers-endorsement/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Haley Stevens triples down on Rogers endorsement after El-Sayed's victory",
-   "url": "https://thehill.com/homenews/campaign/6199228-stevens-doubles-down-rogers-endorsement/",
-   "published": "2026-11-04T21:58:53.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/media/6199423-republican-midterm-losses-scott-jennings/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Scott Jennings: Republicans suffered 'country a‑‑ whooping' in midterms",
-   "url": "https://thehill.com/homenews/media/6199423-republican-midterm-losses-scott-jennings/",
-   "published": "2026-11-04T21:58:27.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/house/4793188/hakeem-jeffries-house-speaker-announcement/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Hakeem Jeffries formally announces bid for House speaker",
-   "url": "https://www.washingtonexaminer.com/news/house/4793188/hakeem-jeffries-house-speaker-announcement/",
-   "published": "2026-11-04T21:57:22.000Z",
-   "topics": [
-    "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/state-watch/6199385-democrats-flip-texas-elections/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Democrats just broke GOP’s grip on Texas. What comes next?",
-   "url": "https://thehill.com/homenews/state-watch/6199385-democrats-flip-texas-elections/",
-   "published": "2026-11-04T21:56:27.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4793198/haley-stevens-stands-by-mike-rogers-endorsement-michigan-senate-race/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Haley Stevens stands by Mike Rogers endorsement: ‘I don’t regret it’",
-   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4793198/haley-stevens-stands-by-mike-rogers-endorsement-michigan-senate-race/",
-   "published": "2026-11-04T21:56:03.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4792119/democrats-accidentially-won-house-races/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Accidental winners from the midterm elections",
-   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4792119/democrats-accidentially-won-house-races/",
-   "published": "2026-11-04T21:53:58.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4793176/appeals-court-mamdani-nyc-second-home-tax-proceed-owners-didnt-prove-concrete-injury/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Appeals court allows Mamdani’s NYC second-home tax to proceed",
-   "url": "https://www.washingtonexaminer.com/news/justice/4793176/appeals-court-mamdani-nyc-second-home-tax-proceed-owners-didnt-prove-concrete-injury/",
-   "published": "2026-11-04T21:51:21.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -682,20 +1384,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/chilly-gloomy-night-ahead-cool-quiet-thursday/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Chilly, gloomy night ahead of a cool, quiet Thursday",
-   "url": "https://www.valleynewslive.com/2026/11/04/chilly-gloomy-night-ahead-cool-quiet-thursday/",
-   "published": "2026-11-04T21:45:26.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
    "source": "The Verge: AI",
    "sourceId": "vergeai",
@@ -732,18 +1420,6 @@
    "section": "politics"
   },
   {
-   "id": "examiner|https://www.washingtonexaminer.com/policy/defense/4792189/pete-hegseth-job-safe-midterms-iran-vocal-cheerleaders-reckoning/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Is Pete Hegseth’s job safe with Iran war taking the blame for blue wave?",
-   "url": "https://www.washingtonexaminer.com/policy/defense/4792189/pete-hegseth-job-safe-midterms-iran-vocal-cheerleaders-reckoning/",
-   "published": "2026-11-04T21:41:17.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -753,32 +1429,6 @@
    "published": "2026-11-04T21:41:15.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/senate/4793065/brendan-boyle-rules-out-2028-senate-run/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Brendan Boyle rules out 2028 Senate run with House Budget Committee chairman announcement",
-   "url": "https://www.washingtonexaminer.com/news/senate/4793065/brendan-boyle-rules-out-2028-senate-run/",
-   "published": "2026-11-04T21:39:48.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/policy/international/6199329-zelensky-musk-starlink-slowdown/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Zelensky doubts Musk 'acted alone' in Ukraine Starlink slowdown",
-   "url": "https://thehill.com/policy/international/6199329-zelensky-musk-starlink-slowdown/",
-   "published": "2026-11-04T21:38:57.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -867,18 +1517,6 @@
    "title": "The Texas Miracle",
    "url": "https://www.motherjones.com/politics/2026/11/blue-texas-james-talarico-gina-hinojosa-trump-abbott-paxton-bo-french/",
    "published": "2026-11-04T21:32:07.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/kseniia-petrova-harvard-frog-embryos",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US prosecutors drop criminal charges against scientist detained over frog embryos",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/kseniia-petrova-harvard-frog-embryos",
-   "published": "2026-11-04T21:31:35.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -1012,12 +1650,12 @@
    "section": "politics"
   },
   {
-   "id": "motherjones|https://www.motherjones.com/politics/2026/11/bottoms-up/",
+   "id": "motherjones|https://www.motherjones.com/politics/2026/11/bottoms-up-keisha-lance-bottoms-georgia-governor-democrats/",
    "source": "Mother Jones",
    "sourceId": "motherjones",
    "group": "Left-leaning",
    "title": "Bottoms Up!",
-   "url": "https://www.motherjones.com/politics/2026/11/bottoms-up/",
+   "url": "https://www.motherjones.com/politics/2026/11/bottoms-up-keisha-lance-bottoms-georgia-governor-democrats/",
    "published": "2026-11-04T20:58:11.000Z",
    "topics": [],
    "election": false,
@@ -1112,6 +1750,18 @@
    "section": "politics"
   },
   {
+   "id": "axios|https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "House Republicans swing from \"shock\" to fury",
+   "url": "https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader",
+   "published": "2026-11-04T20:43:25.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "wiredai|https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
    "source": "WIRED: AI",
    "sourceId": "wiredai",
@@ -1136,18 +1786,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/california-22nd-district-house-midterms",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "California progressive Randy Villegas ousts longtime Republican in redrawn House district",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/california-22nd-district-house-midterms",
-   "published": "2026-11-04T20:37:17.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cmpdg093e589o?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -1157,18 +1795,6 @@
    "published": "2026-11-04T20:35:07.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/trump-ballroom-midterms-reaction",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Trump boasts about ‘magnificent’ ballroom day after Republican rout",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/trump-ballroom-midterms-reaction",
-   "published": "2026-11-04T20:34:08.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1210,30 +1836,6 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/trump-wealth-midterm-elections",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Trump’s wealth dented after Democrats trounce Republicans in midterms",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/trump-wealth-midterm-elections",
-   "published": "2026-11-04T20:29:09.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "motherjones|https://www.motherjones.com/politics/2026/11/aipac-midterms-el-sayed-israel-lobby-spending/",
-   "source": "Mother Jones",
-   "sourceId": "motherjones",
-   "group": "Left-leaning",
-   "title": "Is AIPAC Okay?",
-   "url": "https://www.motherjones.com/politics/2026/11/aipac-midterms-el-sayed-israel-lobby-spending/",
-   "published": "2026-11-04T20:25:06.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "npr|https://www.npr.org/2026/11/04/nx-s1-6023272/navajo-voters-hop-tractors-make-extraordinary-efforts-to-vote-after-widespread-flooding",
    "source": "NPR Politics",
    "sourceId": "npr",
@@ -1258,18 +1860,6 @@
    ],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "motherjones|https://www.motherjones.com/politics/2026/11/trump-crypto-world-liberty-meme-coin-election-results/",
-   "source": "Mother Jones",
-   "sourceId": "motherjones",
-   "group": "Left-leaning",
-   "title": "Trump’s Political Career Crashed Last Night. So Did His Crypto.",
-   "url": "https://www.motherjones.com/politics/2026/11/trump-crypto-world-liberty-meme-coin-election-results/",
-   "published": "2026-11-04T20:10:55.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "wiredai|https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
@@ -1309,6 +1899,18 @@
     "North Dakota"
    ],
    "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/susan-collins-senate-defeat-troy-jackson",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "What the downfall of near three-decade senator Susan Collins says about Republican unpopularity",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/susan-collins-senate-defeat-troy-jackson",
+   "published": "2026-11-04T20:00:42.000Z",
+   "topics": [],
+   "election": false,
    "section": "politics"
   },
   {
@@ -1390,18 +1992,6 @@
    "topics": [
     "North Dakota"
    ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
-   "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
-   "published": "2026-11-04T19:51:40.000Z",
-   "topics": [],
    "election": true,
    "section": "politics"
   },
@@ -1738,6 +2328,18 @@
    "section": "politics"
   },
   {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/pilates-politics-fitness-studios-midterms-voting",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "‘Wellness is on the ballot’: why did so many pilates studios tell me to vote in the midterms?",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/pilates-politics-fitness-studios-midterms-voting",
+   "published": "2026-11-04T18:53:31.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
    "id": "pbs|https://www.pbs.org/newshour/world/world-leaders-who-sparred-with-trump-express-mix-of-relief-caution-at-gop-election-rout",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -2021,18 +2623,6 @@
    "section": "politics"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Candy and Smiles on MS NOW, and Some Regrets on Fox News",
-   "url": "https://www.nytimes.com/2026/11/04/business/media/midterm-elections-fox-ms-now.html",
-   "published": "2026-11-04T18:22:34.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "fox|https://www.foxnews.com/politics/far-left-activist-defeats-house-republican-heavy-blow-gop-majority",
    "source": "Fox News Politics",
    "sourceId": "fox",
@@ -2041,20 +2631,6 @@
    "url": "https://www.foxnews.com/politics/far-left-activist-defeats-house-republican-heavy-blow-gop-majority",
    "published": "2026-11-04T18:22:33.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/marathon-announces-future-sale-mandan-refinery/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Marathon announces future sale of Mandan refinery",
-   "url": "https://www.kfyrtv.com/2026/11/04/marathon-announces-future-sale-mandan-refinery/",
-   "published": "2026-11-04T18:22:14.000Z",
-   "topics": [
-    "North Dakota"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -2114,32 +2690,6 @@
    "title": "DeSantis calls GOP midterm losses 'extinction-level event' — and explains why Florida survived",
    "url": "https://www.foxnews.com/politics/desantis-calls-gop-midterm-losses-extinction-level-event-explains-why-florida-survived",
    "published": "2026-11-04T18:10:10.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/another-round-rain-some-wednesday-with-wind/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Another round of rain for some Wednesday with wind",
-   "url": "https://www.valleynewslive.com/2026/11/04/another-round-rain-some-wednesday-with-wind/",
-   "published": "2026-11-04T18:07:24.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Angry Voters Usher in Beginning of the End to the Trump Era",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html",
-   "published": "2026-11-04T18:05:03.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -2263,21 +2813,9 @@
    "source": "Fox News Politics",
    "sourceId": "fox",
    "group": "Right-leaning",
-   "title": "Florida DeSantis describes GOP midterms wipeout as 'close to an extinction-level event' for Republicans",
+   "title": "Florida's DeSantis describes GOP midterms wipeout as 'close to an extinction-level event' for Republicans",
    "url": "https://www.foxnews.com/politics/florida-desantis-describes-gop-midterms-wipeout-close-extinction-level-event-republicans",
    "published": "2026-11-04T17:48:25.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/election-takeaways-democrats-win.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "8 Midterm Election Takeaways: A Democratic Landslide Punishes Trump’s Party",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/election-takeaways-democrats-win.html",
-   "published": "2026-11-04T17:45:48.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -2319,20 +2857,6 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/bismarck-public-schools-bond-proposal-fails-reach-60-threshold/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Bismarck Public Schools bond proposal fails to reach 60% threshold",
-   "url": "https://www.kfyrtv.com/2026/11/04/bismarck-public-schools-bond-proposal-fails-reach-60-threshold/",
-   "published": "2026-11-04T17:38:08.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/04/repub/the-election-is-over-whats-supposed-to-happen-next-for-congress/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -2359,20 +2883,6 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/nd-community-stagefest-returns-watford-city-saturday/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "ND Community Stagefest returns to Watford City Saturday",
-   "url": "https://www.kfyrtv.com/2026/11/04/nd-community-stagefest-returns-watford-city-saturday/",
-   "published": "2026-11-04T17:29:46.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "fox|https://www.foxnews.com/politics/pollsters-missed-mark-again-but-this-time-wasnt-republicans-they-underestimated",
    "source": "Fox News Politics",
    "sourceId": "fox",
@@ -2382,36 +2892,6 @@
    "published": "2026-11-04T17:26:44.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/former-judge-arrested-unloading-gun-halloween-trick-or-treaters-police-say/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Former judge arrested for unloading gun at Halloween trick-or-treaters, police say",
-   "url": "https://www.valleynewslive.com/2026/11/04/former-judge-arrested-unloading-gun-halloween-trick-or-treaters-police-say/",
-   "published": "2026-11-04T17:24:19.000Z",
-   "topics": [
-    "Recounts & courts",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/former-judge-arrested-unloading-gun-halloween-trick-or-treaters-police-say/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Former judge arrested for unloading gun at Halloween trick-or-treaters, police say",
-   "url": "https://www.kfyrtv.com/2026/11/04/former-judge-arrested-unloading-gun-halloween-trick-or-treaters-police-say/",
-   "published": "2026-11-04T17:24:19.000Z",
-   "topics": [
-    "Recounts & courts",
-    "North Dakota"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -2546,34 +3026,6 @@
    "section": "ai"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/aging-untold-these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Aging Untold: These are the skin cancer warning signs you may overlook as you age",
-   "url": "https://www.valleynewslive.com/2026/11/04/aging-untold-these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "published": "2026-11-04T16:55:12.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/aging-untold-these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Aging Untold: These are the skin cancer warning signs you may overlook as you age",
-   "url": "https://www.kfyrtv.com/2026/11/04/aging-untold-these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "published": "2026-11-04T16:55:12.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "reason|https://reason.com/2026/11/04/midterms-2026-data-centers-out-reproductive-freedom-in/",
    "source": "Reason (libertarian)",
    "sourceId": "reason",
@@ -2581,18 +3033,6 @@
    "title": "Midterms 2026: Data Centers Out, Reproductive Freedom In",
    "url": "https://reason.com/2026/11/04/midterms-2026-data-centers-out-reproductive-freedom-in/",
    "published": "2026-11-04T16:49:40.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/iran-victory-lap-stunning-us-election-results-claims-collapse-accelerated",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Iran takes a victory lap over stunning US election results, claims 'collapse has accelerated'",
-   "url": "https://www.foxnews.com/politics/iran-victory-lap-stunning-us-election-results-claims-collapse-accelerated",
-   "published": "2026-11-04T16:43:44.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -2646,34 +3086,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/this-might-be-most-remote-bakery-all-vermont/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "This might be the most remote bakery in all of Vermont",
-   "url": "https://www.valleynewslive.com/2026/11/04/this-might-be-most-remote-bakery-all-vermont/",
-   "published": "2026-11-04T16:22:30.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/this-might-be-most-remote-bakery-all-vermont/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "This might be the most remote bakery in all of Vermont",
-   "url": "https://www.kfyrtv.com/2026/11/04/this-might-be-most-remote-bakery-all-vermont/",
-   "published": "2026-11-04T16:22:30.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/politics/how-trump-and-republicans-lost-the-2026-midterm-elections-according-to-ap-voter-poll",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -2682,36 +3094,6 @@
    "url": "https://www.pbs.org/newshour/politics/how-trump-and-republicans-lost-the-2026-midterm-elections-according-to-ap-voter-poll",
    "published": "2026-11-04T16:19:10.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Mississippi Senate candidates Scott Colom and Cindy Hyde-Smith both ‘confident’ in winning race as it remains too close to call",
-   "url": "https://www.valleynewslive.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
-   "published": "2026-11-04T16:18:49.000Z",
-   "topics": [
-    "Senate",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Mississippi Senate candidates Scott Colom and Cindy Hyde-Smith both ‘confident’ in winning race as it remains too close to call",
-   "url": "https://www.kfyrtv.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/",
-   "published": "2026-11-04T16:18:49.000Z",
-   "topics": [
-    "Senate",
-    "North Dakota"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -2798,20 +3180,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/west-fargo-man-sentenced-kindred-daycare-bomb-threat-case/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "West Fargo man sentenced in Kindred daycare bomb threat case",
-   "url": "https://www.valleynewslive.com/2026/11/04/west-fargo-man-sentenced-kindred-daycare-bomb-threat-case/",
-   "published": "2026-11-04T15:42:36.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cq62yjnmg4ego?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -2860,34 +3228,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/critical-shortage-vets-could-threaten-americas-food-supply/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Critical shortage of vets could threaten America’s food supply",
-   "url": "https://www.valleynewslive.com/2026/11/04/critical-shortage-vets-could-threaten-americas-food-supply/",
-   "published": "2026-11-04T15:08:17.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/04/critical-shortage-vets-could-threaten-americas-food-supply/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Critical shortage of vets could threaten America’s food supply",
-   "url": "https://www.kfyrtv.com/2026/11/04/critical-shortage-vets-could-threaten-americas-food-supply/",
-   "published": "2026-11-04T15:08:17.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/hakeem-jeffries-what-to-know.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -2924,18 +3264,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/2026/11/04/ohio-leads-a-wave-of-local-data-center-bans/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Ohio Leads a Wave of Local Data Center Bans",
-   "url": "https://reason.com/2026/11/04/ohio-leads-a-wave-of-local-data-center-bans/",
-   "published": "2026-11-04T14:50:01.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "vergeai|https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
    "source": "The Verge: AI",
    "sourceId": "vergeai",
@@ -2946,18 +3274,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "reason|https://reason.com/2026/11/04/bluenami/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Bluenami",
-   "url": "https://reason.com/2026/11/04/bluenami/",
-   "published": "2026-11-04T14:38:05.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "openai|https://openai.com/index/openai-to-acquire-pierre",
@@ -2993,20 +3309,6 @@
    "published": "2026-11-04T14:17:58.000Z",
    "topics": [
     "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "These are the skin cancer warning signs you may overlook as you age",
-   "url": "https://www.valleynewslive.com/2026/11/04/these-are-skin-cancer-warning-signs-you-may-overlook-you-age/",
-   "published": "2026-11-04T14:17:19.000Z",
-   "topics": [
-    "North Dakota"
    ],
    "election": true,
    "section": "politics"
@@ -3072,20 +3374,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/04/former-state-sen-nicole-mitchell-narrowly-wins-woodbury-city-council-seat/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Former state Sen. Nicole Mitchell wins Woodbury City Council seat",
-   "url": "https://www.valleynewslive.com/2026/11/04/former-state-sen-nicole-mitchell-narrowly-wins-woodbury-city-council-seat/",
-   "published": "2026-11-04T13:23:16.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "axios|https://www.axios.com/2026/11/04/democrats-midterms-energy-costs",
    "source": "Axios",
    "sourceId": "axios",
@@ -3093,18 +3381,6 @@
    "title": "Democrats win chance to take on energy costs",
    "url": "https://www.axios.com/2026/11/04/democrats-midterms-energy-costs",
    "published": "2026-11-04T13:16:43.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/04/texas-democrats-victory-talarico-hinojosa",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "‘A win the size of Texas’: Democrats celebrate shrinking Republican dominance in a big state",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/texas-democrats-victory-talarico-hinojosa",
-   "published": "2026-11-04T13:16:33.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -3136,32 +3412,6 @@
    "section": "politics"
   },
   {
-   "id": "pbs|https://www.pbs.org/newshour/politics/democrats-win-governorships-in-texas-and-other-gop-controlled-states-in-rebuke-to-republicans",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Democrats win governorships in Texas and other GOP-controlled states in rebuke to Republicans",
-   "url": "https://www.pbs.org/newshour/politics/democrats-win-governorships-in-texas-and-other-gop-controlled-states-in-rebuke-to-republicans",
-   "published": "2026-11-04T12:51:32.000Z",
-   "topics": [
-    "Governors"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Five reasons why Republicans lost so badly",
-   "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-04T12:44:19.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "kxnet|https://www.kxnet.com/news/kx-sport-show-returns-to-minot-in-march-2027/",
    "source": "KX News (Bismarck)",
    "sourceId": "kxnet",
@@ -3171,20 +3421,6 @@
    "published": "2026-11-04T12:30:00.000Z",
    "topics": [
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/democrat-abdul-el-sayed-wins-election-to-u-s-senate-from-michigan",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Democrat Abdul El-Sayed wins election to U.S. Senate from Michigan",
-   "url": "https://www.pbs.org/newshour/politics/democrat-abdul-el-sayed-wins-election-to-u-s-senate-from-michigan",
-   "published": "2026-11-04T12:22:33.000Z",
-   "topics": [
-    "Senate"
    ],
    "election": true,
    "section": "politics"
@@ -3247,30 +3483,6 @@
    "published": "2026-11-04T11:30:41.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/midterm-elections-remote-voting-astronauts-space-antarctica.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "How Astronauts Voted From Space in the Midterm Elections",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/midterm-elections-remote-voting-astronauts-space-antarctica.html",
-   "published": "2026-11-04T11:27:41.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/stage/2026/nov/04/emperor-nero-steven-sater-duncan-sheik-spring-awakening-jfk",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "‘Frighteningly of the moment’: Steven Sater on his emperor Nero musical and turning JFK’s assassination into a Greek tragedy",
-   "url": "https://www.theguardian.com/stage/2026/nov/04/emperor-nero-steven-sater-duncan-sheik-spring-awakening-jfk",
-   "published": "2026-11-04T11:26:03.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -3381,30 +3593,6 @@
    "title": "How America voted in maps and charts",
    "url": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-04T09:53:18.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/04/us/politics/democratic-midterms-wipeout.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "How a Democratic Blue Wave Delivered a Republican Wipeout in a Rebuke to Trump",
-   "url": "https://www.nytimes.com/2026/11/04/us/politics/democratic-midterms-wipeout.html",
-   "published": "2026-11-04T08:48:51.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "axios|https://www.axios.com/local/austin/2026/11/04/how-texas-went-democratic",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "How Texas went Democratic",
-   "url": "https://www.axios.com/local/austin/2026/11/04/how-texas-went-democratic",
-   "published": "2026-11-04T08:23:49.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -3524,30 +3712,6 @@
    "section": "highered"
   },
   {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/views/2026/11/04/7-silos-accountability-opinion",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "The 7 Silos of Accountability",
-   "url": "https://www.insidehighered.com/opinion/views/2026/11/04/7-silos-accountability-opinion",
-   "published": "2026-11-04T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/columns/small-world/2026/11/04/value-fine-arts-age-ai",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "The Value of the Fine Arts in the Age of AI",
-   "url": "https://www.insidehighered.com/opinion/columns/small-world/2026/11/04/value-fine-arts-age-ai",
-   "published": "2026-11-04T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
    "id": "openai|https://openai.com/index/a-thousand-fewer-paths-to-root",
    "source": "OpenAI News",
    "sourceId": "openai",
@@ -3558,34 +3722,6 @@
    "topics": [],
    "election": false,
    "section": "ai"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/04/gops-redistricting-firewall-pummeled-by-blue-wave",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "GOP's redistricting firewall pummeled by blue wave",
-   "url": "https://www.axios.com/2026/11/04/gops-redistricting-firewall-pummeled-by-blue-wave",
-   "published": "2026-11-04T07:50:01.000Z",
-   "topics": [
-    "Redistricting"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "WIPEOUT: GOP LOSES HOUSE AND SENATE",
-   "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
-   "published": "2026-11-04T07:34:15.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "bbc|https://www.bbc.co.uk/news/videos/cq3dj7xn2xvko?at_medium=RSS&at_campaign=rss",
@@ -3626,18 +3762,6 @@
    "section": "ai"
   },
   {
-   "id": "pbs|https://www.pbs.org/newshour/politics/watch-democrat-troy-jackson-speaks-after-maine-sen-susan-collins-concedes",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "WATCH: Democrat Troy Jackson speaks after Maine Sen. Susan Collins concedes",
-   "url": "https://www.pbs.org/newshour/politics/watch-democrat-troy-jackson-speaks-after-maine-sen-susan-collins-concedes",
-   "published": "2026-11-04T06:55:51.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "bbc|https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -3676,74 +3800,6 @@
    "section": "politics"
   },
   {
-   "id": "pbs|https://www.pbs.org/newshour/politics/watch-sen-chuck-schumer-speaks-after-democrats-win-control-of-senate",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "WATCH: Sen. Chuck Schumer speaks after Democrats win control of Senate",
-   "url": "https://www.pbs.org/newshour/politics/watch-sen-chuck-schumer-speaks-after-democrats-win-control-of-senate",
-   "published": "2026-11-04T06:42:06.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/watch-new-york-gov-kathy-hochul-speaks-after-winning-reelection",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "WATCH: New York Gov. Kathy Hochul speaks after winning reelection",
-   "url": "https://www.pbs.org/newshour/politics/watch-new-york-gov-kathy-hochul-speaks-after-winning-reelection",
-   "published": "2026-11-04T06:32:22.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/democrat-j-d-ford-wins-election-to-u-s-house-in-indianas-5th-congressional-district",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Democrat J.D. Ford wins election to U.S. House in Indiana's 5th Congressional District",
-   "url": "https://www.pbs.org/newshour/politics/democrat-j-d-ford-wins-election-to-u-s-house-in-indianas-5th-congressional-district",
-   "published": "2026-11-04T06:29:46.000Z",
-   "topics": [
-    "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Democrats win control of U.S. House, in major rebuke to Trump",
-   "url": "https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house",
-   "published": "2026-11-04T06:27:26.000Z",
-   "topics": [
-    "House"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/watch-democrat-annie-andrews-full-victory-speech-after-flipping-south-carolina-senate-seat",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "WATCH: Democrat Annie Andrews' full victory speech after flipping South Carolina Senate seat",
-   "url": "https://www.pbs.org/newshour/politics/watch-democrat-annie-andrews-full-victory-speech-after-flipping-south-carolina-senate-seat",
-   "published": "2026-11-04T06:20:51.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/04/repub/the-blue-tsunami-sweeps-the-us-as-democrats-land-huge-gains-in-congress/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -3753,20 +3809,6 @@
    "published": "2026-11-04T06:11:31.000Z",
    "topics": [
     "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "pbs|https://www.pbs.org/newshour/politics/democrat-troy-jackson-wins-election-to-u-s-senate-from-maine",
-   "source": "PBS NewsHour Politics",
-   "sourceId": "pbs",
-   "group": "Wire & public media",
-   "title": "Democrat Troy Jackson wins election to U.S. Senate from Maine",
-   "url": "https://www.pbs.org/newshour/politics/democrat-troy-jackson-wins-election-to-u-s-senate-from-maine",
-   "published": "2026-11-04T06:06:36.000Z",
-   "topics": [
-    "Senate"
    ],
    "election": true,
    "section": "politics"
@@ -4015,18 +4057,6 @@
    "section": "politics"
   },
   {
-   "id": "vergeai|https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-   "source": "The Verge: AI",
-   "sourceId": "vergeai",
-   "group": "Tech press",
-   "title": "The biggest modding site in PC gaming is taking a stance on AI",
-   "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-   "published": "2026-11-04T00:42:10.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/03/repub/control-of-us-senate-may-depend-on-a-handful-of-toss-up-races-in-midterm-elections/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -4055,6 +4085,18 @@
    ],
    "election": true,
    "section": "politics"
+  },
+  {
+   "id": "openai|https://openai.com/index/introducing-images-2-6",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "group": "Company announcements",
+   "title": "Introducing Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6",
+   "published": "2026-11-04T00:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "openai|https://openai.com/index/devrev-enterprise-self-service",
@@ -4424,36 +4466,6 @@
    "section": "politics"
   },
   {
-   "id": "ndmonitor|https://northdakotamonitor.com/2026/11/02/repub/voters-make-governors-utility-regulators-answer-for-high-power-bills/",
-   "source": "North Dakota Monitor",
-   "sourceId": "ndmonitor",
-   "group": "Local ND",
-   "title": "Voters make governors, utility regulators answer for high power bills",
-   "url": "https://northdakotamonitor.com/2026/11/02/repub/voters-make-governors-utility-regulators-answer-for-high-power-bills/",
-   "published": "2026-11-02T22:12:29.000Z",
-   "topics": [
-    "Governors",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "ndmonitor|https://northdakotamonitor.com/2026/11/02/repub/day-before-election-trumps-doj-asks-us-supreme-court-to-rule-in-california-voting-case/",
-   "source": "North Dakota Monitor",
-   "sourceId": "ndmonitor",
-   "group": "Local ND",
-   "title": "Day before election, Trump’s DOJ asks US Supreme Court to rule in California voting case",
-   "url": "https://northdakotamonitor.com/2026/11/02/repub/day-before-election-trumps-doj-asks-us-supreme-court-to-rule-in-california-voting-case/",
-   "published": "2026-11-02T22:08:07.000Z",
-   "topics": [
-    "Recounts & courts",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "natreview|https://www.nationalreview.com/2026/11/trumps-muddled-reformation-day-message/",
    "source": "National Review",
    "sourceId": "natreview",
@@ -4772,24 +4784,24 @@
    "section": "highered"
   },
   {
-   "id": "openai|https://openai.com/index/qodo-codex-plugin",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "group": "Company announcements",
-   "title": "Qodo builds context into AI code review with Codex",
-   "url": "https://openai.com/index/qodo-codex-plugin",
-   "published": "2026-11-02T00:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "openai|https://openai.com/index/dan-driscoll-joins-openai",
    "source": "OpenAI News",
    "sourceId": "openai",
    "group": "Company announcements",
    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+   "published": "2026-11-02T00:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
+   "id": "openai|https://openai.com/index/qodo-codex-plugin",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "group": "Company announcements",
+   "title": "Qodo builds context into AI code review with Codex",
+   "url": "https://openai.com/index/qodo-codex-plugin",
    "published": "2026-11-02T00:00:00.000Z",
    "topics": [],
    "election": false,
@@ -4993,18 +5005,6 @@
    "title": "Pairing industrial AI autonomy and human control",
    "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
    "published": "2026-10-28T12:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "openai|https://openai.com/index/the-future-of-the-firm",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "group": "Company announcements",
-   "title": "The future of the firm",
-   "url": "https://openai.com/index/the-future-of-the-firm",
-   "published": "2026-10-28T10:00:00.000Z",
    "topics": [],
    "election": false,
    "section": "ai"
