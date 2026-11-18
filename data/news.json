@@ -1,14 +1,1012 @@
 {
- "generatedAt": "2026-11-18T02:56:37.089Z",
+ "generatedAt": "2026-11-18T11:00:10.370Z",
  "items": [
+  {
+   "id": "motherjones|https://www.motherjones.com/politics/2026/11/anthropic-goes-public-ai-tech-jacob-ward/",
+   "source": "Mother Jones",
+   "sourceId": "motherjones",
+   "group": "Left-leaning",
+   "title": "Anthropic Goes Public. AI Might Go Pop.",
+   "url": "https://www.motherjones.com/politics/2026/11/anthropic-goes-public-ai-tech-jacob-ward/",
+   "published": "2026-11-18T11:00:00.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "politico|https://www.politico.com/video/2026/11/18/washington-disconnected-2231620",
+   "source": "Politico",
+   "sourceId": "politico",
+   "group": "Center / mixed",
+   "title": "Washington, disconnected",
+   "url": "https://www.politico.com/video/2026/11/18/washington-disconnected-2231620",
+   "published": "2026-11-18T10:45:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/17/tracking-two-systems-that-will-bring-showers-cooldown-ahead/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Tracking two systems that will bring showers & cooldown ahead",
+   "url": "https://www.valleynewslive.com/2026/11/17/tracking-two-systems-that-will-bring-showers-cooldown-ahead/",
+   "published": "2026-11-18T10:44:20.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+   "published": "2026-11-18T10:32:03.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/gop-chairman-demands-answers-trumps-costly-va-technology-overhaul",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "GOP chairman demands answers on Trump's costly VA technology overhaul amid US-wide outages",
+   "url": "https://www.foxnews.com/politics/gop-chairman-demands-answers-trumps-costly-va-technology-overhaul",
+   "published": "2026-11-18T10:30:52.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+   "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T10:23:57.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "mittr|https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "source": "MIT Technology Review: AI",
+   "sourceId": "mittr",
+   "group": "Tech press",
+   "title": "This smell startup says its AI nose is as good as a human’s",
+   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "published": "2026-11-18T10:20:30.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "The terrifying rise of AI hacking tools",
+   "url": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+   "published": "2026-11-18T10:20:06.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/18/alaska-native-strongholds-peltola-senate-history",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "Alaska Native strongholds push Peltola into Senate history",
+   "url": "https://www.axios.com/2026/11/18/alaska-native-strongholds-peltola-senate-history",
+   "published": "2026-11-18T10:10:06.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/18/upshot/sister-snl-elder-care.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "That ‘S.N.L.’ Sketch About Sister? It’s More Like Nonfiction.",
+   "url": "https://www.nytimes.com/2026/11/18/upshot/sister-snl-elder-care.html",
+   "published": "2026-11-18T10:04:26.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/18/us/politics/democrats-cast-investigative-net.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "House Democrats Cast Wide Net as They Prepare Trump Investigations",
+   "url": "https://www.nytimes.com/2026/11/18/us/politics/democrats-cast-investigative-net.html",
+   "published": "2026-11-18T10:04:14.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/18/business/economy/us-debt-limit.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "The U.S. Could Hit Its Debt Limit by February",
+   "url": "https://www.nytimes.com/2026/11/18/business/economy/us-debt-limit.html",
+   "published": "2026-11-18T10:04:08.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+   "url": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
+   "published": "2026-11-18T10:03:56.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/18/us/politics/audit-ai-terrorist-attack-plans.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "American A.I. Models Have Potential to Be Turned Against U.S., Study Finds",
+   "url": "https://www.nytimes.com/2026/11/18/us/politics/audit-ai-terrorist-attack-plans.html",
+   "published": "2026-11-18T10:03:50.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/18/nx-s1-6042889/how-the-east-potomac-golf-course-became-a-d-c-landmark-and-what-could-happen-to-it",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "How the East Potomac golf course became a D.C. landmark — and what could happen to it",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6042889/how-the-east-potomac-golf-course-became-a-d-c-landmark-and-what-could-happen-to-it",
+   "published": "2026-11-18T10:02:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/dem-governors-tale-mourning-fellow-serviceman-ripped-apart-soldiers-wife-gives-brutal-fact-check",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Dem governor’s tale of mourning fellow serviceman ripped apart after soldiers wife gives brutal fact check",
+   "url": "https://www.foxnews.com/politics/dem-governors-tale-mourning-fellow-serviceman-ripped-apart-soldiers-wife-gives-brutal-fact-check",
+   "published": "2026-11-18T10:00:59.000Z",
+   "topics": [
+    "Governors"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/house-dems-target-trump-family-jd-vance-sweeping-new-investigation-push",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "House Dems target Trump family, JD Vance in sweeping new investigation push",
+   "url": "https://www.foxnews.com/politics/house-dems-target-trump-family-jd-vance-sweeping-new-investigation-push",
+   "published": "2026-11-18T10:00:26.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/18/nx-s1-5954231/snap-work-rules-retirees",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "She retired early to care for family. New work rules for food aid disrupted that",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-5954231/snap-work-rules-retirees",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "politico|https://www.politico.com/news/2026/11/18/poll-2028-expectations-democrat-president-01169826",
+   "source": "Politico",
+   "sourceId": "politico",
+   "group": "Center / mixed",
+   "title": "Poll: Less than a third of Americans expect the next president to be Republican",
+   "url": "https://www.politico.com/news/2026/11/18/poll-2028-expectations-democrat-president-01169826",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Lovable Wants You to Vibe Code Your Dream Job",
+   "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [
+    "Work & education"
+   ],
+   "election": false,
+   "section": "ai"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/white-house/4806184/congressional-democrats-collaborator-stephen-miller/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Why congressional Democrats could find a collaborator in Stephen Miller",
+   "url": "https://www.washingtonexaminer.com/news/white-house/4806184/congressional-democrats-collaborator-stephen-miller/",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/opinion/editorials/4805690/nothing-moderate-abigail-spanberger-cave-teachers-unions/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "There is nothing moderate about Spanberger’s cave to teachers unions",
+   "url": "https://www.washingtonexaminer.com/opinion/editorials/4805690/nothing-moderate-abigail-spanberger-cave-teachers-unions/",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/videos/4805600/inside-scoop-jim-antle-losin-texas-pete-hegseth-24-turns-25/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Inside Scoop: Losin’ Texas, knives out for Hegseth, ’24’ turns 25",
+   "url": "https://www.washingtonexaminer.com/videos/4805600/inside-scoop-jim-antle-losin-texas-pete-hegseth-24-turns-25/",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/policy/technology/4804589/faa-smart-ai-scrutiny-ground-stop-mess/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Company behind FAA ‘SMART’ AI system under scrutiny after ground stop mess",
+   "url": "https://www.washingtonexaminer.com/policy/technology/4804589/faa-smart-ai-scrutiny-ground-stop-mess/",
+   "published": "2026-11-18T10:00:00.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Fears grow over US sanctions on ICJ judges ahead of Myanmar genocide ruling",
+   "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+   "published": "2026-11-18T09:58:28.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/house/6226793-house-investigates-commerce-secretary-conflicts/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "House Democrats warn Lutnick’s family business to preserve all Nvidia records",
+   "url": "https://thehill.com/homenews/house/6226793-house-investigates-commerce-secretary-conflicts/",
+   "published": "2026-11-18T09:45:00.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/cass-county-sheriff-warns-jury-duty-scam-targeting-fargo-moorhead-area/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Cass County Sheriff’s Office warns of jury duty scam targeting Fargo-Moorhead area",
+   "url": "https://www.valleynewslive.com/2026/11/18/cass-county-sheriff-warns-jury-duty-scam-targeting-fargo-moorhead-area/",
+   "published": "2026-11-18T09:21:23.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/2026/11/18/brickbat-watch-where-you-point-that/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Brickbat: Watch Where You Point That",
+   "url": "https://reason.com/2026/11/18/brickbat-watch-where-you-point-that/",
+   "published": "2026-11-18T09:00:30.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/metro-sports-foundation-promote-live-events-bluestem-amphitheater/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Metro Sports Foundation to promote live events at Bluestem Amphitheater",
+   "url": "https://www.valleynewslive.com/2026/11/18/metro-sports-foundation-promote-live-events-bluestem-amphitheater/",
+   "published": "2026-11-18T08:39:29.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+   "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T08:33:32.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Democrats win Alaska after Trump says voters chose wrong Dan Sullivan. What does voting data show?",
+   "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T08:33:21.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/18/wl-pledges-thorough-review-after-post-investigation",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Washington and Lee Pledges Thorough Review After ‘Post’ Investigation",
+   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/18/wl-pledges-thorough-review-after-post-investigation",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/institutions/religious-colleges/2026/11/18/faculty-alumni-rally-against-pepperdine-faith",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Faculty, Alumni Rally Against Pepperdine’s New Faith Statement",
+   "url": "https://www.insidehighered.com/news/institutions/religious-colleges/2026/11/18/faculty-alumni-rally-against-pepperdine-faith",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Campus & workforce"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/government/courts/2026/11/18/lawsuit-maryland-owes-its-black-land-grant-university-6b",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Lawsuit: Maryland Owes Its Black Land-Grant University $6B",
+   "url": "https://www.insidehighered.com/news/government/courts/2026/11/18/lawsuit-maryland-owes-its-black-land-grant-university-6b",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Policy & funding"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/18/unc-fined-5m-admitting-too-many-out-state-students",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "UNC Chapel Hill Fined $5M for Admitting Too Many Out-of-State Students",
+   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/18/unc-fined-5m-admitting-too-many-out-state-students",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/18/collins-supports-blocking-omb-grant-rule",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Collins Supports Blocking OMB Grant Rule, Even if Not in Bills",
+   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/18/collins-supports-blocking-omb-grant-rule",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Policy & funding"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/governance/executive-leadership/2026/11/18/presidents-weigh-politics-scandal-and-sports",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Presidents Weigh In on Politics, Scandal and Sports",
+   "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/11/18/presidents-weigh-politics-scandal-and-sports",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/news/student-success/college-experience/2026/11/18/report-basic-needs-support-can-be-completion",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Basic Needs Support Can Be a Completion Strategy",
+   "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/18/report-basic-needs-support-can-be-completion",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Admissions & enrollment"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/opinion/views/2026/11/18/enrollment-deposits-hidden-barrier-opinion",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Enrollment Deposits: A Hidden Barrier",
+   "url": "https://www.insidehighered.com/opinion/views/2026/11/18/enrollment-deposits-hidden-barrier-opinion",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Admissions & enrollment"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/opinion/career-advice/2026/11/18/financial-cost-being-professor-opinion",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "The Financial Cost of Being a Professor",
+   "url": "https://www.insidehighered.com/opinion/career-advice/2026/11/18/financial-cost-being-professor-opinion",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "insidehighered|https://www.insidehighered.com/opinion/columns/small-world/2026/11/18/waiting-new-administration-not-strategy",
+   "source": "Inside Higher Ed",
+   "sourceId": "insidehighered",
+   "group": "Higher ed trade press",
+   "title": "Homegrown Faculty and Itinerant Administrators—Yikes!",
+   "url": "https://www.insidehighered.com/opinion/columns/small-world/2026/11/18/waiting-new-administration-not-strategy",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [
+    "Campus & workforce"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "reason|https://reason.com/volokh/2026/11/18/open-thread-392/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Open Thread",
+   "url": "https://reason.com/volokh/2026/11/18/open-thread-392/",
+   "published": "2026-11-18T08:00:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
+   "url": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html",
+   "published": "2026-11-18T07:43:35.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/18/man-50-allegedly-stabs-another-man-death-party-celebrating-his-release-prison/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Man, 50, allegedly stabs another man to death at party celebrating his release from prison",
+   "url": "https://www.kfyrtv.com/2026/11/18/man-50-allegedly-stabs-another-man-death-party-celebrating-his-release-prison/",
+   "published": "2026-11-18T07:01:12.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/man-50-allegedly-stabs-another-man-death-party-celebrating-his-release-prison/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Man, 50, allegedly stabs another man to death at party celebrating his release from prison",
+   "url": "https://www.valleynewslive.com/2026/11/18/man-50-allegedly-stabs-another-man-death-party-celebrating-his-release-prison/",
+   "published": "2026-11-18T07:01:12.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "How important are Nvidia and Jensen Huang to the US economy?",
+   "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T06:04:21.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/18/nd-sports-scores-week-november-16/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "ND Sports Scores for week of November 16",
+   "url": "https://www.kfyrtv.com/2026/11/18/nd-sports-scores-week-november-16/",
+   "published": "2026-11-18T05:32:47.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/2026/11/18/trump-says-he-welcomes-foreign-students-his-policies-tell-a-different-story/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Trump Says He Welcomes Foreign Students. His Policies Tell a Different Story.",
+   "url": "https://reason.com/2026/11/18/trump-says-he-welcomes-foreign-students-his-policies-tell-a-different-story/",
+   "published": "2026-11-18T05:01:22.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "hechinger|https://hechingerreport.org/fewer-students-more-teachers-districts-balk-at-cutting-staff-even-as-enrollment-falls/",
+   "source": "The Hechinger Report",
+   "sourceId": "hechinger",
+   "group": "Education nonprofit news",
+   "title": "Fewer students, more teachers: Districts balk at cutting staff even as enrollment falls",
+   "url": "https://hechingerreport.org/fewer-students-more-teachers-districts-balk-at-cutting-staff-even-as-enrollment-falls/",
+   "published": "2026-11-18T05:01:00.000Z",
+   "topics": [
+    "Admissions & enrollment"
+   ],
+   "election": false,
+   "section": "highered"
+  },
+  {
+   "id": "wiredai|https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+   "source": "WIRED: AI",
+   "sourceId": "wiredai",
+   "group": "Tech press",
+   "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+   "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+   "published": "2026-11-18T05:01:00.000Z",
+   "topics": [],
+   "election": false,
+   "section": "ai"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "After Days of Digital Outages, Americans Wonder if the Country Is Breaking",
+   "url": "https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
+   "published": "2026-11-18T04:59:05.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+   "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T04:57:06.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/18/mary-peltola-alaska-win-analysis",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "‘Aarigaa!’: the triumph of Mary Peltola’s historic US Senate win and what it means for Alaska Natives",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/mary-peltola-alaska-win-analysis",
+   "published": "2026-11-18T04:25:29.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "axios|https://www.axios.com/2026/11/18/alaska-senate-results-dan-sullivan-peltola",
+   "source": "Axios",
+   "sourceId": "axios",
+   "group": "Center / mixed",
+   "title": "Mary Peltola unseats Republican Dan Sullivan in Alaska, extending Democratic wave",
+   "url": "https://www.axios.com/2026/11/18/alaska-senate-results-dan-sullivan-peltola",
+   "published": "2026-11-18T04:18:44.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/stephen-builders-supply-owner-says-he-will-look-every-avenue-after-fire/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Stephen Builders Supply owner says he will ‘look at every avenue’ after fire",
+   "url": "https://www.valleynewslive.com/2026/11/18/stephen-builders-supply-owner-says-he-will-look-every-avenue-after-fire/",
+   "published": "2026-11-18T04:18:21.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "For Democrats, a Leadership Fight Is Marring an Electoral Triumph",
+   "url": "https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
+   "published": "2026-11-18T04:11:30.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/18/paris-hilton-urges-house-pass-ai-deepfake-porn-bill/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Paris Hilton urges House to pass AI deepfake porn bill",
+   "url": "https://www.kfyrtv.com/2026/11/18/paris-hilton-urges-house-pass-ai-deepfake-porn-bill/",
+   "published": "2026-11-18T04:05:16.000Z",
+   "topics": [
+    "Misinformation & AI",
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/paris-hilton-urges-house-pass-ai-deepfake-porn-bill/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Paris Hilton urges House to pass AI deepfake porn bill",
+   "url": "https://www.valleynewslive.com/2026/11/18/paris-hilton-urges-house-pass-ai-deepfake-porn-bill/",
+   "published": "2026-11-18T04:05:16.000Z",
+   "topics": [
+    "Misinformation & AI",
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/18/highway-patrol-pay-70000-former-wild-orchid-member-dui-arrest-settlement/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "Highway patrol to pay $70,000 to former Wild Orchid member in DUI arrest settlement",
+   "url": "https://www.kfyrtv.com/2026/11/18/highway-patrol-pay-70000-former-wild-orchid-member-dui-arrest-settlement/",
+   "published": "2026-11-18T04:01:47.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/highway-patrol-pay-70000-former-wild-orchid-member-dui-arrest-settlement/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "Highway patrol to pay $70,000 to former Wild Orchid member in DUI arrest settlement",
+   "url": "https://www.valleynewslive.com/2026/11/18/highway-patrol-pay-70000-former-wild-orchid-member-dui-arrest-settlement/",
+   "published": "2026-11-18T04:01:47.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+   "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T04:00:54.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "kfyr|https://www.kfyrtv.com/2026/11/18/2-americans-drown-while-swimming-bahamas-officials-say/",
+   "source": "KFYR-TV (Bismarck)",
+   "sourceId": "kfyr",
+   "group": "Local ND",
+   "title": "2 Americans drown while swimming in the Bahamas, officials say",
+   "url": "https://www.kfyrtv.com/2026/11/18/2-americans-drown-while-swimming-bahamas-officials-say/",
+   "published": "2026-11-18T03:56:07.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "vnl|https://www.valleynewslive.com/2026/11/18/2-americans-drown-while-swimming-bahamas-officials-say/",
+   "source": "Valley News Live (Fargo)",
+   "sourceId": "vnl",
+   "group": "Local ND",
+   "title": "2 Americans drown while swimming in the Bahamas, officials say",
+   "url": "https://www.valleynewslive.com/2026/11/18/2-americans-drown-while-swimming-bahamas-officials-say/",
+   "published": "2026-11-18T03:56:07.000Z",
+   "topics": [
+    "North Dakota"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/senate/6227038-jensen-huang-senate-testify/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Huang agrees to testify before Senate Banking panel",
+   "url": "https://thehill.com/homenews/senate/6227038-jensen-huang-senate-testify/",
+   "published": "2026-11-18T03:48:10.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/6226621-video-shows-ice-agent-pepper-spraying-pregnant-u-s-citizen/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Video shows ICE agent pepper spraying pregnant U.S. citizen",
+   "url": "https://thehill.com/homenews/6226621-video-shows-ice-agent-pepper-spraying-pregnant-u-s-citizen/",
+   "published": "2026-11-18T03:43:52.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
+   "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
+   "published": "2026-11-18T03:33:29.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "examiner|https://www.washingtonexaminer.com/news/campaigns/congressional/4756043/mary-peltola-dan-sullivan-alaska-senate-race-results/",
+   "source": "Washington Examiner",
+   "sourceId": "examiner",
+   "group": "Right-leaning",
+   "title": "Mary Peltola ousts Dan Sullivan in Alaska, giving Democrats 56-seat Senate majority",
+   "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4756043/mary-peltola-dan-sullivan-alaska-senate-race-results/",
+   "published": "2026-11-18T03:28:54.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/alaska-dem-peltola-defeats-sullivan-flipping-gop-senate-seat-decoy-dan-uproar",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Alaska Dem Peltola defeats Sullivan, flipping 9th GOP Senate seat after 'decoy Dan' uproar",
+   "url": "https://www.foxnews.com/politics/alaska-dem-peltola-defeats-sullivan-flipping-gop-senate-seat-decoy-dan-uproar",
+   "published": "2026-11-18T03:27:24.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "npr|https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+   "source": "NPR Politics",
+   "sourceId": "npr",
+   "group": "Wire & public media",
+   "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+   "url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+   "published": "2026-11-18T03:27:23.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "nyt|https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
+   "source": "New York Times Politics",
+   "sourceId": "nyt",
+   "group": "Left-leaning",
+   "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
+   "url": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
+   "published": "2026-11-18T03:26:28.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+   "source": "The Guardian US Politics",
+   "sourceId": "guardian",
+   "group": "Left-leaning",
+   "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+   "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+   "published": "2026-11-18T03:25:14.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "politico|https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129",
+   "source": "Politico",
+   "sourceId": "politico",
+   "group": "Center / mixed",
+   "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+   "url": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129",
+   "published": "2026-11-18T03:24:10.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/campaign/6176074-peltola-wins-alaska-senate/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Mary Peltola flips Republican Senate seat in Alaska",
+   "url": "https://thehill.com/homenews/campaign/6176074-peltola-wins-alaska-senate/",
+   "published": "2026-11-18T03:21:19.000Z",
+   "topics": [
+    "Senate"
+   ],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/homenews/senate/6226791-congress-civilian-plane-locator-mandate-after-deadly-american-airlines-black-hawk-crash/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Congress agrees on civilian plane locator mandate after deadly American Airlines-Black Hawk crash",
+   "url": "https://thehill.com/homenews/senate/6226791-congress-civilian-plane-locator-mandate-after-deadly-american-airlines-black-hawk-crash/",
+   "published": "2026-11-18T03:16:13.000Z",
+   "topics": [],
+   "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "hill|https://thehill.com/blogs/in-the-know/6227004-smith-defends-trump-interview/",
+   "source": "The Hill",
+   "sourceId": "hill",
+   "group": "Center / mixed",
+   "title": "Stephen A. Smith defends response to Trump's claims about helping Black Americans",
+   "url": "https://thehill.com/blogs/in-the-know/6227004-smith-defends-trump-interview/",
+   "published": "2026-11-18T03:12:02.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
+   "id": "fox|https://www.foxnews.com/politics/mamdanis-luxury-second-home-tax-hits-500m-milestone-despite-thousands-exemptions",
+   "source": "Fox News Politics",
+   "sourceId": "fox",
+   "group": "Right-leaning",
+   "title": "Mamdani's luxury second home tax hits $500M milestone despite thousands of exemptions",
+   "url": "https://www.foxnews.com/politics/mamdanis-luxury-second-home-tax-hits-500m-milestone-despite-thousands-exemptions",
+   "published": "2026-11-18T03:06:17.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
   {
    "id": "guardian|https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
    "source": "The Guardian US Politics",
    "sourceId": "guardian",
    "group": "Left-leaning",
-   "title": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – US politics live",
+   "title": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – as it happened",
    "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-   "published": "2026-11-18T02:45:43.000Z",
+   "published": "2026-11-18T02:57:58.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -125,6 +1123,18 @@
    "section": "politics"
   },
   {
+   "id": "bbc|https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+   "url": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T02:29:52.000Z",
+   "topics": [],
+   "election": false,
+   "section": "politics"
+  },
+  {
    "id": "hill|https://thehill.com/homenews/senate/6226959-murkowski-midterm-rebuke-trump/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -132,18 +1142,6 @@
    "title": "Murkowski calls midterms ‘a direct pushback to President Trump’",
    "url": "https://thehill.com/homenews/senate/6226959-murkowski-midterm-rebuke-trump/",
    "published": "2026-11-18T02:11:53.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
-   "url": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
-   "published": "2026-11-18T02:09:10.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -211,18 +1209,6 @@
    "section": "politics"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "After Days of Digital Outages, Americans Wonder if the Country Is Breaking",
-   "url": "https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
-   "published": "2026-11-18T01:36:41.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "hill|https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
    "source": "The Hill",
    "sourceId": "hill",
@@ -266,7 +1252,7 @@
    "source": "BBC US & Canada",
    "sourceId": "bbc",
    "group": "Wire & public media",
-   "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+   "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
    "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-18T01:18:18.000Z",
    "topics": [],
@@ -294,20 +1280,6 @@
    "url": "https://thehill.com/policy/healthcare/6226487-white-house-withdraws-fda-nomination/",
    "published": "2026-11-18T01:08:53.000Z",
    "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/house/4806865/newsom-confident-jeffries-elected-speaker/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Newsom confident Jeffries will be elected speaker: ‘I don’t think he needs any of our help’",
-   "url": "https://www.washingtonexaminer.com/news/house/4806865/newsom-confident-jeffries-elected-speaker/",
-   "published": "2026-11-18T01:07:18.000Z",
-   "topics": [
-    "House"
-   ],
    "election": true,
    "section": "politics"
   },
@@ -543,25 +1515,13 @@
    "section": "politics"
   },
   {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-   "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
-   "published": "2026-11-18T00:21:33.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/business/4806837/nvidia-does-not-plan-reinstate-jensen-huang-ceo/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Nvidia does not plan to reinstate Jensen Huang as CEO, chairman says",
-   "url": "https://www.washingtonexaminer.com/news/business/4806837/nvidia-does-not-plan-reinstate-jensen-huang-ceo/",
-   "published": "2026-11-18T00:13:42.000Z",
+   "id": "bbc|https://www.bbc.co.uk/news/videos/cm782w62v8qdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "Watch: Eruption at California landfill sends black substance spewing into the air",
+   "url": "https://www.bbc.co.uk/news/videos/cm782w62v8qdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-18T00:18:51.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -588,7 +1548,7 @@
    "group": "Left-leaning",
    "title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet",
    "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
-   "published": "2026-11-18T00:06:19.000Z",
+   "published": "2026-11-18T00:06:20.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -616,6 +1576,20 @@
    "topics": [],
    "election": false,
    "section": "politics"
+  },
+  {
+   "id": "openai|https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "OpenAI News",
+   "sourceId": "openai",
+   "group": "Company announcements",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "published": "2026-11-18T00:00:00.000Z",
+   "topics": [
+    "Models & products"
+   ],
+   "election": false,
+   "section": "ai"
   },
   {
    "id": "kxnet|https://www.kxnet.com/news/local-news/man-arrested-in-stalking-case-in-bismarck/",
@@ -672,20 +1646,6 @@
    "section": "politics"
   },
   {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4806685/dc-circuit-trump-takeover-agencies-slaughter-ruling/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "DC Circuit weighs Trump’s takeover of two agencies after Supreme Court agency head removal ruling",
-   "url": "https://www.washingtonexaminer.com/news/justice/4806685/dc-circuit-trump-takeover-agencies-slaughter-ruling/",
-   "published": "2026-11-17T23:41:47.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vergeai|https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
    "source": "The Verge: AI",
    "sourceId": "vergeai",
@@ -733,18 +1693,6 @@
     "Recounts & courts"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
-   "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
-   "published": "2026-11-17T23:34:37.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -814,18 +1762,6 @@
    "section": "politics"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "For Democrats, a Leadership Fight Is Marring an Electoral Triumph",
-   "url": "https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
-   "published": "2026-11-17T23:23:41.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "kxnet|https://www.kxnet.com/north-dakota-news/mafb-to-receive-more-than-22-million-for-parking-apron/",
    "source": "KX News (Bismarck)",
    "sourceId": "kxnet",
@@ -878,18 +1814,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/newsletters/healthcare/6226673-us-officially-a-measles-endemic-country/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "US officially a measles endemic country",
-   "url": "https://thehill.com/newsletters/healthcare/6226673-us-officially-a-measles-endemic-country/",
-   "published": "2026-11-17T23:12:13.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/iran-trump-midterms.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -897,18 +1821,6 @@
    "title": "Iran Is Emboldened After Trump and GOP’s Election Losses, Officials Say",
    "url": "https://www.nytimes.com/2026/11/17/us/politics/iran-trump-midterms.html",
    "published": "2026-11-17T23:11:02.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "examiner|https://www.washingtonexaminer.com/news/house/4806831/house-democrats-stock-trading-rules-package/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "House Democrats push to ban stock trading through rules package",
-   "url": "https://www.washingtonexaminer.com/news/house/4806831/house-democrats-stock-trading-rules-package/",
-   "published": "2026-11-17T23:10:45.000Z",
    "topics": [],
    "election": true,
    "section": "politics"
@@ -954,18 +1866,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/newsletters/technology/6226672-skepticism-swells-in-gop-over-tech-outages/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Skepticism swells in GOP over tech outages",
-   "url": "https://thehill.com/newsletters/technology/6226672-skepticism-swells-in-gop-over-tech-outages/",
-   "published": "2026-11-17T23:09:42.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/17/north-dakota-students-try-on-legislative-roles-tackle-ai/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -981,15 +1881,17 @@
    "section": "politics"
   },
   {
-   "id": "examiner|https://www.washingtonexaminer.com/news/justice/4806438/arrest-peoria-illinois-ethanol-plant-bomb-threat/",
-   "source": "Washington Examiner",
-   "sourceId": "examiner",
-   "group": "Right-leaning",
-   "title": "Man charged in Peoria, Illinois ethanol plant bomb threat that forced mass evacuation",
-   "url": "https://www.washingtonexaminer.com/news/justice/4806438/arrest-peoria-illinois-ethanol-plant-bomb-threat/",
-   "published": "2026-11-17T23:02:27.000Z",
-   "topics": [],
-   "election": false,
+   "id": "bbc|https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "sourceId": "bbc",
+   "group": "Wire & public media",
+   "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+   "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-17T23:02:12.000Z",
+   "topics": [
+    "Misinformation & AI"
+   ],
+   "election": true,
    "section": "politics"
   },
   {
@@ -1047,32 +1949,6 @@
     "North Dakota"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/newsletters/defense-national-security/6226633-the-next-navy-secretary-cao-grilled-by-senate-over-war-sailors-mental-health/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "The next Navy secretary? Cao grilled by Senate over war, sailors' mental health",
-   "url": "https://thehill.com/newsletters/defense-national-security/6226633-the-next-navy-secretary-cao-grilled-by-senate-over-war-sailors-mental-health/",
-   "published": "2026-11-17T22:53:05.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/homenews/administration/6226628-doj-opr-misconduct-complaints-surge/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "DOJ watchdog notes surge in misconduct complaints",
-   "url": "https://thehill.com/homenews/administration/6226628-doj-opr-misconduct-complaints-surge/",
-   "published": "2026-11-17T22:51:24.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1144,44 +2020,6 @@
    "section": "politics"
   },
   {
-   "id": "hill|https://thehill.com/newsletters/business-economy/6226585-stocks-dip-but-nvidia-reports-strong-earnings/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Stocks dip, but Nvidia reports strong earnings",
-   "url": "https://thehill.com/newsletters/business-economy/6226585-stocks-dip-but-nvidia-reports-strong-earnings/",
-   "published": "2026-11-17T22:29:43.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/17/watford-city-receive-air-medical-helicopter/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Watford City to receive air medical helicopter",
-   "url": "https://www.kfyrtv.com/2026/11/17/watford-city-receive-air-medical-helicopter/",
-   "published": "2026-11-17T22:22:05.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "hill|https://thehill.com/policy/international/6226498-ukraine-talks-yielding-progress-kushner/",
-   "source": "The Hill",
-   "sourceId": "hill",
-   "group": "Center / mixed",
-   "title": "Ukraine talks yielding progress: Kushner",
-   "url": "https://thehill.com/policy/international/6226498-ukraine-talks-yielding-progress-kushner/",
-   "published": "2026-11-17T22:20:21.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "wiredai|https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
    "source": "WIRED: AI",
    "sourceId": "wiredai",
@@ -1196,20 +2034,6 @@
    "section": "ai"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/17/forensics-expert-says-jeffrey-epsteins-injuries-indicate-he-was-likely-killed-while-custody/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Forensics expert says Jeffrey Epstein’s injuries indicate he was likely killed while in custody",
-   "url": "https://www.kfyrtv.com/2026/11/17/forensics-expert-says-jeffrey-epsteins-injuries-indicate-he-was-likely-killed-while-custody/",
-   "published": "2026-11-17T22:19:16.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "vnl|https://www.valleynewslive.com/2026/11/17/forensics-expert-says-jeffrey-epsteins-injuries-indicate-he-was-likely-killed-while-custody/",
    "source": "Valley News Live (Fargo)",
    "sourceId": "vnl",
@@ -1217,32 +2041,6 @@
    "title": "Forensics expert says Jeffrey Epstein’s injuries indicate he was likely killed while in custody",
    "url": "https://www.valleynewslive.com/2026/11/17/forensics-expert-says-jeffrey-epsteins-injuries-indicate-he-was-likely-killed-while-custody/",
    "published": "2026-11-17T22:19:16.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "US loses measles elimination status amid worst outbreak since 1991",
-   "url": "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
-   "published": "2026-11-17T22:18:53.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/tracking-two-systems-that-will-bring-showers-cooldown-ahead/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Tracking two systems that will bring showers & cooldown ahead",
-   "url": "https://www.valleynewslive.com/2026/11/17/tracking-two-systems-that-will-bring-showers-cooldown-ahead/",
-   "published": "2026-11-17T22:18:49.000Z",
    "topics": [
     "North Dakota"
    ],
@@ -1274,64 +2072,6 @@
    "section": "politics"
   },
   {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/17/tolley-fire-department-receive-north-dakotas-first-r3-rescue-trailer/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Tolley Fire Department to receive North Dakota’s first R3 Rescue Trailer",
-   "url": "https://www.kfyrtv.com/2026/11/17/tolley-fire-department-receive-north-dakotas-first-r3-rescue-trailer/",
-   "published": "2026-11-17T22:15:58.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/attempted-murder-charge-filed-hopkins-attack-uber-driver/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Attempted murder charge filed in Hopkins attack on Uber driver",
-   "url": "https://www.valleynewslive.com/2026/11/17/attempted-murder-charge-filed-hopkins-attack-uber-driver/",
-   "published": "2026-11-17T22:15:31.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/17/judge-denies-request-move-vance-boelter-trial-out-hennepin-county-lawmaker-shooting-case/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Judge denies request to move Vance Boelter trial out of Hennepin County in lawmaker shooting case",
-   "url": "https://www.kfyrtv.com/2026/11/17/judge-denies-request-move-vance-boelter-trial-out-hennepin-county-lawmaker-shooting-case/",
-   "published": "2026-11-17T22:10:42.000Z",
-   "topics": [
-    "Recounts & courts",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/judge-denies-request-move-vance-boelter-trial-out-hennepin-county-lawmaker-shooting-case/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Judge denies request to move Vance Boelter trial out of Hennepin County in lawmaker shooting case",
-   "url": "https://www.valleynewslive.com/2026/11/17/judge-denies-request-move-vance-boelter-trial-out-hennepin-county-lawmaker-shooting-case/",
-   "published": "2026-11-17T22:10:42.000Z",
-   "topics": [
-    "Recounts & courts",
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/nsa-down-network-outage-nsanet.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -1355,18 +2095,6 @@
     "Senate"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "guardian|https://www.theguardian.com/us-news/2026/nov/17/chris-laneve-army-chief-staff",
-   "source": "The Guardian US Politics",
-   "sourceId": "guardian",
-   "group": "Left-leaning",
-   "title": "Trump nominates Chris LaNeve as army chief after Hegseth fired predecessor",
-   "url": "https://www.theguardian.com/us-news/2026/nov/17/chris-laneve-army-chief-staff",
-   "published": "2026-11-17T21:55:40.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1411,48 +2139,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/minnesota-joins-22-million-settlement-with-crypto-kiosk-company-coinme/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Minnesota joins $2.2 million settlement with crypto kiosk company Coinme",
-   "url": "https://www.valleynewslive.com/2026/11/17/minnesota-joins-22-million-settlement-with-crypto-kiosk-company-coinme/",
-   "published": "2026-11-17T21:27:22.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "kfyr|https://www.kfyrtv.com/2026/11/17/speeding-crash-involving-2-waymo-vehicles-caught-camera/",
-   "source": "KFYR-TV (Bismarck)",
-   "sourceId": "kfyr",
-   "group": "Local ND",
-   "title": "Speeding crash involving 2 Waymo vehicles caught on camera",
-   "url": "https://www.kfyrtv.com/2026/11/17/speeding-crash-involving-2-waymo-vehicles-caught-camera/",
-   "published": "2026-11-17T21:27:03.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/speeding-crash-involving-2-waymo-vehicles-caught-camera/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Speeding crash involving 2 Waymo vehicles caught on camera",
-   "url": "https://www.valleynewslive.com/2026/11/17/speeding-crash-involving-2-waymo-vehicles-caught-camera/",
-   "published": "2026-11-17T21:27:03.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/world/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -1462,20 +2148,6 @@
    "published": "2026-11-17T21:23:57.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/north-dakota-seeks-public-comment-renewing-medicaid-waiver-home-community-care/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "North Dakota seeks public comment on renewing Medicaid waiver for home and community care",
-   "url": "https://www.valleynewslive.com/2026/11/17/north-dakota-seeks-public-comment-renewing-medicaid-waiver-home-community-care/",
-   "published": "2026-11-17T21:22:31.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -1642,20 +2314,6 @@
    "section": "politics"
   },
   {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/cdc-minnesota-health-officials-respond-us-loss-measles-elimination-status/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "CDC, Minnesota health officials respond to U.S. loss of measles elimination status",
-   "url": "https://www.valleynewslive.com/2026/11/17/cdc-minnesota-health-officials-respond-us-loss-measles-elimination-status/",
-   "published": "2026-11-17T20:39:17.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/ukraine-russia-europe-trump.html",
    "source": "New York Times Politics",
    "sourceId": "nyt",
@@ -1677,32 +2335,6 @@
    "published": "2026-11-17T20:31:11.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "vnl|https://www.valleynewslive.com/2026/11/17/parents-arrested-after-6-year-old-child-found-unresponsive-dies-hospital/",
-   "source": "Valley News Live (Fargo)",
-   "sourceId": "vnl",
-   "group": "Local ND",
-   "title": "Parents arrested after 6-year-old child found unresponsive and dies at hospital",
-   "url": "https://www.valleynewslive.com/2026/11/17/parents-arrested-after-6-year-old-child-found-unresponsive-dies-hospital/",
-   "published": "2026-11-17T20:27:16.000Z",
-   "topics": [
-    "North Dakota"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
-   "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T20:25:46.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -1754,20 +2386,6 @@
    "published": "2026-11-17T19:52:58.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/16/us/politics/supreme-court-alito.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Justice Alito Warns Court Overhaul Could Threaten Judicial Independence",
-   "url": "https://www.nytimes.com/2026/11/16/us/politics/supreme-court-alito.html",
-   "published": "2026-11-17T19:51:57.000Z",
-   "topics": [
-    "Recounts & courts"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -1906,18 +2524,6 @@
     "Recounts & courts"
    ],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-   "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T18:24:21.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -2288,18 +2894,6 @@
    "section": "politics"
   },
   {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "US bank services returning to normal after major outage",
-   "url": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T15:04:24.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "fox|https://www.foxnews.com/politics/trump-proposal-gives-banks-more-leeway-probe-business-ownership-amid-illegal-immigration-concerns",
    "source": "Fox News Politics",
    "sourceId": "fox",
@@ -2422,30 +3016,6 @@
    "section": "politics"
   },
   {
-   "id": "fox|https://www.foxnews.com/politics/speak-up-what-message-should-trump-give-china",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "SPEAK UP: What message should Trump give to China?",
-   "url": "https://www.foxnews.com/politics/speak-up-what-message-should-trump-give-china",
-   "published": "2026-11-17T13:43:45.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/mullin-took-government-plane-lsu-texas-football-game-americans-stranded-wake-faa-outage-report",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Mullin took government plane to LSU-Texas football game with Americans stranded in wake of FAA outage: report",
-   "url": "https://www.foxnews.com/politics/mullin-took-government-plane-lsu-texas-football-game-americans-stranded-wake-faa-outage-report",
-   "published": "2026-11-17T13:19:14.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "reason|https://reason.com/2026/11/17/how-was-the-cold-war-won/",
    "source": "Reason (libertarian)",
    "sourceId": "reason",
@@ -2453,18 +3023,6 @@
    "title": "How Was the Cold War Won?",
    "url": "https://reason.com/2026/11/17/how-was-the-cold-war-won/",
    "published": "2026-11-17T13:00:36.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/trump-warns-iran-reported-plot-against-admin-officials-take-very-seriously",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Trump warns Iran about reported plot against admin officials: 'We take it very seriously'",
-   "url": "https://www.foxnews.com/politics/trump-warns-iran-reported-plot-against-admin-officials-take-very-seriously",
-   "published": "2026-11-17T12:50:35.000Z",
    "topics": [],
    "election": false,
    "section": "politics"
@@ -2596,18 +3154,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/2026/11/17/what-the-falklands-war-made-us-forget/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "Before the Falklands War, Islanders and Argentines Were Neighbors",
-   "url": "https://reason.com/2026/11/17/what-the-falklands-war-made-us-forget/",
-   "published": "2026-11-17T11:00:52.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "ndmonitor|https://northdakotamonitor.com/2026/11/17/north-dakotas-rural-health-money-allocated-but-details-not-yet-public/",
    "source": "North Dakota Monitor",
    "sourceId": "ndmonitor",
@@ -2619,6 +3165,18 @@
     "North Dakota"
    ],
    "election": true,
+   "section": "politics"
+  },
+  {
+   "id": "reason|https://reason.com/2026/11/17/what-the-falklands-war-made-us-forget/",
+   "source": "Reason (libertarian)",
+   "sourceId": "reason",
+   "group": "Center / mixed",
+   "title": "Before the Falklands War, Islanders and Argentines Were Neighbors",
+   "url": "https://reason.com/2026/11/17/what-the-falklands-war-made-us-forget/",
+   "published": "2026-11-17T11:00:52.000Z",
+   "topics": [],
+   "election": false,
    "section": "politics"
   },
   {
@@ -2831,32 +3389,6 @@
    "section": "politics"
   },
   {
-   "id": "fox|https://www.foxnews.com/politics/schumer-boasts-early-advantage-senate-power-struggle-dem-rival-warns-against-coronation",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Schumer boasts early advantage in Senate power struggle as Dem rival warns against 'coronation'",
-   "url": "https://www.foxnews.com/politics/schumer-boasts-early-advantage-senate-power-struggle-dem-rival-warns-against-coronation",
-   "published": "2026-11-17T10:30:03.000Z",
-   "topics": [
-    "Senate"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/us/politics/trump-china-ai-tensions.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
-   "url": "https://www.nytimes.com/2026/11/17/us/politics/trump-china-ai-tensions.html",
-   "published": "2026-11-17T10:22:54.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "axios|https://www.axios.com/2026/11/17/trump-border-wall-texas-lawsuits-big-bend",
    "source": "Axios",
    "sourceId": "axios",
@@ -2893,42 +3425,6 @@
    "section": "politics"
   },
   {
-   "id": "axios|https://www.axios.com/2026/11/17/trump-xi-putin-summit-europe-worried",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "U.S. allies on edge as Trump heads to summit with Xi and Putin",
-   "url": "https://www.axios.com/2026/11/17/trump-xi-putin-summit-europe-worried",
-   "published": "2026-11-17T10:10:10.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "nyt|https://www.nytimes.com/2026/11/17/arts/design/trump-congress-smithsonian-kennedy-center.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Trump’s Culture War, Amid Setbacks, Will Soon Face a Hostile Congress",
-   "url": "https://www.nytimes.com/2026/11/17/arts/design/trump-congress-smithsonian-kennedy-center.html",
-   "published": "2026-11-17T10:02:57.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "fox|https://www.foxnews.com/politics/trump-kicks-off-high-stakes-asia-swing-xi-putin-meetings-looming-world-stage",
-   "source": "Fox News Politics",
-   "sourceId": "fox",
-   "group": "Right-leaning",
-   "title": "Trump kicks off high-stakes Asia trip with Xi, Putin meetings looming on world stage",
-   "url": "https://www.foxnews.com/politics/trump-kicks-off-high-stakes-asia-swing-xi-putin-meetings-looming-world-stage",
-   "published": "2026-11-17T10:00:12.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "highereddive|https://www.highereddive.com/news/teacher-prep-programs-probed-in-education-departments-latest-anti-dei-push/874831/",
    "source": "Higher Ed Dive",
    "sourceId": "highereddive",
@@ -2941,18 +3437,6 @@
    ],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
-   "url": "https://www.npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
-   "published": "2026-11-17T09:46:10.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
   },
   {
    "id": "politico|https://www.politico.com/news/2026/11/17/democrats-trump-immigration-reform-01168941",
@@ -2977,114 +3461,6 @@
    "topics": [],
    "election": false,
    "section": "politics"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/columns/resident-scholar/2026/11/17/federal-health-care-cuts-could-devastate-college",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Federal Health Care Cuts Could Have Devastating Effects on College Students",
-   "url": "https://www.insidehighered.com/opinion/columns/resident-scholar/2026/11/17/federal-health-care-cuts-could-devastate-college",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/17/cornell-president-promises-changes-curb-sexual-violence",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Cornell President Promises Changes to Curb Sexual Violence",
-   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/17/cornell-president-promises-changes-curb-sexual-violence",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/government/2026/11/17/ed-probes-teacher-prep-programs",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Office for Civil Rights Probes Teacher Prep Programs",
-   "url": "https://www.insidehighered.com/news/government/2026/11/17/ed-probes-teacher-prep-programs",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/government/student-aid-policy/2026/11/17/trump-admin-consolidate-student-aid-data-treasury",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Trump Admin Moves to Consolidate Student Aid Data at Treasury",
-   "url": "https://www.insidehighered.com/news/government/student-aid-policy/2026/11/17/trump-admin-consolidate-student-aid-data-treasury",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/17/mit-professor-seeks-block-accuser-disposing-assets",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Defamed MIT Professor Seeks to Block Accuser From Disposing of Assets",
-   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/17/mit-professor-seeks-block-accuser-disposing-assets",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/quick-takes/2026/11/17/former-foundation-ceo-sues-memphis-president",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Former Foundation CEO Sues U of Memphis President",
-   "url": "https://www.insidehighered.com/news/quick-takes/2026/11/17/former-foundation-ceo-sues-memphis-president",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "As AI Changes How Students Approach College, Old Challenges Persist",
-   "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/views/2026/11/17/research-questions-we-ask-matter-opinion",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "What if the Justice Department Studied ‘Mar-a-Lago Face’ and Violent Crime?",
-   "url": "https://www.insidehighered.com/opinion/views/2026/11/17/research-questions-we-ask-matter-opinion",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/columns/learning-innovation/2026/11/17/breakneck-china-and-campus-construction-projects",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "‘Breakneck,’ China and Campus Construction Projects",
-   "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/11/17/breakneck-china-and-campus-construction-projects",
-   "published": "2026-11-17T08:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
   },
   {
    "id": "reason|https://reason.com/volokh/2026/11/17/open-thread-391/",
@@ -3125,66 +3501,6 @@
    "section": "highered"
   },
   {
-   "id": "nyt|https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-policy.html",
-   "source": "New York Times Politics",
-   "sourceId": "nyt",
-   "group": "Left-leaning",
-   "title": "Trump Administration Divide on China Policy Breaks Into Public View",
-   "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-policy.html",
-   "published": "2026-11-17T03:48:50.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cwkgr9m41engo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Vance says he will decide 'sometime next year' about 2028 US presidential run",
-   "url": "https://www.bbc.co.uk/news/articles/cwkgr9m41engo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T03:07:23.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "Top Trump aides to meet with Europeans, Ukrainians on peace plan",
-   "url": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting",
-   "published": "2026-11-17T02:57:13.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-   "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T02:38:08.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-   "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T02:37:53.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "kxnet|https://www.kxnet.com/news/local-news/bismarck-infant-custody-hearing/",
    "source": "KX News (Bismarck)",
    "sourceId": "kxnet",
@@ -3208,42 +3524,6 @@
    "published": "2026-11-17T00:48:19.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "insidehighered|https://www.insidehighered.com/opinion/letters/2026/11/16/defending-academic-freedom-requires-confronting-its-limits",
-   "source": "Inside Higher Ed",
-   "sourceId": "insidehighered",
-   "group": "Higher ed trade press",
-   "title": "Defending Academic Freedom Requires Confronting Its Limits",
-   "url": "https://www.insidehighered.com/opinion/letters/2026/11/16/defending-academic-freedom-requires-confronting-its-limits",
-   "published": "2026-11-17T00:43:20.000Z",
-   "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "axios|https://www.axios.com/2026/11/17/jim-jordan-house-gop-rules",
-   "source": "Axios",
-   "sourceId": "axios",
-   "group": "Center / mixed",
-   "title": "Jordan inherits House GOP fight over punishing rebels",
-   "url": "https://www.axios.com/2026/11/17/jim-jordan-house-gop-rules",
-   "published": "2026-11-17T00:32:32.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "We couldn't afford a house alone, so we bought one with strangers",
-   "url": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-17T00:00:02.000Z",
-   "topics": [],
-   "election": true,
    "section": "politics"
   },
   {
@@ -3479,18 +3759,6 @@
    "section": "politics"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "California sues OpenAI over hacking risks",
-   "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
-   "published": "2026-11-16T22:06:22.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "pbs|https://www.pbs.org/newshour/politics/watch-you-never-notice-broken-windows-obviously-trump-tells-black-reporter",
    "source": "PBS NewsHour Politics",
    "sourceId": "pbs",
@@ -3604,18 +3872,6 @@
    "section": "politics"
   },
   {
-   "id": "reason|https://reason.com/2026/11/16/a-florida-city-says-it-will-stop-sponsoring-a-st-patricks-day-parade-citing-a-new-anti-dei-law/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "A Florida City Says It Will Stop Sponsoring a St. Patrick's Day Parade, Citing a New Anti-DEI Law",
-   "url": "https://reason.com/2026/11/16/a-florida-city-says-it-will-stop-sponsoring-a-st-patricks-day-parade-citing-a-new-anti-dei-law/",
-   "published": "2026-11-16T19:45:33.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "bbc|https://www.bbc.co.uk/news/videos/cmgj36192d03o?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "sourceId": "bbc",
@@ -3625,32 +3881,6 @@
    "published": "2026-11-16T19:33:34.000Z",
    "topics": [],
    "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "url": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:30:30.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-   "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-   "published": "2026-11-16T18:49:26.000Z",
-   "topics": [
-    "Misinformation & AI"
-   ],
-   "election": true,
    "section": "politics"
   },
   {
@@ -3666,20 +3896,6 @@
    "section": "ai"
   },
   {
-   "id": "npr|https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
-   "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
-   "published": "2026-11-16T18:04:50.000Z",
-   "topics": [
-    "Misinformation & AI"
-   ],
-   "election": true,
-   "section": "politics"
-  },
-  {
    "id": "motherjones|https://www.motherjones.com/politics/2026/11/battered-by-the-midterms-abortion-foes-turn-the-screws-on-the-gop/",
    "source": "Mother Jones",
    "sourceId": "motherjones",
@@ -3689,54 +3905,6 @@
    "published": "2026-11-16T17:40:56.000Z",
    "topics": [],
    "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "reason|https://reason.com/2026/11/16/how-the-war-made-journalism-harder-in-iran/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "How the War Made Journalism Harder in Iran",
-   "url": "https://reason.com/2026/11/16/how-the-war-made-journalism-harder-in-iran/",
-   "published": "2026-11-16T17:34:39.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "npr|https://www.npr.org/2026/11/16/nx-s1-6042432/nearly-two-million-people-are-behind-bars-in-the-us-how-did-we-get-here",
-   "source": "NPR Politics",
-   "sourceId": "npr",
-   "group": "Wire & public media",
-   "title": "Nearly two million people are behind bars in the US. How did we get here?",
-   "url": "https://www.npr.org/2026/11/16/nx-s1-6042432/nearly-two-million-people-are-behind-bars-in-the-us-how-did-we-get-here",
-   "published": "2026-11-16T17:34:07.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "reason|https://reason.com/2026/11/16/the-feds-own-a-1-billion-stake-in-the-military-contractor-being-blamed-for-the-air-traffic-meltdown/",
-   "source": "Reason (libertarian)",
-   "sourceId": "reason",
-   "group": "Center / mixed",
-   "title": "The Feds Own a $1 Billion Stake in the Military Contractor Being Blamed for the Air Traffic Meltdown",
-   "url": "https://reason.com/2026/11/16/the-feds-own-a-1-billion-stake-in-the-military-contractor-being-blamed-for-the-air-traffic-meltdown/",
-   "published": "2026-11-16T17:05:35.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "motherjones|https://www.motherjones.com/politics/2026/11/inside-the-fight-to-bring-jensen-huang-back-to-nvidia/",
-   "source": "Mother Jones",
-   "sourceId": "motherjones",
-   "group": "Left-leaning",
-   "title": "Inside the Fight to Bring Jensen Huang Back to Nvidia",
-   "url": "https://www.motherjones.com/politics/2026/11/inside-the-fight-to-bring-jensen-huang-back-to-nvidia/",
-   "published": "2026-11-16T17:02:04.000Z",
-   "topics": [],
-   "election": false,
    "section": "politics"
   },
   {
@@ -4062,12 +4230,12 @@
    "section": "ai"
   },
   {
-   "id": "openai|https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "id": "openai|https://openai.com/index/advancing-computer-use-for-healthcare-teams",
    "source": "OpenAI News",
    "sourceId": "openai",
    "group": "Company announcements",
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
    "published": "2026-11-16T06:00:00.000Z",
    "topics": [
     "Models & products"
@@ -4076,12 +4244,12 @@
    "section": "ai"
   },
   {
-   "id": "openai|https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "id": "openai|https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
    "source": "OpenAI News",
    "sourceId": "openai",
    "group": "Company announcements",
-   "title": "Advancing computer-use agents for healthcare teams",
-   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
    "published": "2026-11-16T06:00:00.000Z",
    "topics": [
     "Models & products"
@@ -4102,18 +4270,6 @@
    ],
    "election": false,
    "section": "highered"
-  },
-  {
-   "id": "bbc|https://www.bbc.co.uk/news/videos/cm3wgeqnppljo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "sourceId": "bbc",
-   "group": "Wire & public media",
-   "title": "Watch: New York teen reunites with cat missing after building collapse",
-   "url": "https://www.bbc.co.uk/news/videos/cm3wgeqnppljo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T04:36:45.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
   },
   {
    "id": "openai|https://openai.com/index/the-kings-trust-and-openai",
@@ -4280,66 +4436,6 @@
    "section": "politics"
   },
   {
-   "id": "natreview|https://www.nationalreview.com/article/barry-goldwater-saw-a-way-out-of-the-wilderness",
-   "source": "National Review",
-   "sourceId": "natreview",
-   "group": "Right-leaning",
-   "title": "Barry Goldwater Saw a Way Out of the Wilderness",
-   "url": "https://www.nationalreview.com/article/barry-goldwater-saw-a-way-out-of-the-wilderness",
-   "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "natreview|https://www.nationalreview.com/article/where-have-all-the-boys-books-gone",
-   "source": "National Review",
-   "sourceId": "natreview",
-   "group": "Right-leaning",
-   "title": "Where Have All the Boys’ Books Gone?",
-   "url": "https://www.nationalreview.com/article/where-have-all-the-boys-books-gone",
-   "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "natreview|https://www.nationalreview.com/article/all-hail-the-non-tv-newsmen",
-   "source": "National Review",
-   "sourceId": "natreview",
-   "group": "Right-leaning",
-   "title": "All Hail the Non-TV Newsmen",
-   "url": "https://www.nationalreview.com/article/all-hail-the-non-tv-newsmen",
-   "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
-   "id": "natreview|https://www.nationalreview.com/article/john-kerry-is-dead-wrong-on-global-warming-s-role-in-the-midterms",
-   "source": "National Review",
-   "sourceId": "natreview",
-   "group": "Right-leaning",
-   "title": "John Kerry Is Dead Wrong on Global Warming’s Role in the Midterms",
-   "url": "https://www.nationalreview.com/article/john-kerry-is-dead-wrong-on-global-warming-s-role-in-the-midterms",
-   "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": true,
-   "section": "politics"
-  },
-  {
-   "id": "natreview|https://www.nationalreview.com/article/how-can-we-explain-politics-today-physics",
-   "source": "National Review",
-   "sourceId": "natreview",
-   "group": "Right-leaning",
-   "title": "How Can We Explain Politics Today? Physics",
-   "url": "https://www.nationalreview.com/article/how-can-we-explain-politics-today-physics",
-   "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "politics"
-  },
-  {
    "id": "wiredai|https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
    "source": "WIRED: AI",
    "sourceId": "wiredai",
@@ -4347,30 +4443,6 @@
    "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
    "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
    "published": "2026-11-15T11:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "wiredai|https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "Beware the New AI-Fueled Ransomware Boom",
-   "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-   "published": "2026-11-14T13:00:00.000Z",
-   "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "wiredai|https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-   "source": "WIRED: AI",
-   "sourceId": "wiredai",
-   "group": "Tech press",
-   "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
-   "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-   "published": "2026-11-14T11:00:00.000Z",
    "topics": [],
    "election": false,
    "section": "ai"
@@ -4526,20 +4598,6 @@
    "section": "ai"
   },
   {
-   "id": "openai|https://openai.com/index/gilbert-tobin-sam-nickless",
-   "source": "OpenAI News",
-   "sourceId": "openai",
-   "group": "Company announcements",
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-   "published": "2026-11-12T00:00:00.000Z",
-   "topics": [
-    "AI policy & law"
-   ],
-   "election": false,
-   "section": "ai"
-  },
-  {
    "id": "hechinger|https://hechingerreport.org/teacher-voice-the-future-of-personalized-learning-cannot-be-built-on-technology-alone/",
    "source": "The Hechinger Report",
    "sourceId": "hechinger",
@@ -4560,20 +4618,6 @@
    "url": "https://hechingerreport.org/opinion-that-thanksgiving-construction-paper-hand-turkey-on-your-fridge-is-actually-an-education-policy-failure/",
    "published": "2026-11-11T06:00:00.000Z",
    "topics": [],
-   "election": false,
-   "section": "highered"
-  },
-  {
-   "id": "hechinger|https://hechingerreport.org/takeaways-from-our-report-on-school-closures-in-the-us/",
-   "source": "The Hechinger Report",
-   "sourceId": "hechinger",
-   "group": "Education nonprofit news",
-   "title": "Takeaways from our report on school closures in the US",
-   "url": "https://hechingerreport.org/takeaways-from-our-report-on-school-closures-in-the-us/",
-   "published": "2026-11-10T09:32:16.000Z",
-   "topics": [
-    "Campus & workforce"
-   ],
    "election": false,
    "section": "highered"
   },
@@ -4627,21 +4671,6 @@
    "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
    "published": "2026-11-06T10:00:00.000Z",
    "topics": [],
-   "election": false,
-   "section": "ai"
-  },
-  {
-   "id": "mittr|https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-   "source": "MIT Technology Review: AI",
-   "sourceId": "mittr",
-   "group": "Tech press",
-   "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-   "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-   "published": "2026-11-04T18:50:55.000Z",
-   "topics": [
-    "Data & privacy",
-    "Chips & infrastructure"
-   ],
    "election": false,
    "section": "ai"
   }
